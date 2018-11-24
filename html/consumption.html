@@ -1,0 +1,4007 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_0e5b6e5bedf94d1fae9c7ae965069eaf {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+    <script src="https://cdn.rawgit.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.js"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/1.4.2/Control.FullScreen.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/1.4.2/Control.FullScreen.min.css"/>
+    <script src="https://cdn.rawgit.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.js"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.css"/>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_0e5b6e5bedf94d1fae9c7ae965069eaf" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_0e5b6e5bedf94d1fae9c7ae965069eaf = L.map(
+        'map_0e5b6e5bedf94d1fae9c7ae965069eaf', {
+        center: [52, 12],
+        zoom: 6,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_fe457e9ad5ef4fc098f561429fcf0513 = L.tileLayer(
+        'https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+    
+            var circle_marker_6fccebf546f742d2b7600856313b20b2 = L.circleMarker(
+                [50.775, 6.084],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.324883759630463,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_6f2408f41eca49958eb77b4bccebd321 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8421186daf8248b89b550cf63aced494 = $('<div id="html_8421186daf8248b89b550cf63aced494" style="width: 100.0%; height: 100.0%;">Aachen<br> Coal consumption: 342 thousands tons</div>')[0];
+                popup_6f2408f41eca49958eb77b4bccebd321.setContent(html_8421186daf8248b89b550cf63aced494);
+            
+
+            circle_marker_6fccebf546f742d2b7600856313b20b2.bindPopup(popup_6f2408f41eca49958eb77b4bccebd321)
+            ;
+
+            
+        
+    
+            var circle_marker_990943015c3143399d5911e658570ee1 = L.circleMarker(
+                [52.370216, 4.895],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.195493370244642,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_950179744ad440599c3811ac8a1da896 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_50e9404f51d345718206f18ca2718831 = $('<div id="html_50e9404f51d345718206f18ca2718831" style="width: 100.0%; height: 100.0%;">Amsterdam<br> Coal consumption: 255 thousands tons</div>')[0];
+                popup_950179744ad440599c3811ac8a1da896.setContent(html_50e9404f51d345718206f18ca2718831);
+            
+
+            circle_marker_990943015c3143399d5911e658570ee1.bindPopup(popup_950179744ad440599c3811ac8a1da896)
+            ;
+
+            
+        
+    
+            var circle_marker_deb2414644ff40eea8f778a75effd565 = L.circleMarker(
+                [51.753071000000006, 11.46155],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.937403133025387,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_41458fdd28ed4f45b244487a64d82192 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8b53c1b1f2784a50be377c9d92f27efe = $('<div id="html_8b53c1b1f2784a50be377c9d92f27efe" style="width: 100.0%; height: 100.0%;">Aschersleben<br> Coal consumption: 237 thousands tons</div>')[0];
+                popup_41458fdd28ed4f45b244487a64d82192.setContent(html_8b53c1b1f2784a50be377c9d92f27efe);
+            
+
+            circle_marker_deb2414644ff40eea8f778a75effd565.bindPopup(popup_41458fdd28ed4f45b244487a64d82192)
+            ;
+
+            
+        
+    
+            var circle_marker_d0e673f036194999800777c24701d45f = L.circleMarker(
+                [51.27065, 7.194560000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.366197723675814,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_fff9a3d3df00425aa30f38e0f777ff76 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_66cf27d25e21412e985895880bc4f4a4 = $('<div id="html_66cf27d25e21412e985895880bc4f4a4" style="width: 100.0%; height: 100.0%;">Barmen<br> Coal consumption: 200 thousands tons</div>')[0];
+                popup_fff9a3d3df00425aa30f38e0f777ff76.setContent(html_66cf27d25e21412e985895880bc4f4a4);
+            
+
+            circle_marker_d0e673f036194999800777c24701d45f.bindPopup(popup_fff9a3d3df00425aa30f38e0f777ff76)
+            ;
+
+            
+        
+    
+            var circle_marker_1104297f00aa48ddaa70f8911cc296d2 = L.circleMarker(
+                [51.180882000000004, 14.42813],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.183098861837907,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_d1184829996544659ab2f2ee2fe02e8d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fbc063d9a436410681531b323d8ea9be = $('<div id="html_fbc063d9a436410681531b323d8ea9be" style="width: 100.0%; height: 100.0%;">Bautzen<br> Coal consumption: 50 thousands tons</div>')[0];
+                popup_d1184829996544659ab2f2ee2fe02e8d.setContent(html_fbc063d9a436410681531b323d8ea9be);
+            
+
+            circle_marker_1104297f00aa48ddaa70f8911cc296d2.bindPopup(popup_d1184829996544659ab2f2ee2fe02e8d)
+            ;
+
+            
+        
+    
+            var circle_marker_e6019f79a9854d2f8f6b42fe7cd29543 = L.circleMarker(
+                [52.520008, 13.404954],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 16.308528660217533,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_2de15eb12d0d4a668bd4b10f9c930fd9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ba2e084dea10473197d12b6a03e73ff1 = $('<div id="html_ba2e084dea10473197d12b6a03e73ff1" style="width: 100.0%; height: 100.0%;">Berlin<br> Coal consumption: 1312 thousands tons</div>')[0];
+                popup_2de15eb12d0d4a668bd4b10f9c930fd9.setContent(html_ba2e084dea10473197d12b6a03e73ff1);
+            
+
+            circle_marker_e6019f79a9854d2f8f6b42fe7cd29543.bindPopup(popup_2de15eb12d0d4a668bd4b10f9c930fd9)
+            ;
+
+            
+        
+    
+            var circle_marker_4b8de8a6cf2d4955b3d5f80a4bc2f76d = L.circleMarker(
+                [51.794932, 11.738681],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.8984840061683808,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_6f57c970b9c74d02bcb447c0c2ed3261 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4069f27c1dbf459eb3baaa9a47012f36 = $('<div id="html_4069f27c1dbf459eb3baaa9a47012f36" style="width: 100.0%; height: 100.0%;">Bernburg<br> Coal consumption: 75 thousands tons</div>')[0];
+                popup_6f57c970b9c74d02bcb447c0c2ed3261.setContent(html_4069f27c1dbf459eb3baaa9a47012f36);
+            
+
+            circle_marker_4b8de8a6cf2d4955b3d5f80a4bc2f76d.bindPopup(popup_6f57c970b9c74d02bcb447c0c2ed3261)
+            ;
+
+            
+        
+    
+            var circle_marker_ea5be5169f044698ab8d9e80a795472d = L.circleMarker(
+                [50.34816, 18.917561],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 30.653754372002144,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_89f9324f8da94245b27a1a4d0019eb92 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_074c2589a682463c99fc4110b64a56b2 = $('<div id="html_074c2589a682463c99fc4110b64a56b2" style="width: 100.0%; height: 100.0%;">Beuthen<br> Coal consumption: 4637 thousands tons</div>')[0];
+                popup_89f9324f8da94245b27a1a4d0019eb92.setContent(html_074c2589a682463c99fc4110b64a56b2);
+            
+
+            circle_marker_ea5be5169f044698ab8d9e80a795472d.bindPopup(popup_89f9324f8da94245b27a1a4d0019eb92)
+            ;
+
+            
+        
+    
+            var circle_marker_c27a2a5c12664e9396f96da6c0571bd8 = L.circleMarker(
+                [52.602328, 15.909498000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.6539866862653763,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_ac2ad0e81732408493ddbfbfb4b08d0a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7133380b9881469d83e7e76048e5b07c = $('<div id="html_7133380b9881469d83e7e76048e5b07c" style="width: 100.0%; height: 100.0%;">Birnbaum<br> Coal consumption: 13 thousands tons</div>')[0];
+                popup_ac2ad0e81732408493ddbfbfb4b08d0a.setContent(html_7133380b9881469d83e7e76048e5b07c);
+            
+
+            circle_marker_c27a2a5c12664e9396f96da6c0571bd8.bindPopup(popup_ac2ad0e81732408493ddbfbfb4b08d0a)
+            ;
+
+            
+        
+    
+            var circle_marker_4e0f6907751643a2a0a61f683f470a2f = L.circleMarker(
+                [51.632318, 12.311132],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.312703967065973,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_01e820ac7a5b4f96934d2ad096583fb1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8908e5818f07489a9bf1ce0a4eb596e1 = $('<div id="html_8908e5818f07489a9bf1ce0a4eb596e1" style="width: 100.0%; height: 100.0%;">Bitterfeld<br> Coal consumption: 341 thousands tons</div>')[0];
+                popup_01e820ac7a5b4f96934d2ad096583fb1.setContent(html_8908e5818f07489a9bf1ce0a4eb596e1);
+            
+
+            circle_marker_4e0f6907751643a2a0a61f683f470a2f.bindPopup(popup_01e820ac7a5b4f96934d2ad096583fb1)
+            ;
+
+            
+        
+    
+            var circle_marker_9dcf9ec4d65a48a197ca4c0f092d44df = L.circleMarker(
+                [50.737431, 7.098207],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.513288954217921,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_239299802160494eb5d91bf9378e6b59 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2d145afedda84d8e84ec6d9bae6e9286 = $('<div id="html_2d145afedda84d8e84ec6d9bae6e9286" style="width: 100.0%; height: 100.0%;">Bonn<br> Coal consumption: 150 thousands tons</div>')[0];
+                popup_239299802160494eb5d91bf9378e6b59.setContent(html_2d145afedda84d8e84ec6d9bae6e9286);
+            
+
+            circle_marker_9dcf9ec4d65a48a197ca4c0f092d44df.bindPopup(popup_239299802160494eb5d91bf9378e6b59)
+            ;
+
+            
+        
+    
+            var circle_marker_bc617eaa56804b1b83889bc54e690cbe = L.circleMarker(
+                [52.268875, 10.526769999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.738413080613818,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_2a589f79c71c453b841a754b10dcfbae = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_29325689a9554296868eb7c668c63004 = $('<div id="html_29325689a9554296868eb7c668c63004" style="width: 100.0%; height: 100.0%;">Braunschweig<br> Coal consumption: 162 thousands tons</div>')[0];
+                popup_2a589f79c71c453b841a754b10dcfbae.setContent(html_29325689a9554296868eb7c668c63004);
+            
+
+            circle_marker_bc617eaa56804b1b83889bc54e690cbe.bindPopup(popup_2a589f79c71c453b841a754b10dcfbae)
+            ;
+
+            
+        
+    
+            var circle_marker_b1f7462ed6424fe18313691bfd92cb4f = L.circleMarker(
+                [53.079296, 8.801694],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.183098861837907,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_5d5f38535d8e4f70ac1ee9d293a8db43 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7b26449651a54355a997563596d94b0a = $('<div id="html_7b26449651a54355a997563596d94b0a" style="width: 100.0%; height: 100.0%;">Bremen<br> Coal consumption: 50 thousands tons</div>')[0];
+                popup_5d5f38535d8e4f70ac1ee9d293a8db43.setContent(html_7b26449651a54355a997563596d94b0a);
+            
+
+            circle_marker_b1f7462ed6424fe18313691bfd92cb4f.bindPopup(popup_5d5f38535d8e4f70ac1ee9d293a8db43)
+            ;
+
+            
+        
+    
+            var circle_marker_95c81e8cd56a4330b138f61c3761ed26 = L.circleMarker(
+                [51.11, 17.033208],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10.065842420897408,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_15e458f107bf4056bc4d23c989e585dc = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f8f3cbcfc0df493583f6dc42703a948b = $('<div id="html_f8f3cbcfc0df493583f6dc42703a948b" style="width: 100.0%; height: 100.0%;">Breslau<br> Coal consumption: 500 thousands tons</div>')[0];
+                popup_15e458f107bf4056bc4d23c989e585dc.setContent(html_f8f3cbcfc0df493583f6dc42703a948b);
+            
+
+            circle_marker_95c81e8cd56a4330b138f61c3761ed26.bindPopup(popup_15e458f107bf4056bc4d23c989e585dc)
+            ;
+
+            
+        
+    
+            var circle_marker_e96cfda9c2254fbda02102627d24dc78 = L.circleMarker(
+                [50.858432, 17.468962],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.183098861837907,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_655aa8cfa91c444d98b4348f7416fa48 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8566c0f210be4a60ab99f60ed00799ab = $('<div id="html_8566c0f210be4a60ab99f60ed00799ab" style="width: 100.0%; height: 100.0%;">Brieg<br> Coal consumption: 50 thousands tons</div>')[0];
+                popup_655aa8cfa91c444d98b4348f7416fa48.setContent(html_8566c0f210be4a60ab99f60ed00799ab);
+            
+
+            circle_marker_e96cfda9c2254fbda02102627d24dc78.bindPopup(popup_655aa8cfa91c444d98b4348f7416fa48)
+            ;
+
+            
+        
+    
+            var circle_marker_e4ad74cf2b8a4219a08d2818d7db602c = L.circleMarker(
+                [53.121131999999996, 17.99297],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.501581580785531,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_cc56330cd9ec467aaf1b76404db3591c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_464821c9beb74cc9943143f5128426d0 = $('<div id="html_464821c9beb74cc9943143f5128426d0" style="width: 100.0%; height: 100.0%;">Bromberg<br> Coal consumption: 100 thousands tons</div>')[0];
+                popup_cc56330cd9ec467aaf1b76404db3591c.setContent(html_464821c9beb74cc9943143f5128426d0);
+            
+
+            circle_marker_e4ad74cf2b8a4219a08d2818d7db602c.bindPopup(popup_cc56330cd9ec467aaf1b76404db3591c)
+            ;
+
+            
+        
+    
+            var circle_marker_6aa22baab62342b5a6e4239b6d7ca952 = L.circleMarker(
+                [50.82614, 6.90155],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.032921210448704,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_6357f895e9314055852f87a861bb8e65 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_44f5a93eb1c34114a417e593febf0fc0 = $('<div id="html_44f5a93eb1c34114a417e593febf0fc0" style="width: 100.0%; height: 100.0%;">Brühl<br> Coal consumption: 125 thousands tons</div>')[0];
+                popup_6357f895e9314055852f87a861bb8e65.setContent(html_44f5a93eb1c34114a417e593febf0fc0);
+            
+
+            circle_marker_6aa22baab62342b5a6e4239b6d7ca952.bindPopup(popup_6357f895e9314055852f87a861bb8e65)
+            ;
+
+            
+        
+    
+            var circle_marker_2b164678cf9d433799719ffe4b5de0c0 = L.circleMarker(
+                [51.904153, 11.77087],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15.758750620127532,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_e83fcd8a664d4e979609c742e4be3d9b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_12689384e44d490aa1b0ae68733852cb = $('<div id="html_12689384e44d490aa1b0ae68733852cb" style="width: 100.0%; height: 100.0%;">Calbe<br> Coal consumption: 1225 thousands tons</div>')[0];
+                popup_e83fcd8a664d4e979609c742e4be3d9b.setContent(html_12689384e44d490aa1b0ae68733852cb);
+            
+
+            circle_marker_2b164678cf9d433799719ffe4b5de0c0.bindPopup(popup_e83fcd8a664d4e979609c742e4be3d9b)
+            ;
+
+            
+        
+    
+            var circle_marker_b5d79e77de614413a8c2a4f67e0ac24e = L.circleMarker(
+                [50.827847, 12.92137],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.366197723675814,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_54b535291875415080ce82c9638df7ad = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_02aff5068ce2436a898e67e7989235da = $('<div id="html_02aff5068ce2436a898e67e7989235da" style="width: 100.0%; height: 100.0%;">Chemnitz<br> Coal consumption: 200 thousands tons</div>')[0];
+                popup_54b535291875415080ce82c9638df7ad.setContent(html_02aff5068ce2436a898e67e7989235da);
+            
+
+            circle_marker_b5d79e77de614413a8c2a4f67e0ac24e.bindPopup(popup_54b535291875415080ce82c9638df7ad)
+            ;
+
+            
+        
+    
+            var circle_marker_6e7f511b4a3145ba890999626df5a29a = L.circleMarker(
+                [51.673024, 11.77086],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.9721593708096705,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_6a3d5b30026e4446af386d63fa589ab2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6abf36a2655342b8a92171ca634951c7 = $('<div id="html_6abf36a2655342b8a92171ca634951c7" style="width: 100.0%; height: 100.0%;">Cöhern<br> Coal consumption: 122 thousands tons</div>')[0];
+                popup_6a3d5b30026e4446af386d63fa589ab2.setContent(html_6abf36a2655342b8a92171ca634951c7);
+            
+
+            circle_marker_6e7f511b4a3145ba890999626df5a29a.bindPopup(popup_6a3d5b30026e4446af386d63fa589ab2)
+            ;
+
+            
+        
+    
+            var circle_marker_5f916b22361a4cb6bbf69b1ac4f44392 = L.circleMarker(
+                [51.744505, 11.971217999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11.897297741434643,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_5f992222d0ae4e5ea966b0f77aa2be00 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bd47644fe0ad40af801edb6a137ceaae = $('<div id="html_bd47644fe0ad40af801edb6a137ceaae" style="width: 100.0%; height: 100.0%;">Cöthen<br> Coal consumption: 698 thousands tons</div>')[0];
+                popup_5f992222d0ae4e5ea966b0f77aa2be00.setContent(html_bd47644fe0ad40af801edb6a137ceaae);
+            
+
+            circle_marker_5f916b22361a4cb6bbf69b1ac4f44392.bindPopup(popup_5f992222d0ae4e5ea966b0f77aa2be00)
+            ;
+
+            
+        
+    
+            var circle_marker_897d1f92f38c4195816d713564e61a84 = L.circleMarker(
+                [51.330461, 6.567075999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.513288954217921,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_587c4125496649028589650427e54c70 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_43473e26f6854ab395470d33d8bdf026 = $('<div id="html_43473e26f6854ab395470d33d8bdf026" style="width: 100.0%; height: 100.0%;">Crefeld<br> Coal consumption: 150 thousands tons</div>')[0];
+                popup_587c4125496649028589650427e54c70.setContent(html_43473e26f6854ab395470d33d8bdf026);
+            
+
+            circle_marker_897d1f92f38c4195816d713564e61a84.bindPopup(popup_587c4125496649028589650427e54c70)
+            ;
+
+            
+        
+    
+            var circle_marker_47c077f0e3644b109ea74426f9a8352f = L.circleMarker(
+                [54.352024, 18.646639],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.366197723675814,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_232f2a56804e43168a979035f5ed6bf3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f8ab0dc7b6454b6d98baacf509dfc67e = $('<div id="html_f8ab0dc7b6454b6d98baacf509dfc67e" style="width: 100.0%; height: 100.0%;">Danzig<br> Coal consumption: 200 thousands tons</div>')[0];
+                popup_232f2a56804e43168a979035f5ed6bf3.setContent(html_f8ab0dc7b6454b6d98baacf509dfc67e);
+            
+
+            circle_marker_47c077f0e3644b109ea74426f9a8352f.bindPopup(popup_232f2a56804e43168a979035f5ed6bf3)
+            ;
+
+            
+        
+    
+            var circle_marker_7418f8a136a04cffb8193bae508b1ed4 = L.circleMarker(
+                [49.873000000000005, 8.651],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.501581580785531,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_2e71f9f6fad94054b3b8ad8e9c7196ba = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6726f41e98b7437b8e670df5cd7608cf = $('<div id="html_6726f41e98b7437b8e670df5cd7608cf" style="width: 100.0%; height: 100.0%;">Darmstadt<br> Coal consumption: 100 thousands tons</div>')[0];
+                popup_2e71f9f6fad94054b3b8ad8e9c7196ba.setContent(html_6726f41e98b7437b8e670df5cd7608cf);
+            
+
+            circle_marker_7418f8a136a04cffb8193bae508b1ed4.bindPopup(popup_2e71f9f6fad94054b3b8ad8e9c7196ba)
+            ;
+
+            
+        
+    
+            var circle_marker_7103e555f37945d2b46d1e942e811f78 = L.circleMarker(
+                [51.8325, 12.234099],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.513288954217921,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_acd76ba78b19466381d48a35f44dae69 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c05b8c181ddc40abbedad1c15e145ad9 = $('<div id="html_c05b8c181ddc40abbedad1c15e145ad9" style="width: 100.0%; height: 100.0%;">Dessau<br> Coal consumption: 150 thousands tons</div>')[0];
+                popup_acd76ba78b19466381d48a35f44dae69.setContent(html_c05b8c181ddc40abbedad1c15e145ad9);
+            
+
+            circle_marker_7103e555f37945d2b46d1e942e811f78.bindPopup(popup_acd76ba78b19466381d48a35f44dae69)
+            ;
+
+            
+        
+    
+            var circle_marker_30d465c6eabd44fdba2c47b1f9b6aa77 = L.circleMarker(
+                [54.091839, 18.7906],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.183098861837907,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_269cc8b9db2c44c7a2b4186b20cf11b7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_af75bef3e9fd421196782bd3dee450b9 = $('<div id="html_af75bef3e9fd421196782bd3dee450b9" style="width: 100.0%; height: 100.0%;">Dirschau<br> Coal consumption: 50 thousands tons</div>')[0];
+                popup_269cc8b9db2c44c7a2b4186b20cf11b7.setContent(html_af75bef3e9fd421196782bd3dee450b9);
+            
+
+            circle_marker_30d465c6eabd44fdba2c47b1f9b6aa77.bindPopup(popup_269cc8b9db2c44c7a2b4186b20cf11b7)
+            ;
+
+            
+        
+    
+            var circle_marker_3e107b7cd0b04736aaed79dd564bb486 = L.circleMarker(
+                [51.513588, 7.465298],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.501581580785531,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_0685fdc9bc054bf883e582fe4ddbea5b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_62434dc1ec5c499bb2d7468879cc0554 = $('<div id="html_62434dc1ec5c499bb2d7468879cc0554" style="width: 100.0%; height: 100.0%;">Dortmund<br> Coal consumption: 100 thousands tons</div>')[0];
+                popup_0685fdc9bc054bf883e582fe4ddbea5b.setContent(html_62434dc1ec5c499bb2d7468879cc0554);
+            
+
+            circle_marker_3e107b7cd0b04736aaed79dd564bb486.bindPopup(popup_0685fdc9bc054bf883e582fe4ddbea5b)
+            ;
+
+            
+        
+    
+            var circle_marker_b29fd39f6d5a45bfbf3b979622a7cad9 = L.circleMarker(
+                [51.050407, 13.737262],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11.231423491023325,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_aa98ed7107594e49b47afef85d0dfa5d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5fa474d7e2f74f199d9c9f5ca5a248d6 = $('<div id="html_5fa474d7e2f74f199d9c9f5ca5a248d6" style="width: 100.0%; height: 100.0%;">Dresden<br> Coal consumption: 622 thousands tons</div>')[0];
+                popup_aa98ed7107594e49b47afef85d0dfa5d.setContent(html_5fa474d7e2f74f199d9c9f5ca5a248d6);
+            
+
+            circle_marker_b29fd39f6d5a45bfbf3b979622a7cad9.bindPopup(popup_aa98ed7107594e49b47afef85d0dfa5d)
+            ;
+
+            
+        
+    
+            var circle_marker_669b8c0d2e83487ca33b3321893bf745 = L.circleMarker(
+                [51.433314, 6.770233999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.717275246988208,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_2571e57aed4949f5aa3266c05fde67f6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8e576241bcdd4bc8a304a06f338c37c5 = $('<div id="html_8e576241bcdd4bc8a304a06f338c37c5" style="width: 100.0%; height: 100.0%;">Duisburg<br> Coal consumption: 375 thousands tons</div>')[0];
+                popup_2571e57aed4949f5aa3266c05fde67f6.setContent(html_8e576241bcdd4bc8a304a06f338c37c5);
+            
+
+            circle_marker_669b8c0d2e83487ca33b3321893bf745.bindPopup(popup_2571e57aed4949f5aa3266c05fde67f6)
+            ;
+
+            
+        
+    
+            var circle_marker_a39c837e51ca498a86997320445dcf69 = L.circleMarker(
+                [50.79985, 6.48696],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.955032684613765,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_2a082b61eb7f44c08de88f494489dba4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_583ca51d159f4f2faccabd126382b50e = $('<div id="html_583ca51d159f4f2faccabd126382b50e" style="width: 100.0%; height: 100.0%;">Düren<br> Coal consumption: 175 thousands tons</div>')[0];
+                popup_2a082b61eb7f44c08de88f494489dba4.setContent(html_583ca51d159f4f2faccabd126382b50e);
+            
+
+            circle_marker_a39c837e51ca498a86997320445dcf69.bindPopup(popup_2a082b61eb7f44c08de88f494489dba4)
+            ;
+
+            
+        
+    
+            var circle_marker_9c963b7e567442d39af5a1d80aa23670 = L.circleMarker(
+                [51.299459999999996, 12.069939999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.915460843586885,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_da6950871e9d461097feff585507b52c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1b21a891b510421d8692cf6c57a66aea = $('<div id="html_1b21a891b510421d8692cf6c57a66aea" style="width: 100.0%; height: 100.0%;">Durrenberg<br> Coal consumption: 236 thousands tons</div>')[0];
+                popup_da6950871e9d461097feff585507b52c.setContent(html_1b21a891b510421d8692cf6c57a66aea);
+            
+
+            circle_marker_9c963b7e567442d39af5a1d80aa23670.bindPopup(popup_da6950871e9d461097feff585507b52c)
+            ;
+
+            
+        
+    
+            var circle_marker_70d2feb6ba874fb6aa8b9de415fea635 = L.circleMarker(
+                [51.224959999999996, 6.77567],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.117625434171771,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_b0c29066468a4d53bc37c41d33c7e754 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a898230522494375b82cf6fa904b162a = $('<div id="html_a898230522494375b82cf6fa904b162a" style="width: 100.0%; height: 100.0%;">Düsseldorf<br> Coal consumption: 250 thousands tons</div>')[0];
+                popup_b0c29066468a4d53bc37c41d33c7e754.setContent(html_a898230522494375b82cf6fa904b162a);
+            
+
+            circle_marker_70d2feb6ba874fb6aa8b9de415fea635.bindPopup(popup_b0c29066468a4d53bc37c41d33c7e754)
+            ;
+
+            
+        
+    
+            var circle_marker_f250634abe6a4555a3d8aee02d90430b = L.circleMarker(
+                [51.25593, 7.1441300000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.366197723675814,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_64cc828fa80443859ac9bf8d787eb04f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0029774cf39242e786312c900b1239ed = $('<div id="html_0029774cf39242e786312c900b1239ed" style="width: 100.0%; height: 100.0%;">Elberfeld<br> Coal consumption: 200 thousands tons</div>')[0];
+                popup_64cc828fa80443859ac9bf8d787eb04f.setContent(html_0029774cf39242e786312c900b1239ed);
+            
+
+            circle_marker_f250634abe6a4555a3d8aee02d90430b.bindPopup(popup_64cc828fa80443859ac9bf8d787eb04f)
+            ;
+
+            
+        
+    
+            var circle_marker_3badfbe7c4e04fd5a4758a9a5202afc8 = L.circleMarker(
+                [50.984768, 11.02988],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.501581580785531,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_1ec37c2508a4470f9c62c7e1479a1366 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b4fa08875379437da26543c33ef79f47 = $('<div id="html_b4fa08875379437da26543c33ef79f47" style="width: 100.0%; height: 100.0%;">Erfurt<br> Coal consumption: 100 thousands tons</div>')[0];
+                popup_1ec37c2508a4470f9c62c7e1479a1366.setContent(html_b4fa08875379437da26543c33ef79f47);
+            
+
+            circle_marker_3badfbe7c4e04fd5a4758a9a5202afc8.bindPopup(popup_1ec37c2508a4470f9c62c7e1479a1366)
+            ;
+
+            
+        
+    
+            var circle_marker_a157fa66a54449daaf471d7753dbc9bc = L.circleMarker(
+                [51.455, 7.011],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 40.9940623980085,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_43a5e7d279bd40e7a4c7df417fce67d1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0fd01ba9d7b641c18f1b8c47ec415cd0 = $('<div id="html_0fd01ba9d7b641c18f1b8c47ec415cd0" style="width: 100.0%; height: 100.0%;">Essen<br> Coal consumption: 8293 thousands tons</div>')[0];
+                popup_43a5e7d279bd40e7a4c7df417fce67d1.setContent(html_0fd01ba9d7b641c18f1b8c47ec415cd0);
+            
+
+            circle_marker_a157fa66a54449daaf471d7753dbc9bc.bindPopup(popup_43a5e7d279bd40e7a4c7df417fce67d1)
+            ;
+
+            
+        
+    
+            var circle_marker_9cbf0573d44149b49c1d1e2e3e60f02d = L.circleMarker(
+                [51.632318, 13.706447],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9.209008128383681,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_4cc307c7c83948af97c95aee75b01344 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4bf71101fe624ad7962b37a759f0315b = $('<div id="html_4bf71101fe624ad7962b37a759f0315b" style="width: 100.0%; height: 100.0%;">Finsteroulde<br> Coal consumption: 418 thousands tons</div>')[0];
+                popup_4cc307c7c83948af97c95aee75b01344.setContent(html_4bf71101fe624ad7962b37a759f0315b);
+            
+
+            circle_marker_9cbf0573d44149b49c1d1e2e3e60f02d.bindPopup(popup_4cc307c7c83948af97c95aee75b01344)
+            ;
+
+            
+        
+    
+            var circle_marker_a42237be03104d828f4df837f900373d = L.circleMarker(
+                [50.588479, 16.812838],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.183098861837907,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_2fc17af519c2415cb674b5dc7a2759ee = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d863baf12c764738b358e53e4f622d25 = $('<div id="html_d863baf12c764738b358e53e4f622d25" style="width: 100.0%; height: 100.0%;">Frankenstein<br> Coal consumption: 50 thousands tons</div>')[0];
+                popup_2fc17af519c2415cb674b5dc7a2759ee.setContent(html_d863baf12c764738b358e53e4f622d25);
+            
+
+            circle_marker_a42237be03104d828f4df837f900373d.bindPopup(popup_2fc17af519c2415cb674b5dc7a2759ee)
+            ;
+
+            
+        
+    
+            var circle_marker_099fe7c215a1444e9ceae18756a26e3d = L.circleMarker(
+                [50.110924, 8.682127000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.366197723675814,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_4b9972057aaf4459af725a2f0ec0fce0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c37be4e057694ec5a24d621cfcfb757b = $('<div id="html_c37be4e057694ec5a24d621cfcfb757b" style="width: 100.0%; height: 100.0%;">Frankfurt<br> Coal consumption: 200 thousands tons</div>')[0];
+                popup_4b9972057aaf4459af725a2f0ec0fce0.setContent(html_c37be4e057694ec5a24d621cfcfb757b);
+            
+
+            circle_marker_099fe7c215a1444e9ceae18756a26e3d.bindPopup(popup_4b9972057aaf4459af725a2f0ec0fce0)
+            ;
+
+            
+        
+    
+            var circle_marker_1a478b46c5e14614b2947638cabe6f53 = L.circleMarker(
+                [52.340395, 14.538310999999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.517392059070303,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_44837ace79644f869639ffa796143b29 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_faf902f0b5604378bd5c85b21af24a84 = $('<div id="html_faf902f0b5604378bd5c85b21af24a84" style="width: 100.0%; height: 100.0%;">Frankfurt (Oder)<br> Coal consumption: 358 thousands tons</div>')[0];
+                popup_44837ace79644f869639ffa796143b29.setContent(html_faf902f0b5604378bd5c85b21af24a84);
+            
+
+            circle_marker_1a478b46c5e14614b2947638cabe6f53.bindPopup(popup_44837ace79644f869639ffa796143b29)
+            ;
+
+            
+        
+    
+            var circle_marker_e3829cfe4c1f442f94d349097cb3ff31 = L.circleMarker(
+                [50.909371, 13.345123000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.8984840061683808,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_5b8f921d94104b538d1f930a5f03adbc = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ef676fb52857427ba1af68ccb1b209ce = $('<div id="html_ef676fb52857427ba1af68ccb1b209ce" style="width: 100.0%; height: 100.0%;">Freiberg<br> Coal consumption: 75 thousands tons</div>')[0];
+                popup_5b8f921d94104b538d1f930a5f03adbc.setContent(html_ef676fb52857427ba1af68ccb1b209ce);
+            
+
+            circle_marker_e3829cfe4c1f442f94d349097cb3ff31.bindPopup(popup_5b8f921d94104b538d1f930a5f03adbc)
+            ;
+
+            
+        
+    
+            var circle_marker_d581f3eabe9e451789e52db3fb1752ab = L.circleMarker(
+                [50.88047, 12.08121],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.501581580785531,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_51c2ef623db340239b3e6bf707224dd2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c7ccaf0ff6314ae3ae247a62f185c603 = $('<div id="html_c7ccaf0ff6314ae3ae247a62f185c603" style="width: 100.0%; height: 100.0%;">Gera<br> Coal consumption: 100 thousands tons</div>')[0];
+                popup_51c2ef623db340239b3e6bf707224dd2.setContent(html_c7ccaf0ff6314ae3ae247a62f185c603);
+            
+
+            circle_marker_d581f3eabe9e451789e52db3fb1752ab.bindPopup(popup_51c2ef623db340239b3e6bf707224dd2)
+            ;
+
+            
+        
+    
+            var circle_marker_2aeb82e905aa4908857ee97a3a706ab1 = L.circleMarker(
+                [50.583832, 8.67789],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.183098861837907,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_2f49de1815ff4dd6b2e7593a9b167ea7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c01cc5ec7dd147faaf7fb8619a1f0163 = $('<div id="html_c01cc5ec7dd147faaf7fb8619a1f0163" style="width: 100.0%; height: 100.0%;">Giessen<br> Coal consumption: 50 thousands tons</div>')[0];
+                popup_2f49de1815ff4dd6b2e7593a9b167ea7.setContent(html_c01cc5ec7dd147faaf7fb8619a1f0163);
+            
+
+            circle_marker_2aeb82e905aa4908857ee97a3a706ab1.bindPopup(popup_2f49de1815ff4dd6b2e7593a9b167ea7)
+            ;
+
+            
+        
+    
+            var circle_marker_64bdb13948e94601bfdf3ad03df82323 = L.circleMarker(
+                [49.935520000000004, 6.7697899999999995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.513288954217921,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_1ad2b5f4c11a4af299621613fea38cd9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6344c7f5968f4af9b23f1a1635eb4888 = $('<div id="html_6344c7f5968f4af9b23f1a1635eb4888" style="width: 100.0%; height: 100.0%;">Gladbach<br> Coal consumption: 150 thousands tons</div>')[0];
+                popup_1ad2b5f4c11a4af299621613fea38cd9.setContent(html_6344c7f5968f4af9b23f1a1635eb4888);
+            
+
+            circle_marker_64bdb13948e94601bfdf3ad03df82323.bindPopup(popup_1ad2b5f4c11a4af299621613fea38cd9)
+            ;
+
+            
+        
+    
+            var circle_marker_e3273259e1da46249783d687656294e8 = L.circleMarker(
+                [50.491633, 18.018731],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.183098861837907,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_f15b5353b57943b89447b875bdd4f339 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4883af2c42714950930617a1b1fd62e4 = $('<div id="html_4883af2c42714950930617a1b1fd62e4" style="width: 100.0%; height: 100.0%;">Gogolin<br> Coal consumption: 50 thousands tons</div>')[0];
+                popup_f15b5353b57943b89447b875bdd4f339.setContent(html_4883af2c42714950930617a1b1fd62e4);
+            
+
+            circle_marker_e3273259e1da46249783d687656294e8.bindPopup(popup_f15b5353b57943b89447b875bdd4f339)
+            ;
+
+            
+        
+    
+            var circle_marker_f5b653435c9d45b080c410187a8e233b = L.circleMarker(
+                [51.15314, 14.9753],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.45633840657307,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_fa842207ab9b4f85b368af0cfa8679de = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3b5b6885fa674c58b1941754712d42fc = $('<div id="html_3b5b6885fa674c58b1941754712d42fc" style="width: 100.0%; height: 100.0%;">Görlitz<br> Coal consumption: 98 thousands tons</div>')[0];
+                popup_fa842207ab9b4f85b368af0cfa8679de.setContent(html_3b5b6885fa674c58b1941754712d42fc);
+            
+
+            circle_marker_f5b653435c9d45b080c410187a8e233b.bindPopup(popup_fa842207ab9b4f85b368af0cfa8679de)
+            ;
+
+            
+        
+    
+            var circle_marker_b9f880639047496891adc3d822f3125f = L.circleMarker(
+                [51.939302000000005, 15.506086999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.6153053383997285,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_999a8763be4a4196af50674852edd3e1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4f4a55dcd57c491782b6218a05528536 = $('<div id="html_4f4a55dcd57c491782b6218a05528536" style="width: 100.0%; height: 100.0%;">Grüneberg<br> Coal consumption: 64 thousands tons</div>')[0];
+                popup_999a8763be4a4196af50674852edd3e1.setContent(html_4f4a55dcd57c491782b6218a05528536);
+            
+
+            circle_marker_b9f880639047496891adc3d822f3125f.bindPopup(popup_999a8763be4a4196af50674852edd3e1)
+            ;
+
+            
+        
+    
+            var circle_marker_8211282d58d54f8091a115f670454870 = L.circleMarker(
+                [51.952259000000005, 14.71473],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.032921210448704,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_8495bb22a54e4301b88fbacb9f00f0a6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_db3e53399e084468894daf6fd7986eaf = $('<div id="html_db3e53399e084468894daf6fd7986eaf" style="width: 100.0%; height: 100.0%;">Guben<br> Coal consumption: 125 thousands tons</div>')[0];
+                popup_8495bb22a54e4301b88fbacb9f00f0a6.setContent(html_db3e53399e084468894daf6fd7986eaf);
+            
+
+            circle_marker_8211282d58d54f8091a115f670454870.bindPopup(popup_8495bb22a54e4301b88fbacb9f00f0a6)
+            ;
+
+            
+        
+    
+            var circle_marker_8ebe1b15e3ec4118a05ad13232615a05 = L.circleMarker(
+                [51.362320000000004, 7.46315],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.513288954217921,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_1f440e90b4ea4685be8596bb19c130ec = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_33be568f0b1545738d60f2db8c2d61c7 = $('<div id="html_33be568f0b1545738d60f2db8c2d61c7" style="width: 100.0%; height: 100.0%;">Hagen<br> Coal consumption: 150 thousands tons</div>')[0];
+                popup_1f440e90b4ea4685be8596bb19c130ec.setContent(html_33be568f0b1545738d60f2db8c2d61c7);
+            
+
+            circle_marker_8ebe1b15e3ec4118a05ad13232615a05.bindPopup(popup_1f440e90b4ea4685be8596bb19c130ec)
+            ;
+
+            
+        
+    
+            var circle_marker_86e3481e96f144978fd43cd4a1abd02e = L.circleMarker(
+                [51.894758, 11.052971000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.366197723675814,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_00a9e5f7fd074c58bdc34b3f9c0d6587 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_23caa595bf4542fd926a6548c27c81e1 = $('<div id="html_23caa595bf4542fd926a6548c27c81e1" style="width: 100.0%; height: 100.0%;">Halberstadt<br> Coal consumption: 200 thousands tons</div>')[0];
+                popup_00a9e5f7fd074c58bdc34b3f9c0d6587.setContent(html_23caa595bf4542fd926a6548c27c81e1);
+            
+
+            circle_marker_86e3481e96f144978fd43cd4a1abd02e.bindPopup(popup_00a9e5f7fd074c58bdc34b3f9c0d6587)
+            ;
+
+            
+        
+    
+            var circle_marker_a7e455a9b5f14ebc9727d15754bdf9e8 = L.circleMarker(
+                [51.477342, 11.985047999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 13.235721609251307,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_ab8c009c830c46f89455646961a2178e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_551f952f5ad5435e99330a43c707c2bf = $('<div id="html_551f952f5ad5435e99330a43c707c2bf" style="width: 100.0%; height: 100.0%;">Halle<br> Coal consumption: 864 thousands tons</div>')[0];
+                popup_ab8c009c830c46f89455646961a2178e.setContent(html_551f952f5ad5435e99330a43c707c2bf);
+            
+
+            circle_marker_a7e455a9b5f14ebc9727d15754bdf9e8.bindPopup(popup_ab8c009c830c46f89455646961a2178e)
+            ;
+
+            
+        
+    
+            var circle_marker_a092f202ca4b436e8d909ebe6b75daff = L.circleMarker(
+                [53.551086, 9.993682000000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15.51250499276478,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_555a17ed32774715a1ad67654d70530d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_24073f07a58a4210afad9172f7825b2b = $('<div id="html_24073f07a58a4210afad9172f7825b2b" style="width: 100.0%; height: 100.0%;">Hamburg<br> Coal consumption: 1187 thousands tons</div>')[0];
+                popup_555a17ed32774715a1ad67654d70530d.setContent(html_24073f07a58a4210afad9172f7825b2b);
+            
+
+            circle_marker_a092f202ca4b436e8d909ebe6b75daff.bindPopup(popup_555a17ed32774715a1ad67654d70530d)
+            ;
+
+            
+        
+    
+            var circle_marker_b6c967324f3c40528eb2059d2fb41053 = L.circleMarker(
+                [52.06235, 11.08789],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.30727471630238,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_271b6c626f8a43c5a844c8b510b414c1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_69198f8d22c04a8fb04a775421070b4d = $('<div id="html_69198f8d22c04a8fb04a775421070b4d" style="width: 100.0%; height: 100.0%;">Hamersleben<br> Coal consumption: 263 thousands tons</div>')[0];
+                popup_271b6c626f8a43c5a844c8b510b414c1.setContent(html_69198f8d22c04a8fb04a775421070b4d);
+            
+
+            circle_marker_b6c967324f3c40528eb2059d2fb41053.bindPopup(popup_271b6c626f8a43c5a844c8b510b414c1)
+            ;
+
+            
+        
+    
+            var circle_marker_8edf46ab0d0645d38534f270cc89b5af = L.circleMarker(
+                [51.68039, 7.81745],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.513288954217921,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_7fd54a2ba7e94324b027df98c7bbb689 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_501ff0f67f704138b045e937e694014c = $('<div id="html_501ff0f67f704138b045e937e694014c" style="width: 100.0%; height: 100.0%;">Hamm<br> Coal consumption: 150 thousands tons</div>')[0];
+                popup_7fd54a2ba7e94324b027df98c7bbb689.setContent(html_501ff0f67f704138b045e937e694014c);
+            
+
+            circle_marker_8edf46ab0d0645d38534f270cc89b5af.bindPopup(popup_7fd54a2ba7e94324b027df98c7bbb689)
+            ;
+
+            
+        
+    
+            var circle_marker_e7d45bb7eeab49a48b2078f63f3106b2 = L.circleMarker(
+                [52.375893, 9.73201],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.929456191244793,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_e92e7532f2ce44e3bb15e328b4691106 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_14d285172d7d4b08976be1206552a884 = $('<div id="html_14d285172d7d4b08976be1206552a884" style="width: 100.0%; height: 100.0%;">Hannover<br> Coal consumption: 173 thousands tons</div>')[0];
+                popup_e92e7532f2ce44e3bb15e328b4691106.setContent(html_14d285172d7d4b08976be1206552a884);
+            
+
+            circle_marker_e7d45bb7eeab49a48b2078f63f3106b2.bindPopup(popup_e92e7532f2ce44e3bb15e328b4691106)
+            ;
+
+            
+        
+    
+            var circle_marker_0f0d6056afec4d0a93ab2b3904380ce0 = L.circleMarker(
+                [52.2244, 11.01102],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.102846845413955,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_89cf22571fbe4d0188723e349d04a73f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_728e419782cd40d0aaef4450bff190ba = $('<div id="html_728e419782cd40d0aaef4450bff190ba" style="width: 100.0%; height: 100.0%;">Helmstedt<br> Coal consumption: 324 thousands tons</div>')[0];
+                popup_89cf22571fbe4d0188723e349d04a73f.setContent(html_728e419782cd40d0aaef4450bff190ba);
+            
+
+            circle_marker_0f0d6056afec4d0a93ab2b3904380ce0.bindPopup(popup_89cf22571fbe4d0188723e349d04a73f)
+            ;
+
+            
+        
+    
+            var circle_marker_4fc8f6ea40464feabc30dbefc46ce99f = L.circleMarker(
+                [52.1509, 9.951],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.501581580785531,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_2caf8c2ce36a4b6887b3c64fdb6b0496 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_43ac921473cb4e33a8172a15dd9c5ba9 = $('<div id="html_43ac921473cb4e33a8172a15dd9c5ba9" style="width: 100.0%; height: 100.0%;">Hildescheim<br> Coal consumption: 100 thousands tons</div>')[0];
+                popup_2caf8c2ce36a4b6887b3c64fdb6b0496.setContent(html_43ac921473cb4e33a8172a15dd9c5ba9);
+            
+
+            circle_marker_4fc8f6ea40464feabc30dbefc46ce99f.bindPopup(popup_2caf8c2ce36a4b6887b3c64fdb6b0496)
+            ;
+
+            
+        
+    
+            var circle_marker_9d01974aa42d42ae8ec7020ca5c147b9 = L.circleMarker(
+                [50.903152, 15.735145999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.8984840061683808,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_ca934495307d4666ab2f6bce3047631b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ad965e6f9aeb44e6a2e3447ab94bba99 = $('<div id="html_ad965e6f9aeb44e6a2e3447ab94bba99" style="width: 100.0%; height: 100.0%;">Hirschberg<br> Coal consumption: 75 thousands tons</div>')[0];
+                popup_ca934495307d4666ab2f6bce3047631b.setContent(html_ad965e6f9aeb44e6a2e3447ab94bba99);
+            
+
+            circle_marker_9d01974aa42d42ae8ec7020ca5c147b9.bindPopup(popup_ca934495307d4666ab2f6bce3047631b)
+            ;
+
+            
+        
+    
+            var circle_marker_7f37ad2ba4a0426698e2e2d4c3346fbc = L.circleMarker(
+                [51.372971, 7.699510000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.7969680123367615,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_1110fdee05b94e7292bbaba7417b4b6d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d6400281577f45708b94582bd175b856 = $('<div id="html_d6400281577f45708b94582bd175b856" style="width: 100.0%; height: 100.0%;">Iserlohn<br> Coal consumption: 300 thousands tons</div>')[0];
+                popup_1110fdee05b94e7292bbaba7417b4b6d.setContent(html_d6400281577f45708b94582bd175b856);
+            
+
+            circle_marker_7f37ad2ba4a0426698e2e2d4c3346fbc.bindPopup(popup_1110fdee05b94e7292bbaba7417b4b6d)
+            ;
+
+            
+        
+    
+            var circle_marker_94ac379ece724aa1bfd72cc02e389f90 = L.circleMarker(
+                [51.050686, 16.194774],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.183098861837907,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_cd9412ca8cd84d75bd889b40c3ec8717 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1d3816a71e494b9c95be08823aa72c7b = $('<div id="html_1d3816a71e494b9c95be08823aa72c7b" style="width: 100.0%; height: 100.0%;">Jauer<br> Coal consumption: 50 thousands tons</div>')[0];
+                popup_cd9412ca8cd84d75bd889b40c3ec8717.setContent(html_1d3816a71e494b9c95be08823aa72c7b);
+            
+
+            circle_marker_94ac379ece724aa1bfd72cc02e389f90.bindPopup(popup_cd9412ca8cd84d75bd889b40c3ec8717)
+            ;
+
+            
+        
+    
+            var circle_marker_2502350a9d6347a696d9e13ad2a0a95b = L.circleMarker(
+                [52.276771999999994, 7.718995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.506374550186971,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_807babc7d5f7428cb4b77ba9b8acf85d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_de090caa148242c88f4df9f75a259224 = $('<div id="html_de090caa148242c88f4df9f75a259224" style="width: 100.0%; height: 100.0%;">Jbbenbüren<br> Coal consumption: 31 thousands tons</div>')[0];
+                popup_807babc7d5f7428cb4b77ba9b8acf85d.setContent(html_de090caa148242c88f4df9f75a259224);
+            
+
+            circle_marker_2502350a9d6347a696d9e13ad2a0a95b.bindPopup(popup_807babc7d5f7428cb4b77ba9b8acf85d)
+            ;
+
+            
+        
+    
+            var circle_marker_b59a9f8d17f34a50b109ca03b5b0bb75 = L.circleMarker(
+                [51.312709999999996, 9.479746],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.601752642336243,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_e6e43753cd534993baaf2126f404e87c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1f7a02899a0343059163c1086a3594cd = $('<div id="html_1f7a02899a0343059163c1086a3594cd" style="width: 100.0%; height: 100.0%;">Kassel<br> Coal consumption: 104 thousands tons</div>')[0];
+                popup_e6e43753cd534993baaf2126f404e87c.setContent(html_1f7a02899a0343059163c1086a3594cd);
+            
+
+            circle_marker_b59a9f8d17f34a50b109ca03b5b0bb75.bindPopup(popup_e6e43753cd534993baaf2126f404e87c)
+            ;
+
+            
+        
+    
+            var circle_marker_a2fb116e5cb44011b08e53cfccc413da = L.circleMarker(
+                [54.320983999999996, 10.136575],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.7746482927568605,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_9e0214e970ef4f3bb20a05e4aa4282b6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_20c79f1232824b3e9bd89f10ffd1d3a7 = $('<div id="html_20c79f1232824b3e9bd89f10ffd1d3a7" style="width: 100.0%; height: 100.0%;">Kiel<br> Coal consumption: 112 thousands tons</div>')[0];
+                popup_9e0214e970ef4f3bb20a05e4aa4282b6.setContent(html_20c79f1232824b3e9bd89f10ffd1d3a7);
+            
+
+            circle_marker_a2fb116e5cb44011b08e53cfccc413da.bindPopup(popup_9e0214e970ef4f3bb20a05e4aa4282b6)
+            ;
+
+            
+        
+    
+            var circle_marker_1f57fd4614144d3faba6d5be8056cc7a = L.circleMarker(
+                [50.356548, 7.599419999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.117625434171771,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_2678f6a8d173467b8f0c612b87bffd74 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9a26644e7128421da025ce89567f9d32 = $('<div id="html_9a26644e7128421da025ce89567f9d32" style="width: 100.0%; height: 100.0%;">Koblenz<br> Coal consumption: 250 thousands tons</div>')[0];
+                popup_2678f6a8d173467b8f0c612b87bffd74.setContent(html_9a26644e7128421da025ce89567f9d32);
+            
+
+            circle_marker_1f57fd4614144d3faba6d5be8056cc7a.bindPopup(popup_2678f6a8d173467b8f0c612b87bffd74)
+            ;
+
+            
+        
+    
+            var circle_marker_6ec49e14267a46a294ddfba6f0705946 = L.circleMarker(
+                [50.940529, 6.959910000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.117625434171771,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_aeff3a1a72a8442582a39bb4c895ad84 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4e9b3df6b89d43a9baf8b60f67915b0e = $('<div id="html_4e9b3df6b89d43a9baf8b60f67915b0e" style="width: 100.0%; height: 100.0%;">Köln<br> Coal consumption: 250 thousands tons</div>')[0];
+                popup_aeff3a1a72a8442582a39bb4c895ad84.setContent(html_4e9b3df6b89d43a9baf8b60f67915b0e);
+            
+
+            circle_marker_6ec49e14267a46a294ddfba6f0705946.bindPopup(popup_aeff3a1a72a8442582a39bb4c895ad84)
+            ;
+
+            
+        
+    
+            var circle_marker_b7e8025ef291468e94e8a98ab2783704 = L.circleMarker(
+                [54.720379, 20.500891],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.8984840061683808,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_af2a85ccb400480888ad7b042361f79b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1d63241922db453981c5498c907816c0 = $('<div id="html_1d63241922db453981c5498c907816c0" style="width: 100.0%; height: 100.0%;">Königsberg<br> Coal consumption: 75 thousands tons</div>')[0];
+                popup_af2a85ccb400480888ad7b042361f79b.setContent(html_1d63241922db453981c5498c907816c0);
+            
+
+            circle_marker_b7e8025ef291468e94e8a98ab2783704.bindPopup(popup_af2a85ccb400480888ad7b042361f79b)
+            ;
+
+            
+        
+    
+            var circle_marker_dcd9fc4ae9394a79a7ebe3fd20d12e37 = L.circleMarker(
+                [51.760689, 14.32758],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.8984840061683808,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_8ade0b923a6b492f9a94d4ed3cbe2114 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ad915d6d90fe4ad7b2c6804761461701 = $('<div id="html_ad915d6d90fe4ad7b2c6804761461701" style="width: 100.0%; height: 100.0%;">Kottbus<br> Coal consumption: 75 thousands tons</div>')[0];
+                popup_8ade0b923a6b492f9a94d4ed3cbe2114.setContent(html_ad915d6d90fe4ad7b2c6804761461701);
+            
+
+            circle_marker_dcd9fc4ae9394a79a7ebe3fd20d12e37.bindPopup(popup_8ade0b923a6b492f9a94d4ed3cbe2114)
+            ;
+
+            
+        
+    
+            var circle_marker_8b15313688d543fca3ef8ff03545c29b = L.circleMarker(
+                [52.586791000000005, 14.647468],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.8984840061683808,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_04025e333ff24710806d9d525f8b5d13 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ec8b529fd2094af0a7a25ee72c341c7b = $('<div id="html_ec8b529fd2094af0a7a25ee72c341c7b" style="width: 100.0%; height: 100.0%;">Küstrin<br> Coal consumption: 75 thousands tons</div>')[0];
+                popup_04025e333ff24710806d9d525f8b5d13.setContent(html_ec8b529fd2094af0a7a25ee72c341c7b);
+            
+
+            circle_marker_8b15313688d543fca3ef8ff03545c29b.bindPopup(popup_04025e333ff24710806d9d525f8b5d13)
+            ;
+
+            
+        
+    
+            var circle_marker_df6ef838499e4ff2ae1dfa2e21d072bb = L.circleMarker(
+                [51.12198, 15.29229],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.9414982806638115,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_f101988b96a34a8a96a906fcbb541195 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9540c0bfbaa14c4ba7ce66288e3e9bf0 = $('<div id="html_9540c0bfbaa14c4ba7ce66288e3e9bf0" style="width: 100.0%; height: 100.0%;">Lauban<br> Coal consumption: 120 thousands tons</div>')[0];
+                popup_f101988b96a34a8a96a906fcbb541195.setContent(html_9540c0bfbaa14c4ba7ce66288e3e9bf0);
+            
+
+            circle_marker_df6ef838499e4ff2ae1dfa2e21d072bb.bindPopup(popup_f101988b96a34a8a96a906fcbb541195)
+            ;
+
+            
+        
+    
+            var circle_marker_cf99976db1d54444960605e1516b56b3 = L.circleMarker(
+                [51.494597999999996, 13.7622],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9.209008128383681,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_c5df2ae406cd49f2a64fed2cadb5be92 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6d54432f92394a64be8f1d5f73392215 = $('<div id="html_6d54432f92394a64be8f1d5f73392215" style="width: 100.0%; height: 100.0%;">Lauchhammer<br> Coal consumption: 418 thousands tons</div>')[0];
+                popup_c5df2ae406cd49f2a64fed2cadb5be92.setContent(html_6d54432f92394a64be8f1d5f73392215);
+            
+
+            circle_marker_cf99976db1d54444960605e1516b56b3.bindPopup(popup_c5df2ae406cd49f2a64fed2cadb5be92)
+            ;
+
+            
+        
+    
+            var circle_marker_c997f84544984e41966452344d027b6f = L.circleMarker(
+                [51.204754, 16.162804],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.183098861837907,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_7f82c43e139c4a26b9d7c20c13f82e5d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_30cd12e897f8401cb8a0d2d8b485fc13 = $('<div id="html_30cd12e897f8401cb8a0d2d8b485fc13" style="width: 100.0%; height: 100.0%;">Liegnitz<br> Coal consumption: 50 thousands tons</div>')[0];
+                popup_7f82c43e139c4a26b9d7c20c13f82e5d.setContent(html_30cd12e897f8401cb8a0d2d8b485fc13);
+            
+
+            circle_marker_c997f84544984e41966452344d027b6f.bindPopup(popup_7f82c43e139c4a26b9d7c20c13f82e5d)
+            ;
+
+            
+        
+    
+            var circle_marker_16af04f7a550427ba325c26acff4a171 = L.circleMarker(
+                [53.869620999999995, 10.68759],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.501581580785531,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_23ec99e6aa604a27a5917e7b2f9f2198 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3ae1c6e49fb7433a9ad159b79830f7e4 = $('<div id="html_3ae1c6e49fb7433a9ad159b79830f7e4" style="width: 100.0%; height: 100.0%;">Lübeck<br> Coal consumption: 100 thousands tons</div>')[0];
+                popup_23ec99e6aa604a27a5917e7b2f9f2198.setContent(html_3ae1c6e49fb7433a9ad159b79830f7e4);
+            
+
+            circle_marker_16af04f7a550427ba325c26acff4a171.bindPopup(popup_23ec99e6aa604a27a5917e7b2f9f2198)
+            ;
+
+            
+        
+    
+            var circle_marker_e09ab70f2e0f4d56a69dbc0776cecf8a = L.circleMarker(
+                [52.13167, 11.64032],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 14.93005706664054,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_01278499bf5842edad28d77288ce77cd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a6c70c724f754543bffff27f44066590 = $('<div id="html_a6c70c724f754543bffff27f44066590" style="width: 100.0%; height: 100.0%;">Magdeburg<br> Coal consumption: 1100 thousands tons</div>')[0];
+                popup_01278499bf5842edad28d77288ce77cd.setContent(html_a6c70c724f754543bffff27f44066590);
+            
+
+            circle_marker_e09ab70f2e0f4d56a69dbc0776cecf8a.bindPopup(popup_01278499bf5842edad28d77288ce77cd)
+            ;
+
+            
+        
+    
+            var circle_marker_e508320fd6e04497a09f3a06d0aeef84 = L.circleMarker(
+                [49.992863, 8.247253],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.523411464087013,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_f14306ec75e54fcd841853c822b7524c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_98cf87791f0d4f6394f022251f349a70 = $('<div id="html_98cf87791f0d4f6394f022251f349a70" style="width: 100.0%; height: 100.0%;">Mainz-Wiesbaden<br> Coal consumption: 210 thousands tons</div>')[0];
+                popup_f14306ec75e54fcd841853c822b7524c.setContent(html_98cf87791f0d4f6394f022251f349a70);
+            
+
+            circle_marker_e508320fd6e04497a09f3a06d0aeef84.bindPopup(popup_f14306ec75e54fcd841853c822b7524c)
+            ;
+
+            
+        
+    
+            var circle_marker_28af8723c1634e12a3a9ec52c11ceb56 = L.circleMarker(
+                [49.487457, 8.46604],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 12.450759453654896,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_1d100d4a92f04ec088ff0855cb0f0805 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d556bf6c0dcd496193018d25a8099a8f = $('<div id="html_d556bf6c0dcd496193018d25a8099a8f" style="width: 100.0%; height: 100.0%;">Mannheim<br> Coal consumption: 765 thousands tons</div>')[0];
+                popup_1d100d4a92f04ec088ff0855cb0f0805.setContent(html_d556bf6c0dcd496193018d25a8099a8f);
+            
+
+            circle_marker_28af8723c1634e12a3a9ec52c11ceb56.bindPopup(popup_1d100d4a92f04ec088ff0855cb0f0805)
+            ;
+
+            
+        
+    
+            var circle_marker_1c834ea6471f4a9780410110d566cbc2 = L.circleMarker(
+                [51.357208, 11.99227],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.9414982806638115,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_bf0a109f980243c39df27d2e5c157005 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7cf0bafb5db94e26b3201679ea4a076e = $('<div id="html_7cf0bafb5db94e26b3201679ea4a076e" style="width: 100.0%; height: 100.0%;">Merseburg<br> Coal consumption: 120 thousands tons</div>')[0];
+                popup_bf0a109f980243c39df27d2e5c157005.setContent(html_7cf0bafb5db94e26b3201679ea4a076e);
+            
+
+            circle_marker_1c834ea6471f4a9780410110d566cbc2.bindPopup(popup_bf0a109f980243c39df27d2e5c157005)
+            ;
+
+            
+        
+    
+            var circle_marker_f8dd1729f3074995b1674ec04861e982 = L.circleMarker(
+                [49.119308000000004, 6.175716],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.366197723675814,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_4906043107334257a99091408c08c478 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_067bce6f0baa42669a5a4aa5094f742a = $('<div id="html_067bce6f0baa42669a5a4aa5094f742a" style="width: 100.0%; height: 100.0%;">Metz<br> Coal consumption: 200 thousands tons</div>')[0];
+                popup_4906043107334257a99091408c08c478.setContent(html_067bce6f0baa42669a5a4aa5094f742a);
+            
+
+            circle_marker_f8dd1729f3074995b1674ec04861e982.bindPopup(popup_4906043107334257a99091408c08c478)
+            ;
+
+            
+        
+    
+            var circle_marker_05412c8e10f24b57bd5cbccde61ef829 = L.circleMarker(
+                [52.289398, 8.92169],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.501581580785531,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_72edc4b4fb084e8c9229d81ad2e4169a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_77975f5ab4ec4b96b04d2b37419bef3a = $('<div id="html_77975f5ab4ec4b96b04d2b37419bef3a" style="width: 100.0%; height: 100.0%;">Minden<br> Coal consumption: 100 thousands tons</div>')[0];
+                popup_72edc4b4fb084e8c9229d81ad2e4169a.setContent(html_77975f5ab4ec4b96b04d2b37419bef3a);
+            
+
+            circle_marker_05412c8e10f24b57bd5cbccde61ef829.bindPopup(popup_72edc4b4fb084e8c9229d81ad2e4169a)
+            ;
+
+            
+        
+    
+            var circle_marker_26def3399e064bc99443db141ef4ece5 = L.circleMarker(
+                [52.50275, 14.14037],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.793157915417603,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_e407575be9c44fb8b02707c948ccd033 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_45568a5989974ec28ad38f25349cafdf = $('<div id="html_45568a5989974ec28ad38f25349cafdf" style="width: 100.0%; height: 100.0%;">Müncheberg<br> Coal consumption: 38 thousands tons</div>')[0];
+                popup_e407575be9c44fb8b02707c948ccd033.setContent(html_45568a5989974ec28ad38f25349cafdf);
+            
+
+            circle_marker_26def3399e064bc99443db141ef4ece5.bindPopup(popup_e407575be9c44fb8b02707c948ccd033)
+            ;
+
+            
+        
+    
+            var circle_marker_e173fcabc66e4d168b0ad047da27f08f = L.circleMarker(
+                [51.960667, 7.6261350000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.032921210448704,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_b1e2ee94cf424a4ab4eeff7a25257b99 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_71f4633a1a314deabf3e25b94c89acda = $('<div id="html_71f4633a1a314deabf3e25b94c89acda" style="width: 100.0%; height: 100.0%;">Münster<br> Coal consumption: 125 thousands tons</div>')[0];
+                popup_b1e2ee94cf424a4ab4eeff7a25257b99.setContent(html_71f4633a1a314deabf3e25b94c89acda);
+            
+
+            circle_marker_e173fcabc66e4d168b0ad047da27f08f.bindPopup(popup_b1e2ee94cf424a4ab4eeff7a25257b99)
+            ;
+
+            
+        
+    
+            var circle_marker_fd04523df70a48ebb148e75c24120eb4 = L.circleMarker(
+                [51.543054, 14.724074],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.6153053383997285,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_f97ed6ca3f364677baa6b5f95e0a0fbf = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_27aacd714c554a7a9b8cd1673bdea06a = $('<div id="html_27aacd714c554a7a9b8cd1673bdea06a" style="width: 100.0%; height: 100.0%;">Muskau<br> Coal consumption: 64 thousands tons</div>')[0];
+                popup_f97ed6ca3f364677baa6b5f95e0a0fbf.setContent(html_27aacd714c554a7a9b8cd1673bdea06a);
+            
+
+            circle_marker_fd04523df70a48ebb148e75c24120eb4.bindPopup(popup_f97ed6ca3f364677baa6b5f95e0a0fbf)
+            ;
+
+            
+        
+    
+            var circle_marker_955090f2ff424cf5bc05b410aabd6e38 = L.circleMarker(
+                [50.472889, 17.335581],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.8984840061683808,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_48d89be793c64220880a47df0b200b2e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_be24c872eed64a1ab841ea3086e93de4 = $('<div id="html_be24c872eed64a1ab841ea3086e93de4" style="width: 100.0%; height: 100.0%;">Neisse<br> Coal consumption: 75 thousands tons</div>')[0];
+                popup_48d89be793c64220880a47df0b200b2e.setContent(html_be24c872eed64a1ab841ea3086e93de4);
+            
+
+            circle_marker_955090f2ff424cf5bc05b410aabd6e38.bindPopup(popup_48d89be793c64220880a47df0b200b2e)
+            ;
+
+            
+        
+    
+            var circle_marker_b3f068a3883544c5ad8830cdbaea5f1f = L.circleMarker(
+                [50.57962, 16.503839000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.834716591559996,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_5c6206a7840e42848b83d7977e00c3b5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4022137f8eda4f72a67c41fad7467e46 = $('<div id="html_4022137f8eda4f72a67c41fad7467e46" style="width: 100.0%; height: 100.0%;">Neurode<br> Coal consumption: 168 thousands tons</div>')[0];
+                popup_5c6206a7840e42848b83d7977e00c3b5.setContent(html_4022137f8eda4f72a67c41fad7467e46);
+            
+
+            circle_marker_b3f068a3883544c5ad8830cdbaea5f1f.bindPopup(popup_5c6206a7840e42848b83d7977e00c3b5)
+            ;
+
+            
+        
+    
+            var circle_marker_759e34e3ab894b769862d6abde44011b = L.circleMarker(
+                [50.659081, 17.933692],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.501581580785531,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_c8a2b51bcd7a4f5aa860329956ac004f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_829eede5a74544fda4e351f4c4397b97 = $('<div id="html_829eede5a74544fda4e351f4c4397b97" style="width: 100.0%; height: 100.0%;">Oppeln<br> Coal consumption: 100 thousands tons</div>')[0];
+                popup_c8a2b51bcd7a4f5aa860329956ac004f.setContent(html_829eede5a74544fda4e351f4c4397b97);
+            
+
+            circle_marker_759e34e3ab894b769862d6abde44011b.bindPopup(popup_c8a2b51bcd7a4f5aa860329956ac004f)
+            ;
+
+            
+        
+    
+            var circle_marker_e7d9e910f3d949e1b25e2906ea8c1ad8 = L.circleMarker(
+                [52.025078, 11.224464999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.7969680123367615,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_9116fd020ce44fbcaee46d098b32e8cf = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2d0d68d2240d4e6286950b4f580d5a61 = $('<div id="html_2d0d68d2240d4e6286950b4f580d5a61" style="width: 100.0%; height: 100.0%;">Oscherleben<br> Coal consumption: 300 thousands tons</div>')[0];
+                popup_9116fd020ce44fbcaee46d098b32e8cf.setContent(html_2d0d68d2240d4e6286950b4f580d5a61);
+            
+
+            circle_marker_e7d9e910f3d949e1b25e2906ea8c1ad8.bindPopup(popup_9116fd020ce44fbcaee46d098b32e8cf)
+            ;
+
+            
+        
+    
+            var circle_marker_c128b899aee74ddeb928b543e6eebf7c = L.circleMarker(
+                [52.267281, 8.053189999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.117625434171771,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_8d59e183c5d64101b4622d96d9372bdc = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_36a70b0514594411a13d604618fef658 = $('<div id="html_36a70b0514594411a13d604618fef658" style="width: 100.0%; height: 100.0%;">Osnabrück<br> Coal consumption: 250 thousands tons</div>')[0];
+                popup_8d59e183c5d64101b4622d96d9372bdc.setContent(html_36a70b0514594411a13d604618fef658);
+            
+
+            circle_marker_c128b899aee74ddeb928b543e6eebf7c.bindPopup(popup_8d59e183c5d64101b4622d96d9372bdc)
+            ;
+
+            
+        
+    
+            var circle_marker_e473aa6056bb499d8a03badc7a9a2826 = L.circleMarker(
+                [51.506023, 11.433035],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.601752642336243,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_cae443ad8adf4a7f802c6b5441683b93 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fce2ae2b32bf460fbe79e7012b768afb = $('<div id="html_fce2ae2b32bf460fbe79e7012b768afb" style="width: 100.0%; height: 100.0%;">Riestadt<br> Coal consumption: 104 thousands tons</div>')[0];
+                popup_cae443ad8adf4a7f802c6b5441683b93.setContent(html_fce2ae2b32bf460fbe79e7012b768afb);
+            
+
+            circle_marker_e473aa6056bb499d8a03badc7a9a2826.bindPopup(popup_cae443ad8adf4a7f802c6b5441683b93)
+            ;
+
+            
+        
+    
+            var circle_marker_2f0f576f470849a79e6c04845a8710d4 = L.circleMarker(
+                [49.234778999999996, 6.9944],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15.909126837716762,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_809739a027f3438e92731b0d1db3d992 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_87c3b1d9e1fb4959b32ababc172bed41 = $('<div id="html_87c3b1d9e1fb4959b32ababc172bed41" style="width: 100.0%; height: 100.0%;">Saarbrücken<br> Coal consumption: 1249 thousands tons</div>')[0];
+                popup_809739a027f3438e92731b0d1db3d992.setContent(html_87c3b1d9e1fb4959b32ababc172bed41);
+            
+
+            circle_marker_2f0f576f470849a79e6c04845a8710d4.bindPopup(popup_809739a027f3438e92731b0d1db3d992)
+            ;
+
+            
+        
+    
+            var circle_marker_c6c76aeda057424ca1a1b4e40d791404 = L.circleMarker(
+                [50.840658000000005, 16.486099],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.183098861837907,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_e1ffd57135a54b7caba0b5bc5388e4c5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1cf95c1cf80f4c0faf6a82659a849f68 = $('<div id="html_1cf95c1cf80f4c0faf6a82659a849f68" style="width: 100.0%; height: 100.0%;">Schweidnitz<br> Coal consumption: 50 thousands tons</div>')[0];
+                popup_e1ffd57135a54b7caba0b5bc5388e4c5.setContent(html_1cf95c1cf80f4c0faf6a82659a849f68);
+            
+
+            circle_marker_c6c76aeda057424ca1a1b4e40d791404.bindPopup(popup_e1ffd57135a54b7caba0b5bc5388e4c5)
+            ;
+
+            
+        
+    
+            var circle_marker_b3373b67f37b4b569390303b2458ca17 = L.circleMarker(
+                [52.246569, 15.533407999999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.4869100987952835,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_39c3914b11cc42a6bff5a8569b8f3d9e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f0b8499ef9da40579506349e9b0339e5 = $('<div id="html_f0b8499ef9da40579506349e9b0339e5" style="width: 100.0%; height: 100.0%;">Schwiebus<br> Coal consumption: 60 thousands tons</div>')[0];
+                popup_39c3914b11cc42a6bff5a8569b8f3d9e.setContent(html_f0b8499ef9da40579506349e9b0339e5);
+            
+
+            circle_marker_b3373b67f37b4b569390303b2458ca17.bindPopup(popup_39c3914b11cc42a6bff5a8569b8f3d9e)
+            ;
+
+            
+        
+    
+            var circle_marker_034c27d718594954978b0f1adaec0088 = L.circleMarker(
+                [50.873798, 8.02341],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9.003163161571061,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_a214c21f6e6649bcbcbb78cb66b61609 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fd9c794e9e7042f98298b288ad4273f6 = $('<div id="html_fd9c794e9e7042f98298b288ad4273f6" style="width: 100.0%; height: 100.0%;">Siegen<br> Coal consumption: 400 thousands tons</div>')[0];
+                popup_a214c21f6e6649bcbcbb78cb66b61609.setContent(html_fd9c794e9e7042f98298b288ad4273f6);
+            
+
+            circle_marker_034c27d718594954978b0f1adaec0088.bindPopup(popup_a214c21f6e6649bcbcbb78cb66b61609)
+            ;
+
+            
+        
+    
+            var circle_marker_de5cb35da31447d6aa63440e0a99b894 = L.circleMarker(
+                [51.785317, 14.970766000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.1011359992845975,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_62692c8fdf8b4240a1c3a734bd62b21c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_82eeb5a1a0cc483793db988a7e1e0cd4 = $('<div id="html_82eeb5a1a0cc483793db988a7e1e0cd4" style="width: 100.0%; height: 100.0%;">Sommerfeld<br> Coal consumption: 83 thousands tons</div>')[0];
+                popup_62692c8fdf8b4240a1c3a734bd62b21c.setContent(html_82eeb5a1a0cc483793db988a7e1e0cd4);
+            
+
+            circle_marker_de5cb35da31447d6aa63440e0a99b894.bindPopup(popup_62692c8fdf8b4240a1c3a734bd62b21c)
+            ;
+
+            
+        
+    
+            var circle_marker_4355d5f4b81845e29a7e94e7f156cfaa = L.circleMarker(
+                [51.63875, 15.140870000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.117625434171771,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_674c4ddec47b4d0ca3fd6f5ade1d8928 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fe9f57c469214e8e83c9ab784e62e029 = $('<div id="html_fe9f57c469214e8e83c9ab784e62e029" style="width: 100.0%; height: 100.0%;">Sorau<br> Coal consumption: 250 thousands tons</div>')[0];
+                popup_674c4ddec47b4d0ca3fd6f5ade1d8928.setContent(html_fe9f57c469214e8e83c9ab784e62e029);
+            
+
+            circle_marker_4355d5f4b81845e29a7e94e7f156cfaa.bindPopup(popup_674c4ddec47b4d0ca3fd6f5ade1d8928)
+            ;
+
+            
+        
+    
+            var circle_marker_e39043a9bdc94a4fa8dccd5cdac60713 = L.circleMarker(
+                [51.571543, 14.374888],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.946519409804015,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_f9f0a623be4048bcb5d9ae48fa7bb2f8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_624a5b0a42ac4eb6a7118b6707af0ea2 = $('<div id="html_624a5b0a42ac4eb6a7118b6707af0ea2" style="width: 100.0%; height: 100.0%;">Spremberg<br> Coal consumption: 174 thousands tons</div>')[0];
+                popup_f9f0a623be4048bcb5d9ae48fa7bb2f8.setContent(html_624a5b0a42ac4eb6a7118b6707af0ea2);
+            
+
+            circle_marker_e39043a9bdc94a4fa8dccd5cdac60713.bindPopup(popup_f9f0a623be4048bcb5d9ae48fa7bb2f8)
+            ;
+
+            
+        
+    
+            var circle_marker_f5f0d973d74e4d8a95de42860245b717 = L.circleMarker(
+                [53.428543000000005, 14.552812],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.717275246988208,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_131f9a765d944d46b45962783718c27f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8eaee61662b148d583b9d396c5e03fa1 = $('<div id="html_8eaee61662b148d583b9d396c5e03fa1" style="width: 100.0%; height: 100.0%;">Stettin<br> Coal consumption: 375 thousands tons</div>')[0];
+                popup_131f9a765d944d46b45962783718c27f.setContent(html_8eaee61662b148d583b9d396c5e03fa1);
+            
+
+            circle_marker_f5f0d973d74e4d8a95de42860245b717.bindPopup(popup_131f9a765d944d46b45962783718c27f)
+            ;
+
+            
+        
+    
+            var circle_marker_b77ec42ac59e469faf09f1d793a70d81 = L.circleMarker(
+                [48.582951, 7.74375],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.032921210448704,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_bdad5ac471dc4a078878bdd4b72a3aec = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c2c3995f234441bfaf98829b0be7c7b9 = $('<div id="html_c2c3995f234441bfaf98829b0be7c7b9" style="width: 100.0%; height: 100.0%;">Strassburg<br> Coal consumption: 125 thousands tons</div>')[0];
+                popup_bdad5ac471dc4a078878bdd4b72a3aec.setContent(html_c2c3995f234441bfaf98829b0be7c7b9);
+            
+
+            circle_marker_b77ec42ac59e469faf09f1d793a70d81.bindPopup(popup_bdad5ac471dc4a078878bdd4b72a3aec)
+            ;
+
+            
+        
+    
+            var circle_marker_d59f68290e6f4421999766d65bf8d76a = L.circleMarker(
+                [50.98406, 13.58288],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.081947889031463,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_22258fa47c7b49ac8e1d4b8d333621a5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_312b521c6f4d4dec91703992c773dbf4 = $('<div id="html_312b521c6f4d4dec91703992c773dbf4" style="width: 100.0%; height: 100.0%;">Tharandt<br> Coal consumption: 247 thousands tons</div>')[0];
+                popup_22258fa47c7b49ac8e1d4b8d333621a5.setContent(html_312b521c6f4d4dec91703992c773dbf4);
+            
+
+            circle_marker_d59f68290e6f4421999766d65bf8d76a.bindPopup(popup_22258fa47c7b49ac8e1d4b8d333621a5)
+            ;
+
+            
+        
+    
+            var circle_marker_cc75a99729324b9b8d9a1ff601de0fc8 = L.circleMarker(
+                [49.749992, 6.637142999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.032921210448704,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_aaf55d1a0d14493786f115ec3ef4b12e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e3557b63332b42c388bcc47ab41eadd9 = $('<div id="html_e3557b63332b42c388bcc47ab41eadd9" style="width: 100.0%; height: 100.0%;">Trier<br> Coal consumption: 125 thousands tons</div>')[0];
+                popup_aaf55d1a0d14493786f115ec3ef4b12e.setContent(html_e3557b63332b42c388bcc47ab41eadd9);
+            
+
+            circle_marker_cc75a99729324b9b8d9a1ff601de0fc8.bindPopup(popup_aaf55d1a0d14493786f115ec3ef4b12e)
+            ;
+
+            
+        
+    
+            var circle_marker_7920d457b05f4e62b883fa251a599f3c = L.circleMarker(
+                [51.520610999999995, 11.546671],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.821262326748673,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_e8a350dc278e48f8abf8c60ad7f1bfe9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_468c40bfe7b54b5dbeea0b53a57c2243 = $('<div id="html_468c40bfe7b54b5dbeea0b53a57c2243" style="width: 100.0%; height: 100.0%;">Visleben<br> Coal consumption: 384 thousands tons</div>')[0];
+                popup_e8a350dc278e48f8abf8c60ad7f1bfe9.setContent(html_468c40bfe7b54b5dbeea0b53a57c2243);
+            
+
+            circle_marker_7920d457b05f4e62b883fa251a599f3c.bindPopup(popup_e8a350dc278e48f8abf8c60ad7f1bfe9)
+            ;
+
+            
+        
+    
+            var circle_marker_9146abc4e47b486cb6accc99fa2fdead = L.circleMarker(
+                [50.765356, 16.279976],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11.704112110042379,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_0b57a55852944f60a2469ef4003e8eb8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3a8972e00b8d4e77b6ac980980b8f46a = $('<div id="html_3a8972e00b8d4e77b6ac980980b8f46a" style="width: 100.0%; height: 100.0%;">Waldenburg<br> Coal consumption: 676 thousands tons</div>')[0];
+                popup_0b57a55852944f60a2469ef4003e8eb8.setContent(html_3a8972e00b8d4e77b6ac980980b8f46a);
+            
+
+            circle_marker_9146abc4e47b486cb6accc99fa2fdead.bindPopup(popup_0b57a55852944f60a2469ef4003e8eb8)
+            ;
+
+            
+        
+    
+            var circle_marker_0af9144641e546128e2ba4e350335f12 = L.circleMarker(
+                [50.979118, 11.32448],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.183098861837907,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_8837ab79622c4746a710d5801efa3ab0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e520a30edde442d09d99f791b5ddeb5a = $('<div id="html_e520a30edde442d09d99f791b5ddeb5a" style="width: 100.0%; height: 100.0%;">Weimar<br> Coal consumption: 50 thousands tons</div>')[0];
+                popup_8837ab79622c4746a710d5801efa3ab0.setContent(html_e520a30edde442d09d99f791b5ddeb5a);
+            
+
+            circle_marker_0af9144641e546128e2ba4e350335f12.bindPopup(popup_8837ab79622c4746a710d5801efa3ab0)
+            ;
+
+            
+        
+    
+            var circle_marker_8c360c86b6d1493eb9c7c9924e678441 = L.circleMarker(
+                [51.19983, 11.96682],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 17.85091377367423,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_74d99bcaec4848e8bb9f19e8c7fea7fd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_25c881687a9f465c9c949eb22439ec97 = $('<div id="html_25c881687a9f465c9c949eb22439ec97" style="width: 100.0%; height: 100.0%;">Weissenfels<br> Coal consumption: 1572 thousands tons</div>')[0];
+                popup_74d99bcaec4848e8bb9f19e8c7fea7fd.setContent(html_25c881687a9f465c9c949eb22439ec97);
+            
+
+            circle_marker_8c360c86b6d1493eb9c7c9924e678441.bindPopup(popup_74d99bcaec4848e8bb9f19e8c7fea7fd)
+            ;
+
+            
+        
+    
+            var circle_marker_470059c43d3a455383b4c43806a4effe = L.circleMarker(
+                [51.866162, 12.645255],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.183098861837907,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_4d3faf7390f04cd8bb3ceb6cf770b201 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_82cf2f0d5cdc46dab628d52aa761a08f = $('<div id="html_82cf2f0d5cdc46dab628d52aa761a08f" style="width: 100.0%; height: 100.0%;">Wittenberg<br> Coal consumption: 50 thousands tons</div>')[0];
+                popup_4d3faf7390f04cd8bb3ceb6cf770b201.setContent(html_82cf2f0d5cdc46dab628d52aa761a08f);
+            
+
+            circle_marker_470059c43d3a455383b4c43806a4effe.bindPopup(popup_4d3faf7390f04cd8bb3ceb6cf770b201)
+            ;
+
+            
+        
+    
+            var circle_marker_e4388a4b41dd4860bc736e832ce5f176 = L.circleMarker(
+                [50.60304, 18.48659],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.8984840061683808,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_1e5c59fafb0141808cfe6bf1f8cab053 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3453d086a46943959452acb13f95833d = $('<div id="html_3453d086a46943959452acb13f95833d" style="width: 100.0%; height: 100.0%;">Zawadzkie<br> Coal consumption: 75 thousands tons</div>')[0];
+                popup_1e5c59fafb0141808cfe6bf1f8cab053.setContent(html_3453d086a46943959452acb13f95833d);
+            
+
+            circle_marker_e4388a4b41dd4860bc736e832ce5f176.bindPopup(popup_1e5c59fafb0141808cfe6bf1f8cab053)
+            ;
+
+            
+        
+    
+            var circle_marker_ca87d3fa795341beaf3b9037350423c2 = L.circleMarker(
+                [51.04551, 12.1422],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.729577951308232,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_fdc50240f7644a8c93a5d1b69f0af3ab = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_23fb617b04e9424ca3a46311bd668a84 = $('<div id="html_23fb617b04e9424ca3a46311bd668a84" style="width: 100.0%; height: 100.0%;">Zeitz<br> Coal consumption: 162 thousands tons</div>')[0];
+                popup_fdc50240f7644a8c93a5d1b69f0af3ab.setContent(html_23fb617b04e9424ca3a46311bd668a84);
+            
+
+            circle_marker_ca87d3fa795341beaf3b9037350423c2.bindPopup(popup_fdc50240f7644a8c93a5d1b69f0af3ab)
+            ;
+
+            
+        
+    
+            var circle_marker_00d688ad65454392883b07a16cea07a5 = L.circleMarker(
+                [52.440755, 15.114926],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.643223168726595,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_d860e21605a544bf9a35de373e6510ec = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c20b6327d56a4823b401a038f7cb75c8 = $('<div id="html_c20b6327d56a4823b401a038f7cb75c8" style="width: 100.0%; height: 100.0%;">Zielenzig<br> Coal consumption: 65 thousands tons</div>')[0];
+                popup_d860e21605a544bf9a35de373e6510ec.setContent(html_c20b6327d56a4823b401a038f7cb75c8);
+            
+
+            circle_marker_00d688ad65454392883b07a16cea07a5.bindPopup(popup_d860e21605a544bf9a35de373e6510ec)
+            ;
+
+            
+        
+    
+            var circle_marker_729a2828bbb049ce826b3e5be94471a5 = L.circleMarker(
+                [50.718319, 12.494156],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 12.584316033578224,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            
+    
+            var popup_e3efe5ecb12744208d8b799c6a9a2bc4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9eb549f493e84837a10f5c405afc9306 = $('<div id="html_9eb549f493e84837a10f5c405afc9306" style="width: 100.0%; height: 100.0%;">Zwickau<br> Coal consumption: 781 thousands tons</div>')[0];
+                popup_e3efe5ecb12744208d8b799c6a9a2bc4.setContent(html_9eb549f493e84837a10f5c405afc9306);
+            
+
+            circle_marker_729a2828bbb049ce826b3e5be94471a5.bindPopup(popup_e3efe5ecb12744208d8b799c6a9a2bc4)
+            ;
+
+            
+        
+    
+            var measure_control_09bed8e43a1542d3b0e8ff6dc2fe2603 = new L.Control.Measure(
+            {"position": "topright", "primaryLengthUnit": "kilometers", "secondaryLengthUnit": "miles", "primaryAreaUnit": "sqkilometers", "secondaryAreaUnit": "acres"});
+            map_0e5b6e5bedf94d1fae9c7ae965069eaf.addControl(measure_control_09bed8e43a1542d3b0e8ff6dc2fe2603);
+
+        
+    
+            L.control.fullscreen({
+                position: 'topleft',
+                title: 'Full Screen',
+                titleCancel: 'Exit Full Screen',
+                forceSeparateButton: false,
+                }).addTo(map_0e5b6e5bedf94d1fae9c7ae965069eaf);
+            map_0e5b6e5bedf94d1fae9c7ae965069eaf.on('enterFullscreen', function(){
+                console.log('entered fullscreen');
+            });
+
+        
+</script>

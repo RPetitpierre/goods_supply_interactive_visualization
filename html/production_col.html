@@ -1,0 +1,1861 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_e8f5a039688a447fa6d6beada782862d {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+    <script src="https://cdn.rawgit.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.js"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/1.4.2/Control.FullScreen.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/1.4.2/Control.FullScreen.min.css"/>
+    <script src="https://cdn.rawgit.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.js"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.css"/>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_e8f5a039688a447fa6d6beada782862d" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_e8f5a039688a447fa6d6beada782862d = L.map(
+        'map_e8f5a039688a447fa6d6beada782862d', {
+        center: [52, 12],
+        zoom: 6,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_a17e33aef77b4c9a8492180e00bba4ca = L.tileLayer(
+        'https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_e8f5a039688a447fa6d6beada782862d);
+    
+            var circle_marker_a691ce098f8b411d9fd7bb00a5388e57 = L.circleMarker(
+                [50.775, 6.084],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFED43",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFED43",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15.632872255133371,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_247446fe67fe41649d48a931c627adba = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0f78b2e44f3e4e91b0604e6aca0da513 = $('<div id="html_0f78b2e44f3e4e91b0604e6aca0da513" style="width: 100.0%; height: 100.0%;">Aachen<br> Saxo-Prussian coal from Aachen<br>Coal production: 1206 thousands tons</div>')[0];
+                popup_247446fe67fe41649d48a931c627adba.setContent(html_0f78b2e44f3e4e91b0604e6aca0da513);
+            
+
+            circle_marker_a691ce098f8b411d9fd7bb00a5388e57.bindPopup(popup_247446fe67fe41649d48a931c627adba)
+            ;
+
+            
+        
+    
+            var circle_marker_bed291ab0c564f5fb5c48bc05be69818 = L.circleMarker(
+                [50.991837, 12.438535],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFAD32",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFAD32",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15.09876363134611,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_ef3eca50f9dc457da6b2e7a6788ae9a5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_403ea8f8d3484ffb94144025915f3217 = $('<div id="html_403ea8f8d3484ffb94144025915f3217" style="width: 100.0%; height: 100.0%;">Altenburg<br> Domestic turf<br>Coal production: 1125 thousands tons</div>')[0];
+                popup_ef3eca50f9dc457da6b2e7a6788ae9a5.setContent(html_403ea8f8d3484ffb94144025915f3217);
+            
+
+            circle_marker_bed291ab0c564f5fb5c48bc05be69818.bindPopup(popup_ef3eca50f9dc457da6b2e7a6788ae9a5)
+            ;
+
+            
+        
+    
+            var circle_marker_41f4024d8e7f48319f5a8d353eec2886 = L.circleMarker(
+                [51.753071000000006, 11.46155],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFAD32",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFAD32",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10.89252523729817,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_8229f71755354bafb6ae90d57cfbf490 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f81d8fb1733a451a96d666d8795dc65e = $('<div id="html_f81d8fb1733a451a96d666d8795dc65e" style="width: 100.0%; height: 100.0%;">Aschersleben<br> Domestic turf<br>Coal production: 585 thousands tons</div>')[0];
+                popup_8229f71755354bafb6ae90d57cfbf490.setContent(html_f81d8fb1733a451a96d666d8795dc65e);
+            
+
+            circle_marker_41f4024d8e7f48319f5a8d353eec2886.bindPopup(popup_8229f71755354bafb6ae90d57cfbf490)
+            ;
+
+            
+        
+    
+            var circle_marker_da878122ce3e4272ab3d0cb030b29cce = L.circleMarker(
+                [50.34816, 18.917561],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FF3FBD",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FF3FBD",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 45.916132124012414,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_235aad749f994e64b15457e3679a5f84 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_44e786c031184525a1502e9eb45599ad = $('<div id="html_44e786c031184525a1502e9eb45599ad" style="width: 100.0%; height: 100.0%;">Beuthen<br> Prussian coal from Upper Silesia<br>Coal production: 10404 thousands tons</div>')[0];
+                popup_235aad749f994e64b15457e3679a5f84.setContent(html_44e786c031184525a1502e9eb45599ad);
+            
+
+            circle_marker_da878122ce3e4272ab3d0cb030b29cce.bindPopup(popup_235aad749f994e64b15457e3679a5f84)
+            ;
+
+            
+        
+    
+            var circle_marker_5366d6a86e8d4ef5a8cac6709220809a = L.circleMarker(
+                [52.602328, 15.909498000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFAD32",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFAD32",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.6539866862653763,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_6e98706c0e33406fb303bb6016acc7f0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b50dd79bb9bb4bf6bdb3fc0243071687 = $('<div id="html_b50dd79bb9bb4bf6bdb3fc0243071687" style="width: 100.0%; height: 100.0%;">Birnbaum<br> Domestic turf<br>Coal production: 13 thousands tons</div>')[0];
+                popup_6e98706c0e33406fb303bb6016acc7f0.setContent(html_b50dd79bb9bb4bf6bdb3fc0243071687);
+            
+
+            circle_marker_5366d6a86e8d4ef5a8cac6709220809a.bindPopup(popup_6e98706c0e33406fb303bb6016acc7f0)
+            ;
+
+            
+        
+    
+            var circle_marker_7d96bde7938644bba28b3ad89b2b3b69 = L.circleMarker(
+                [51.632318, 12.311132],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFAD32",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFAD32",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 13.896696586681879,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_59c456f64bd94da68e65574c423005c0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_33096b8321314da1a6d1dfc9c77a4487 = $('<div id="html_33096b8321314da1a6d1dfc9c77a4487" style="width: 100.0%; height: 100.0%;">Bitterfeld<br> Domestic turf<br>Coal production: 953 thousands tons</div>')[0];
+                popup_59c456f64bd94da68e65574c423005c0.setContent(html_33096b8321314da1a6d1dfc9c77a4487);
+            
+
+            circle_marker_7d96bde7938644bba28b3ad89b2b3b69.bindPopup(popup_59c456f64bd94da68e65574c423005c0)
+            ;
+
+            
+        
+    
+            var circle_marker_c827ccd014d8461eacbef44f12a63994 = L.circleMarker(
+                [50.82614, 6.90155],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFAD32",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFAD32",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.117625434171771,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_acd35428ec8d4fdbbf4191cb0a11ae52 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b5712027b9cf4e30984d8c723c417675 = $('<div id="html_b5712027b9cf4e30984d8c723c417675" style="width: 100.0%; height: 100.0%;">Brühl<br> Domestic turf<br>Coal production: 250 thousands tons</div>')[0];
+                popup_acd35428ec8d4fdbbf4191cb0a11ae52.setContent(html_b5712027b9cf4e30984d8c723c417675);
+            
+
+            circle_marker_c827ccd014d8461eacbef44f12a63994.bindPopup(popup_acd35428ec8d4fdbbf4191cb0a11ae52)
+            ;
+
+            
+        
+    
+            var circle_marker_8bf65a58bc95466ab7a0be56c667384c = L.circleMarker(
+                [51.904153, 11.77087],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFAD32",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFAD32",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 16.601012604873198,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_8346077a02b044ad88992e15d367d510 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bf80171dc1fa4cd897fdf2c231898108 = $('<div id="html_bf80171dc1fa4cd897fdf2c231898108" style="width: 100.0%; height: 100.0%;">Calbe<br> Domestic turf<br>Coal production: 1360 thousands tons</div>')[0];
+                popup_8346077a02b044ad88992e15d367d510.setContent(html_bf80171dc1fa4cd897fdf2c231898108);
+            
+
+            circle_marker_8bf65a58bc95466ab7a0be56c667384c.bindPopup(popup_8346077a02b044ad88992e15d367d510)
+            ;
+
+            
+        
+    
+            var circle_marker_effe679cb61143a9b28d0a893624d5de = L.circleMarker(
+                [51.673024, 11.77086],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFAD32",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFAD32",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.364253550534681,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_ab8d4a6810a441fe9cd88c1aa8851852 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_669a010fcf91403b98c0affc211a4703 = $('<div id="html_669a010fcf91403b98c0affc211a4703" style="width: 100.0%; height: 100.0%;">Cöhern<br> Domestic turf<br>Coal production: 142 thousands tons</div>')[0];
+                popup_ab8d4a6810a441fe9cd88c1aa8851852.setContent(html_669a010fcf91403b98c0affc211a4703);
+            
+
+            circle_marker_effe679cb61143a9b28d0a893624d5de.bindPopup(popup_ab8d4a6810a441fe9cd88c1aa8851852)
+            ;
+
+            
+        
+    
+            var circle_marker_48c560df301d45088f4690a8cc1d9513 = L.circleMarker(
+                [51.744505, 11.971217999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFAD32",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFAD32",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9.377994849729294,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_0fa48ed76da34982bfa44ec4ff508703 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_efed551e69a344e0a4c72a26f3293b99 = $('<div id="html_efed551e69a344e0a4c72a26f3293b99" style="width: 100.0%; height: 100.0%;">Cöthen<br> Domestic turf<br>Coal production: 434 thousands tons</div>')[0];
+                popup_0fa48ed76da34982bfa44ec4ff508703.setContent(html_efed551e69a344e0a4c72a26f3293b99);
+            
+
+            circle_marker_48c560df301d45088f4690a8cc1d9513.bindPopup(popup_0fa48ed76da34982bfa44ec4ff508703)
+            ;
+
+            
+        
+    
+            var circle_marker_0581bc5edaa740d2b9fe27f85bcc7730 = L.circleMarker(
+                [51.050407, 13.737262],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFED43",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFED43",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10.484916988318815,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_172e4ad0f5dc4fafa4cb487762872551 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1685ec909e3141eda4aff3cc433d654c = $('<div id="html_1685ec909e3141eda4aff3cc433d654c" style="width: 100.0%; height: 100.0%;">Dresden<br> Saxo-Prussian coal from Aachen<br>Coal production: 542 thousands tons</div>')[0];
+                popup_172e4ad0f5dc4fafa4cb487762872551.setContent(html_1685ec909e3141eda4aff3cc433d654c);
+            
+
+            circle_marker_0581bc5edaa740d2b9fe27f85bcc7730.bindPopup(popup_172e4ad0f5dc4fafa4cb487762872551)
+            ;
+
+            
+        
+    
+            var circle_marker_a93d471bae2e402f92b5017b306f9551 = L.circleMarker(
+                [51.299459999999996, 12.069939999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFAD32",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFAD32",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.424198535965465,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_7baa4d39796748908f8e88f97dd37ac7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bcf3895119db4b76888f45f6568797fb = $('<div id="html_bcf3895119db4b76888f45f6568797fb" style="width: 100.0%; height: 100.0%;">Durrenberg<br> Domestic turf<br>Coal production: 272 thousands tons</div>')[0];
+                popup_7baa4d39796748908f8e88f97dd37ac7.setContent(html_bcf3895119db4b76888f45f6568797fb);
+            
+
+            circle_marker_a93d471bae2e402f92b5017b306f9551.bindPopup(popup_7baa4d39796748908f8e88f97dd37ac7)
+            ;
+
+            
+        
+    
+            var circle_marker_2307036357654b44bc18e04ddd4a25e9 = L.circleMarker(
+                [51.455, 7.011],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#40EEBB",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#40EEBB",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 69.12090200128175,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_fd7201c7193c4c4cbab696a0b3e3989f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_31bc7aaabb91419c87cdd6e2c584c48b = $('<div id="html_31bc7aaabb91419c87cdd6e2c584c48b" style="width: 100.0%; height: 100.0%;">Essen<br> Prussian coal from the Ruhr<br>Coal production: 23577 thousands tons</div>')[0];
+                popup_fd7201c7193c4c4cbab696a0b3e3989f.setContent(html_31bc7aaabb91419c87cdd6e2c584c48b);
+            
+
+            circle_marker_2307036357654b44bc18e04ddd4a25e9.bindPopup(popup_fd7201c7193c4c4cbab696a0b3e3989f)
+            ;
+
+            
+        
+    
+            var circle_marker_fca9b43dc24e48ec8fc07c95a83bedaa = L.circleMarker(
+                [51.585662, 13.241072],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFAD32",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFAD32",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.8984840061683808,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_4d921983c5e641b8a705d18a7d59280d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6ec133674c504c5e9bde490fd35b34ab = $('<div id="html_6ec133674c504c5e9bde490fd35b34ab" style="width: 100.0%; height: 100.0%;">Falkenberg<br> Domestic turf<br>Coal production: 75 thousands tons</div>')[0];
+                popup_4d921983c5e641b8a705d18a7d59280d.setContent(html_6ec133674c504c5e9bde490fd35b34ab);
+            
+
+            circle_marker_fca9b43dc24e48ec8fc07c95a83bedaa.bindPopup(popup_4d921983c5e641b8a705d18a7d59280d)
+            ;
+
+            
+        
+    
+            var circle_marker_ad6a4b58e1564d908f3111dcaba0f91d = L.circleMarker(
+                [51.632318, 13.706447],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFAD32",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFAD32",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11.271945896228015,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_86508332f0ac42b3a687b1133e3d6560 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fb6b276374614be69d83d660edd4176d = $('<div id="html_fb6b276374614be69d83d660edd4176d" style="width: 100.0%; height: 100.0%;">Finsteroulde<br> Domestic turf<br>Coal production: 627 thousands tons</div>')[0];
+                popup_86508332f0ac42b3a687b1133e3d6560.setContent(html_fb6b276374614be69d83d660edd4176d);
+            
+
+            circle_marker_ad6a4b58e1564d908f3111dcaba0f91d.bindPopup(popup_86508332f0ac42b3a687b1133e3d6560)
+            ;
+
+            
+        
+    
+            var circle_marker_ce64f97c78724ba48aa17eea95200f52 = L.circleMarker(
+                [52.340395, 14.538310999999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFAD32",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFAD32",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.191477135542624,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_6508aab28ab84ff9bc2ed0cbc52e10c4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5d2e31469c13469184eaa78220d2c143 = $('<div id="html_5d2e31469c13469184eaa78220d2c143" style="width: 100.0%; height: 100.0%;">Frankfurt (Oder)<br> Domestic turf<br>Coal production: 133 thousands tons</div>')[0];
+                popup_6508aab28ab84ff9bc2ed0cbc52e10c4.setContent(html_5d2e31469c13469184eaa78220d2c143);
+            
+
+            circle_marker_ce64f97c78724ba48aa17eea95200f52.bindPopup(popup_6508aab28ab84ff9bc2ed0cbc52e10c4)
+            ;
+
+            
+        
+    
+            var circle_marker_e1fc03b3084a44d2a48fa2db4017bfd6 = L.circleMarker(
+                [51.15314, 14.9753],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFAD32",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFAD32",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.118787204934704,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_b542fdbbd4fb4256a18e8798ef81a623 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_83f068156ca54e15a2f24958c35261ec = $('<div id="html_83f068156ca54e15a2f24958c35261ec" style="width: 100.0%; height: 100.0%;">Görlitz<br> Domestic turf<br>Coal production: 48 thousands tons</div>')[0];
+                popup_b542fdbbd4fb4256a18e8798ef81a623.setContent(html_83f068156ca54e15a2f24958c35261ec);
+            
+
+            circle_marker_e1fc03b3084a44d2a48fa2db4017bfd6.bindPopup(popup_b542fdbbd4fb4256a18e8798ef81a623)
+            ;
+
+            
+        
+    
+            var circle_marker_83f14c550bad4f108be5243022882c61 = L.circleMarker(
+                [51.939302000000005, 15.506086999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFAD32",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFAD32",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.6292910979286175,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_6131f91571e04a118781d73c11d12520 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1437d0a358ae4769a98b4d103f995dfa = $('<div id="html_1437d0a358ae4769a98b4d103f995dfa" style="width: 100.0%; height: 100.0%;">Grüneberg<br> Domestic turf<br>Coal production: 65 thousands tons</div>')[0];
+                popup_6131f91571e04a118781d73c11d12520.setContent(html_1437d0a358ae4769a98b4d103f995dfa);
+            
+
+            circle_marker_83f14c550bad4f108be5243022882c61.bindPopup(popup_6131f91571e04a118781d73c11d12520)
+            ;
+
+            
+        
+    
+            var circle_marker_b483a88ffbe94dc293b2d34ada80e2ba = L.circleMarker(
+                [51.952259000000005, 14.71473],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFAD32",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFAD32",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.8984840061683808,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_944604799c1147ab89a93af6de8b3935 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bb7dccd92e874d07b87f62f28c97162a = $('<div id="html_bb7dccd92e874d07b87f62f28c97162a" style="width: 100.0%; height: 100.0%;">Guben<br> Domestic turf<br>Coal production: 75 thousands tons</div>')[0];
+                popup_944604799c1147ab89a93af6de8b3935.setContent(html_bb7dccd92e874d07b87f62f28c97162a);
+            
+
+            circle_marker_b483a88ffbe94dc293b2d34ada80e2ba.bindPopup(popup_944604799c1147ab89a93af6de8b3935)
+            ;
+
+            
+        
+    
+            var circle_marker_5c2a01f250dd4cd8bafc8c26a8eaeb1d = L.circleMarker(
+                [51.477342, 11.985047999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFAD32",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFAD32",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 13.783222385544802,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_8c920a6b13cb46559add6ee4035d63c8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_31cbbdbb5bb943eb88d49663471e9bbc = $('<div id="html_31cbbdbb5bb943eb88d49663471e9bbc" style="width: 100.0%; height: 100.0%;">Halle<br> Domestic turf<br>Coal production: 937 thousands tons</div>')[0];
+                popup_8c920a6b13cb46559add6ee4035d63c8.setContent(html_31cbbdbb5bb943eb88d49663471e9bbc);
+            
+
+            circle_marker_5c2a01f250dd4cd8bafc8c26a8eaeb1d.bindPopup(popup_8c920a6b13cb46559add6ee4035d63c8)
+            ;
+
+            
+        
+    
+            var circle_marker_4436c49b198f4ababfc1f81f20804932 = L.circleMarker(
+                [52.06235, 11.08789],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFAD32",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFAD32",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.887408113974792,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_8771572fecca407bbffc6370a954f7e4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_05ad1d21cb4d48969f719d9b3feec4e0 = $('<div id="html_05ad1d21cb4d48969f719d9b3feec4e0" style="width: 100.0%; height: 100.0%;">Hamersleben<br> Domestic turf<br>Coal production: 307 thousands tons</div>')[0];
+                popup_8771572fecca407bbffc6370a954f7e4.setContent(html_05ad1d21cb4d48969f719d9b3feec4e0);
+            
+
+            circle_marker_4436c49b198f4ababfc1f81f20804932.bindPopup(popup_8771572fecca407bbffc6370a954f7e4)
+            ;
+
+            
+        
+    
+            var circle_marker_785f6f2835bc42319edc84a4dc820733 = L.circleMarker(
+                [52.375893, 9.73201],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3DFF40",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3DFF40",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10.000200410741146,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_ae05067c87884bfea7c80fbe2ca880fe = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9eef3bc454a14acca5f2e15396c8ec41 = $('<div id="html_9eef3bc454a14acca5f2e15396c8ec41" style="width: 100.0%; height: 100.0%;">Hannover<br> Prussian coal from Hannover<br>Coal production: 493 thousands tons</div>')[0];
+                popup_ae05067c87884bfea7c80fbe2ca880fe.setContent(html_9eef3bc454a14acca5f2e15396c8ec41);
+            
+
+            circle_marker_785f6f2835bc42319edc84a4dc820733.bindPopup(popup_ae05067c87884bfea7c80fbe2ca880fe)
+            ;
+
+            
+        
+    
+            var circle_marker_158bf9770c4a4bc7bc8366d59411d4eb = L.circleMarker(
+                [52.2244, 11.01102],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFAD32",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFAD32",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 13.293011106300826,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_a3eeb402178d4f50920602b491002871 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_141507b0c3144f628ea9d263fd7d8dcd = $('<div id="html_141507b0c3144f628ea9d263fd7d8dcd" style="width: 100.0%; height: 100.0%;">Helmstedt<br> Domestic turf<br>Coal production: 872 thousands tons</div>')[0];
+                popup_a3eeb402178d4f50920602b491002871.setContent(html_141507b0c3144f628ea9d263fd7d8dcd);
+            
+
+            circle_marker_158bf9770c4a4bc7bc8366d59411d4eb.bindPopup(popup_a3eeb402178d4f50920602b491002871)
+            ;
+
+            
+        
+    
+            var circle_marker_d79430b7797b48b8ae06d95a30b05dd2 = L.circleMarker(
+                [52.276771999999994, 7.718995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFED43",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFED43",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.3991301498917394,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_cdbcfdf5bfb5423cbbe8b768f40a9717 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cf354e59c8c643d9bf75c049154717c6 = $('<div id="html_cf354e59c8c643d9bf75c049154717c6" style="width: 100.0%; height: 100.0%;">Jbbenbüren<br> Saxo-Prussian coal from Aachen<br>Coal production: 95 thousands tons</div>')[0];
+                popup_cdbcfdf5bfb5423cbbe8b768f40a9717.setContent(html_cf354e59c8c643d9bf75c049154717c6);
+            
+
+            circle_marker_d79430b7797b48b8ae06d95a30b05dd2.bindPopup(popup_cdbcfdf5bfb5423cbbe8b768f40a9717)
+            ;
+
+            
+        
+    
+            var circle_marker_4d8a9a00c43b4bdea742d31218a684fc = L.circleMarker(
+                [51.312709999999996, 9.479746],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFAD32",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFAD32",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.7969680123367615,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_86103ead23c14cc49c26c0f4276cb6b3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cb57806b30504d578cc721f628db5df0 = $('<div id="html_cb57806b30504d578cc721f628db5df0" style="width: 100.0%; height: 100.0%;">Kassel<br> Domestic turf<br>Coal production: 300 thousands tons</div>')[0];
+                popup_86103ead23c14cc49c26c0f4276cb6b3.setContent(html_cb57806b30504d578cc721f628db5df0);
+            
+
+            circle_marker_4d8a9a00c43b4bdea742d31218a684fc.bindPopup(popup_86103ead23c14cc49c26c0f4276cb6b3)
+            ;
+
+            
+        
+    
+            var circle_marker_4b029d34647c484d9a0d4a9ece8f3137 = L.circleMarker(
+                [51.12198, 15.29229],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFAD32",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFAD32",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.721298592687642,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_ac142bd7ed5b48fbb107cbc5a4ba1f0d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_436f8d621980452a97076a78c3d494ae = $('<div id="html_436f8d621980452a97076a78c3d494ae" style="width: 100.0%; height: 100.0%;">Lauban<br> Domestic turf<br>Coal production: 110 thousands tons</div>')[0];
+                popup_ac142bd7ed5b48fbb107cbc5a4ba1f0d.setContent(html_436f8d621980452a97076a78c3d494ae);
+            
+
+            circle_marker_4b029d34647c484d9a0d4a9ece8f3137.bindPopup(popup_ac142bd7ed5b48fbb107cbc5a4ba1f0d)
+            ;
+
+            
+        
+    
+            var circle_marker_f83477da16714ccfbe909af8684a456a = L.circleMarker(
+                [51.494597999999996, 13.7622],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFAD32",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFAD32",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11.271945896228015,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_567f6b5b10aa47bab7630645086fecd5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7b6cc558ae0a4fe983bc28dc48e6917f = $('<div id="html_7b6cc558ae0a4fe983bc28dc48e6917f" style="width: 100.0%; height: 100.0%;">Lauchhammer<br> Domestic turf<br>Coal production: 627 thousands tons</div>')[0];
+                popup_567f6b5b10aa47bab7630645086fecd5.setContent(html_7b6cc558ae0a4fe983bc28dc48e6917f);
+            
+
+            circle_marker_f83477da16714ccfbe909af8684a456a.bindPopup(popup_567f6b5b10aa47bab7630645086fecd5)
+            ;
+
+            
+        
+    
+            var circle_marker_9d30ee1f729144d8a7deb49b0a69ed60 = L.circleMarker(
+                [51.635397, 11.898938000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#40EEBB",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#40EEBB",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.9621939196748204,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_ac3b92458365479a985b1b859c7fef47 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_25a2e7966f134178b2951bb44b1e43fd = $('<div id="html_25a2e7966f134178b2951bb44b1e43fd" style="width: 100.0%; height: 100.0%;">Lobejün<br> Prussian coal from the Ruhr<br>Coal production: 19 thousands tons</div>')[0];
+                popup_ac3b92458365479a985b1b859c7fef47.setContent(html_25a2e7966f134178b2951bb44b1e43fd);
+            
+
+            circle_marker_9d30ee1f729144d8a7deb49b0a69ed60.bindPopup(popup_ac3b92458365479a985b1b859c7fef47)
+            ;
+
+            
+        
+    
+            var circle_marker_0a3a1d92defb429494325fe70b4dd3ea = L.circleMarker(
+                [52.13167, 11.64032],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFAD32",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFAD32",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 20.872975103277742,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_12bc46e8b2bf4cdd93e853877c062697 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_96b481a2255846dc92bfb4afdb3d43d8 = $('<div id="html_96b481a2255846dc92bfb4afdb3d43d8" style="width: 100.0%; height: 100.0%;">Magdeburg<br> Domestic turf<br>Coal production: 2150 thousands tons</div>')[0];
+                popup_12bc46e8b2bf4cdd93e853877c062697.setContent(html_96b481a2255846dc92bfb4afdb3d43d8);
+            
+
+            circle_marker_0a3a1d92defb429494325fe70b4dd3ea.bindPopup(popup_12bc46e8b2bf4cdd93e853877c062697)
+            ;
+
+            
+        
+    
+            var circle_marker_f43061eb85ed42b48c3e9c1e48ec3878 = L.circleMarker(
+                [51.357208, 11.99227],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFAD32",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFAD32",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.9414982806638115,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_8908be8d582a46c69d9ef6c3b37a3647 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_79117a4a84084722b4a94514935a96f3 = $('<div id="html_79117a4a84084722b4a94514935a96f3" style="width: 100.0%; height: 100.0%;">Merseburg<br> Domestic turf<br>Coal production: 120 thousands tons</div>')[0];
+                popup_8908be8d582a46c69d9ef6c3b37a3647.setContent(html_79117a4a84084722b4a94514935a96f3);
+            
+
+            circle_marker_f43061eb85ed42b48c3e9c1e48ec3878.bindPopup(popup_8908be8d582a46c69d9ef6c3b37a3647)
+            ;
+
+            
+        
+    
+            var circle_marker_60338b3bc92a40a39ffdda36b31ea0a3 = L.circleMarker(
+                [52.50275, 14.14037],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFAD32",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFAD32",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.270575260503063,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_9e71ea131db7491eb8bce9267568f4bc = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a41758a8e3d14b0ebb9ef883aed73570 = $('<div id="html_a41758a8e3d14b0ebb9ef883aed73570" style="width: 100.0%; height: 100.0%;">Müncheberg<br> Domestic turf<br>Coal production: 90 thousands tons</div>')[0];
+                popup_9e71ea131db7491eb8bce9267568f4bc.setContent(html_a41758a8e3d14b0ebb9ef883aed73570);
+            
+
+            circle_marker_60338b3bc92a40a39ffdda36b31ea0a3.bindPopup(popup_9e71ea131db7491eb8bce9267568f4bc)
+            ;
+
+            
+        
+    
+            var circle_marker_7b129f950adf4c8183553b1c2eddf315 = L.circleMarker(
+                [51.543054, 14.724074],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFAD32",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFAD32",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.294235138287781,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_d84a8250778b47fd80dac96f043a3dcd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ee975832e7e3484fb6a487eb970552b7 = $('<div id="html_ee975832e7e3484fb6a487eb970552b7" style="width: 100.0%; height: 100.0%;">Muskau<br> Domestic turf<br>Coal production: 91 thousands tons</div>')[0];
+                popup_d84a8250778b47fd80dac96f043a3dcd.setContent(html_ee975832e7e3484fb6a487eb970552b7);
+            
+
+            circle_marker_7b129f950adf4c8183553b1c2eddf315.bindPopup(popup_d84a8250778b47fd80dac96f043a3dcd)
+            ;
+
+            
+        
+    
+            var circle_marker_2a73dac25c1e4843b310393d54e1c6b3 = L.circleMarker(
+                [50.57962, 16.503839000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#A550FF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#A550FF",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.114533241713764,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_081e88ed08d3472682711badce3f6e58 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b681bb6e3d76473c9b30f2a59655464e = $('<div id="html_b681bb6e3d76473c9b30f2a59655464e" style="width: 100.0%; height: 100.0%;">Neurode<br> Prussian coal from Waldenburg<br>Coal production: 184 thousands tons</div>')[0];
+                popup_081e88ed08d3472682711badce3f6e58.setContent(html_b681bb6e3d76473c9b30f2a59655464e);
+            
+
+            circle_marker_2a73dac25c1e4843b310393d54e1c6b3.bindPopup(popup_081e88ed08d3472682711badce3f6e58)
+            ;
+
+            
+        
+    
+            var circle_marker_59ec29cce4c44f92b190938d1c54d5f3 = L.circleMarker(
+                [52.267281, 8.053189999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#40EEBB",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#40EEBB",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.604423871293526,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_5414928407794314b22e73877a014102 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8159bfddcddd4af291d1234219639011 = $('<div id="html_8159bfddcddd4af291d1234219639011" style="width: 100.0%; height: 100.0%;">Osnabrück<br> Prussian coal from the Ruhr<br>Coal production: 155 thousands tons</div>')[0];
+                popup_5414928407794314b22e73877a014102.setContent(html_8159bfddcddd4af291d1234219639011);
+            
+
+            circle_marker_59ec29cce4c44f92b190938d1c54d5f3.bindPopup(popup_5414928407794314b22e73877a014102)
+            ;
+
+            
+        
+    
+            var circle_marker_e573bdaea5804ec8b445d08ae88228c5 = L.circleMarker(
+                [51.506023, 11.433035],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFAD32",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFAD32",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.540786825318977,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_3c01d6af1c76401aa14d669ac64af93e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2565192792e54c07a5e21d223a5b4a06 = $('<div id="html_2565192792e54c07a5e21d223a5b4a06" style="width: 100.0%; height: 100.0%;">Riestadt<br> Domestic turf<br>Coal production: 151 thousands tons</div>')[0];
+                popup_3c01d6af1c76401aa14d669ac64af93e.setContent(html_2565192792e54c07a5e21d223a5b4a06);
+            
+
+            circle_marker_e573bdaea5804ec8b445d08ae88228c5.bindPopup(popup_3c01d6af1c76401aa14d669ac64af93e)
+            ;
+
+            
+        
+    
+            var circle_marker_6a495a0f5961468581eeb1e54c821abb = L.circleMarker(
+                [49.234778999999996, 6.9944],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FF4141",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FF4141",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 32.47072892594447,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_44d38bb9f1fe4c3b9820603437274009 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1bc1f724a99443ed8bb01360b50fe1ee = $('<div id="html_1bc1f724a99443ed8bb01360b50fe1ee" style="width: 100.0%; height: 100.0%;">Saarbrücken<br> Prussian coal from Saarbrücken<br>Coal production: 5203 thousands tons</div>')[0];
+                popup_44d38bb9f1fe4c3b9820603437274009.setContent(html_1bc1f724a99443ed8bb01360b50fe1ee);
+            
+
+            circle_marker_6a495a0f5961468581eeb1e54c821abb.bindPopup(popup_44d38bb9f1fe4c3b9820603437274009)
+            ;
+
+            
+        
+    
+            var circle_marker_66993dfa052f4329b53627a000839b80 = L.circleMarker(
+                [52.246569, 15.533407999999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFAD32",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFAD32",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.4869100987952835,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_30e5fbdbb2a44cd9ab70561c9f4d0b7c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_481da822dc1541b69419d627ac503328 = $('<div id="html_481da822dc1541b69419d627ac503328" style="width: 100.0%; height: 100.0%;">Schwiebus<br> Domestic turf<br>Coal production: 60 thousands tons</div>')[0];
+                popup_30e5fbdbb2a44cd9ab70561c9f4d0b7c.setContent(html_481da822dc1541b69419d627ac503328);
+            
+
+            circle_marker_66993dfa052f4329b53627a000839b80.bindPopup(popup_30e5fbdbb2a44cd9ab70561c9f4d0b7c)
+            ;
+
+            
+        
+    
+            var circle_marker_c0bd4b4a06a84afd9c07e67f5f9b7658 = L.circleMarker(
+                [51.785317, 14.970766000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFAD32",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFAD32",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.5859617399324173,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_644b3012628d409386cc93ed315b9138 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e986337a1dfe4a5d8157965214881ea2 = $('<div id="html_e986337a1dfe4a5d8157965214881ea2" style="width: 100.0%; height: 100.0%;">Sommerfeld<br> Domestic turf<br>Coal production: 33 thousands tons</div>')[0];
+                popup_644b3012628d409386cc93ed315b9138.setContent(html_e986337a1dfe4a5d8157965214881ea2);
+            
+
+            circle_marker_c0bd4b4a06a84afd9c07e67f5f9b7658.bindPopup(popup_644b3012628d409386cc93ed315b9138)
+            ;
+
+            
+        
+    
+            var circle_marker_7f9573fd7f3f4e51b56221ee329bff39 = L.circleMarker(
+                [51.63875, 15.140870000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFAD32",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFAD32",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.230610676799457,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_039191fe8b804a4ea04ea5f87b174d7d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_803a72d51e724c6b96b0571056ffcade = $('<div id="html_803a72d51e724c6b96b0571056ffcade" style="width: 100.0%; height: 100.0%;">Sorau<br> Domestic turf<br>Coal production: 258 thousands tons</div>')[0];
+                popup_039191fe8b804a4ea04ea5f87b174d7d.setContent(html_803a72d51e724c6b96b0571056ffcade);
+            
+
+            circle_marker_7f9573fd7f3f4e51b56221ee329bff39.bindPopup(popup_039191fe8b804a4ea04ea5f87b174d7d)
+            ;
+
+            
+        
+    
+            var circle_marker_67488b28a0ec491998053cc0223760c5 = L.circleMarker(
+                [51.571543, 14.374888],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFAD32",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFAD32",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.946519409804015,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_2a92861e85fe495d93c0449d153fe17e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d38afc13e1fc404690519cb698600da8 = $('<div id="html_d38afc13e1fc404690519cb698600da8" style="width: 100.0%; height: 100.0%;">Spremberg<br> Domestic turf<br>Coal production: 174 thousands tons</div>')[0];
+                popup_2a92861e85fe495d93c0449d153fe17e.setContent(html_d38afc13e1fc404690519cb698600da8);
+            
+
+            circle_marker_67488b28a0ec491998053cc0223760c5.bindPopup(popup_2a92861e85fe495d93c0449d153fe17e)
+            ;
+
+            
+        
+    
+            var circle_marker_3adb384ef8294f1c8c0ff5df627bbec9 = L.circleMarker(
+                [50.98406, 13.58288],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFED43",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFED43",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10.484916988318815,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_4917cf1da951413ba3d5f8d5f858d9b6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_92ce85efbb944d17b931a81b53369b1f = $('<div id="html_92ce85efbb944d17b931a81b53369b1f" style="width: 100.0%; height: 100.0%;">Tharandt<br> Saxo-Prussian coal from Aachen<br>Coal production: 542 thousands tons</div>')[0];
+                popup_4917cf1da951413ba3d5f8d5f858d9b6.setContent(html_92ce85efbb944d17b931a81b53369b1f);
+            
+
+            circle_marker_3adb384ef8294f1c8c0ff5df627bbec9.bindPopup(popup_4917cf1da951413ba3d5f8d5f858d9b6)
+            ;
+
+            
+        
+    
+            var circle_marker_50c12d6e946f4228ab1e52c2b9d55f89 = L.circleMarker(
+                [51.520610999999995, 11.546671],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFAD32",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFAD32",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9.070435552804412,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_f48398aa5399434097b56b2c8e837599 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d598e4aed30c406b866581b8afe2217c = $('<div id="html_d598e4aed30c406b866581b8afe2217c" style="width: 100.0%; height: 100.0%;">Visleben<br> Domestic turf<br>Coal production: 406 thousands tons</div>')[0];
+                popup_f48398aa5399434097b56b2c8e837599.setContent(html_d598e4aed30c406b866581b8afe2217c);
+            
+
+            circle_marker_50c12d6e946f4228ab1e52c2b9d55f89.bindPopup(popup_f48398aa5399434097b56b2c8e837599)
+            ;
+
+            
+        
+    
+            var circle_marker_ffbd574d34224ed698bd5c07c58108de = L.circleMarker(
+                [50.765356, 16.279976],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#A550FF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#A550FF",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 22.593276061476733,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_98ba2deec7d94a96921310567916b6f5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_de39e2a7e4fc41fe8806b34c46cfce1e = $('<div id="html_de39e2a7e4fc41fe8806b34c46cfce1e" style="width: 100.0%; height: 100.0%;">Waldenburg<br> Prussian coal from Waldenburg<br>Coal production: 2519 thousands tons</div>')[0];
+                popup_98ba2deec7d94a96921310567916b6f5.setContent(html_de39e2a7e4fc41fe8806b34c46cfce1e);
+            
+
+            circle_marker_ffbd574d34224ed698bd5c07c58108de.bindPopup(popup_98ba2deec7d94a96921310567916b6f5)
+            ;
+
+            
+        
+    
+            var circle_marker_b406d66cd77b4f7490f02118a27bcd73 = L.circleMarker(
+                [51.19983, 11.96682],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFAD32",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFAD32",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 19.520987979065826,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_c8ff2539eef44d23856c165be0a9ea0f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4599f413a2d849a18c3273c8997d49b1 = $('<div id="html_4599f413a2d849a18c3273c8997d49b1" style="width: 100.0%; height: 100.0%;">Weissenfels<br> Domestic turf<br>Coal production: 1880 thousands tons</div>')[0];
+                popup_c8ff2539eef44d23856c165be0a9ea0f.setContent(html_4599f413a2d849a18c3273c8997d49b1);
+            
+
+            circle_marker_b406d66cd77b4f7490f02118a27bcd73.bindPopup(popup_c8ff2539eef44d23856c165be0a9ea0f)
+            ;
+
+            
+        
+    
+            var circle_marker_b3c9fcc757144cebbafd3a8ff9988b0a = L.circleMarker(
+                [51.866162, 12.645255],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFAD32",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFAD32",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.183098861837907,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_d5989907db0040dbaad1a9df7e43e38f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4ef3ab0b1937411b9e0e7320bd5b7b51 = $('<div id="html_4ef3ab0b1937411b9e0e7320bd5b7b51" style="width: 100.0%; height: 100.0%;">Wittenberg<br> Domestic turf<br>Coal production: 50 thousands tons</div>')[0];
+                popup_d5989907db0040dbaad1a9df7e43e38f.setContent(html_4ef3ab0b1937411b9e0e7320bd5b7b51);
+            
+
+            circle_marker_b3c9fcc757144cebbafd3a8ff9988b0a.bindPopup(popup_d5989907db0040dbaad1a9df7e43e38f)
+            ;
+
+            
+        
+    
+            var circle_marker_4fba0c92605346a3804fcc177906f51b = L.circleMarker(
+                [51.04551, 12.1422],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFAD32",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFAD32",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.963533806264584,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_c00449cfccda43b0b9fb89c9ea0b8db7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3f60767e4ff24c14b6f4684fa43b991a = $('<div id="html_3f60767e4ff24c14b6f4684fa43b991a" style="width: 100.0%; height: 100.0%;">Zeitz<br> Domestic turf<br>Coal production: 175 thousands tons</div>')[0];
+                popup_c00449cfccda43b0b9fb89c9ea0b8db7.setContent(html_3f60767e4ff24c14b6f4684fa43b991a);
+            
+
+            circle_marker_4fba0c92605346a3804fcc177906f51b.bindPopup(popup_c00449cfccda43b0b9fb89c9ea0b8db7)
+            ;
+
+            
+        
+    
+            var circle_marker_67909a100b9e4a1a95e7c59e5ed8d4b6 = L.circleMarker(
+                [52.440755, 15.114926],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFAD32",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFAD32",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.643223168726595,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_f1ed60396f5546aa837d4f162bec85a9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_43ef8df69424465aa53d5e838f1fc708 = $('<div id="html_43ef8df69424465aa53d5e838f1fc708" style="width: 100.0%; height: 100.0%;">Zielenzig<br> Domestic turf<br>Coal production: 65 thousands tons</div>')[0];
+                popup_f1ed60396f5546aa837d4f162bec85a9.setContent(html_43ef8df69424465aa53d5e838f1fc708);
+            
+
+            circle_marker_67909a100b9e4a1a95e7c59e5ed8d4b6.bindPopup(popup_f1ed60396f5546aa837d4f162bec85a9)
+            ;
+
+            
+        
+    
+            var circle_marker_9bd3f3cac86649c69325bf248bbb1dc0 = L.circleMarker(
+                [50.718319, 12.494156],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFED43",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFED43",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25.327147759659802,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e8f5a039688a447fa6d6beada782862d);
+            
+    
+            var popup_3bdbccca15984cea941fea1303b91037 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5f75b142a6184b199e2f81573311ab85 = $('<div id="html_5f75b142a6184b199e2f81573311ab85" style="width: 100.0%; height: 100.0%;">Zwickau<br> Saxo-Prussian coal from Aachen<br>Coal production: 3165 thousands tons</div>')[0];
+                popup_3bdbccca15984cea941fea1303b91037.setContent(html_5f75b142a6184b199e2f81573311ab85);
+            
+
+            circle_marker_9bd3f3cac86649c69325bf248bbb1dc0.bindPopup(popup_3bdbccca15984cea941fea1303b91037)
+            ;
+
+            
+        
+    
+            var measure_control_f067f723eb5145b49f8c035f75826180 = new L.Control.Measure(
+            {"position": "topright", "primaryLengthUnit": "kilometers", "secondaryLengthUnit": "miles", "primaryAreaUnit": "sqkilometers", "secondaryAreaUnit": "acres"});
+            map_e8f5a039688a447fa6d6beada782862d.addControl(measure_control_f067f723eb5145b49f8c035f75826180);
+
+        
+    
+            L.control.fullscreen({
+                position: 'topleft',
+                title: 'Full Screen',
+                titleCancel: 'Exit Full Screen',
+                forceSeparateButton: false,
+                }).addTo(map_e8f5a039688a447fa6d6beada782862d);
+            map_e8f5a039688a447fa6d6beada782862d.on('enterFullscreen', function(){
+                console.log('entered fullscreen');
+            });
+
+        
+</script>

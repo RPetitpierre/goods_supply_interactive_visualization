@@ -1,0 +1,5783 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_2852739aef704c9b979f4cefa308cbdd {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+    <script src="https://cdn.rawgit.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.js"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/1.4.2/Control.FullScreen.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/1.4.2/Control.FullScreen.min.css"/>
+    <script src="https://cdn.rawgit.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.js"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.css"/>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_2852739aef704c9b979f4cefa308cbdd" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_2852739aef704c9b979f4cefa308cbdd = L.map(
+        'map_2852739aef704c9b979f4cefa308cbdd', {
+        center: [52, 12],
+        zoom: 6,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_0a3a4439c2d042dcbda66e6fc84ea642 = L.tileLayer(
+        'https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_2852739aef704c9b979f4cefa308cbdd);
+    
+            var circle_marker_82dff05e2c74405e888cda381ef1899a = L.circleMarker(
+                [50.775, 6.084],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 18.395998297602883,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_6bc59c6a74b94275afec1983534c48f3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_afae0bfd6fd345eeb97c54003113cede = $('<div id="html_afae0bfd6fd345eeb97c54003113cede" style="width: 100.0%; height: 100.0%;">Aachen<br> Departing coal: 1670 thousands tons</div>')[0];
+                popup_6bc59c6a74b94275afec1983534c48f3.setContent(html_afae0bfd6fd345eeb97c54003113cede);
+            
+
+            circle_marker_82dff05e2c74405e888cda381ef1899a.bindPopup(popup_6bc59c6a74b94275afec1983534c48f3)
+            ;
+
+            
+        
+    
+            var circle_marker_bdd07c768db340c49056f56dbc5e571a = L.circleMarker(
+                [50.991837, 12.438535],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 12.728415951880978,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_fccd89d307ea43acb15bade26c33e849 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d72244be41ab4f3cad1cbd8313313942 = $('<div id="html_d72244be41ab4f3cad1cbd8313313942" style="width: 100.0%; height: 100.0%;">Altenburg<br> Departing coal: 799 thousands tons</div>')[0];
+                popup_fccd89d307ea43acb15bade26c33e849.setContent(html_d72244be41ab4f3cad1cbd8313313942);
+            
+
+            circle_marker_bdd07c768db340c49056f56dbc5e571a.bindPopup(popup_fccd89d307ea43acb15bade26c33e849)
+            ;
+
+            
+        
+    
+            var circle_marker_a66cbf9470f1434680740cf17373fc97 = L.circleMarker(
+                [51.407337, 8.052771],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 12.25389710083876,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_6271155da69a417d8032656c9126bafa = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d9016449f01a43209f7c123227152fb0 = $('<div id="html_d9016449f01a43209f7c123227152fb0" style="width: 100.0%; height: 100.0%;">Arnsberg<br> Departing coal: 741 thousands tons</div>')[0];
+                popup_6271155da69a417d8032656c9126bafa.setContent(html_d9016449f01a43209f7c123227152fb0);
+            
+
+            circle_marker_a66cbf9470f1434680740cf17373fc97.bindPopup(popup_6271155da69a417d8032656c9126bafa)
+            ;
+
+            
+        
+    
+            var circle_marker_f09a123393c94c4da398356859ee209d = L.circleMarker(
+                [51.753071000000006, 11.46155],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9.404966417790172,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_a4d7ab7d8d9546ad8370fde594b90d7a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f6ad1086596d4ded82886ca5891510e5 = $('<div id="html_f6ad1086596d4ded82886ca5891510e5" style="width: 100.0%; height: 100.0%;">Aschersleben<br> Departing coal: 436 thousands tons</div>')[0];
+                popup_a4d7ab7d8d9546ad8370fde594b90d7a.setContent(html_f6ad1086596d4ded82886ca5891510e5);
+            
+
+            circle_marker_f09a123393c94c4da398356859ee209d.bindPopup(popup_a4d7ab7d8d9546ad8370fde594b90d7a)
+            ;
+
+            
+        
+    
+            var circle_marker_102934dab7664b719da91b5f8f37df0d = L.circleMarker(
+                [49.894218, 10.885530000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.087297510327774,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_4c03a31eb41c467d80594a2e799fdd9c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7f828fb9bcb64fc1ab1092faada8c440 = $('<div id="html_7f828fb9bcb64fc1ab1092faada8c440" style="width: 100.0%; height: 100.0%;">Bamberg<br> Departing coal: 21 thousands tons</div>')[0];
+                popup_4c03a31eb41c467d80594a2e799fdd9c.setContent(html_7f828fb9bcb64fc1ab1092faada8c440);
+            
+
+            circle_marker_102934dab7664b719da91b5f8f37df0d.bindPopup(popup_4c03a31eb41c467d80594a2e799fdd9c)
+            ;
+
+            
+        
+    
+            var circle_marker_6fd8f2d6a145441c8d2a26dc06567ca0 = L.circleMarker(
+                [51.180882000000004, 14.42813],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.228169203286535,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_3405de22b6d74856aa77414ecdd7fb28 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_26a6fa31fca341c8ae9ce927777dc90b = $('<div id="html_26a6fa31fca341c8ae9ce927777dc90b" style="width: 100.0%; height: 100.0%;">Bautzen<br> Departing coal: 24 thousands tons</div>')[0];
+                popup_3405de22b6d74856aa77414ecdd7fb28.setContent(html_26a6fa31fca341c8ae9ce927777dc90b);
+            
+
+            circle_marker_6fd8f2d6a145441c8d2a26dc06567ca0.bindPopup(popup_3405de22b6d74856aa77414ecdd7fb28)
+            ;
+
+            
+        
+    
+            var circle_marker_03f82475f58a420785aac2e706a89705 = L.circleMarker(
+                [52.520008, 13.404954],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.360649296343821,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_ec4bfdff94574a2895a63d70d98baed7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b961f1d69b81499982a2303f478e0d79 = $('<div id="html_b961f1d69b81499982a2303f478e0d79" style="width: 100.0%; height: 100.0%;">Berlin<br> Departing coal: 27 thousands tons</div>')[0];
+                popup_ec4bfdff94574a2895a63d70d98baed7.setContent(html_b961f1d69b81499982a2303f478e0d79);
+            
+
+            circle_marker_03f82475f58a420785aac2e706a89705.bindPopup(popup_ec4bfdff94574a2895a63d70d98baed7)
+            ;
+
+            
+        
+    
+            var circle_marker_661f4ef92219492782d95ca1c5612f61 = L.circleMarker(
+                [51.794932, 11.738681],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.931235552491999,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_958365f08b2a4659ab890b106e3be987 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8617da8cc1b640699ff41eaeee292c29 = $('<div id="html_8617da8cc1b640699ff41eaeee292c29" style="width: 100.0%; height: 100.0%;">Bernburg<br> Departing coal: 120 thousands tons</div>')[0];
+                popup_958365f08b2a4659ab890b106e3be987.setContent(html_8617da8cc1b640699ff41eaeee292c29);
+            
+
+            circle_marker_661f4ef92219492782d95ca1c5612f61.bindPopup(popup_958365f08b2a4659ab890b106e3be987)
+            ;
+
+            
+        
+    
+            var circle_marker_a3f498efefa547469e2bbe81768e34c5 = L.circleMarker(
+                [50.34816, 18.917561],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 33.84878054860405,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_fcda1fe4c2374c49822be95121683913 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f16cfc7ff7e7447689a51a0c8d386351 = $('<div id="html_f16cfc7ff7e7447689a51a0c8d386351" style="width: 100.0%; height: 100.0%;">Beuthen<br> Departing coal: 5654 thousands tons</div>')[0];
+                popup_fcda1fe4c2374c49822be95121683913.setContent(html_f16cfc7ff7e7447689a51a0c8d386351);
+            
+
+            circle_marker_a3f498efefa547469e2bbe81768e34c5.bindPopup(popup_fcda1fe4c2374c49822be95121683913)
+            ;
+
+            
+        
+    
+            var circle_marker_44c11f01415748dc92f8b9a246ab91b8 = L.circleMarker(
+                [51.632318, 12.311132],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10.971306493171051,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_e46f6a4e55e54265905ce219378abd4d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0beb27af6ff947b0bf1733532215a6d0 = $('<div id="html_0beb27af6ff947b0bf1733532215a6d0" style="width: 100.0%; height: 100.0%;">Bitterfeld<br> Departing coal: 594 thousands tons</div>')[0];
+                popup_e46f6a4e55e54265905ce219378abd4d.setContent(html_0beb27af6ff947b0bf1733532215a6d0);
+            
+
+            circle_marker_44c11f01415748dc92f8b9a246ab91b8.bindPopup(popup_e46f6a4e55e54265905ce219378abd4d)
+            ;
+
+            
+        
+    
+            var circle_marker_7972631742e04d4ba804e9acb57c3d97 = L.circleMarker(
+                [50.737431, 7.098207],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 21.961075432171526,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_e79026227a3b47268fe0c8305e8d4dd3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_60587672930c4c4d8bb53474589f98e4 = $('<div id="html_60587672930c4c4d8bb53474589f98e4" style="width: 100.0%; height: 100.0%;">Bonn<br> Departing coal: 2380 thousands tons</div>')[0];
+                popup_e79026227a3b47268fe0c8305e8d4dd3.setContent(html_60587672930c4c4d8bb53474589f98e4);
+            
+
+            circle_marker_7972631742e04d4ba804e9acb57c3d97.bindPopup(popup_e79026227a3b47268fe0c8305e8d4dd3)
+            ;
+
+            
+        
+    
+            var circle_marker_0f0cb0ada6b64f66927e3d2a18feeddd = L.circleMarker(
+                [52.268875, 10.526769999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.504092469159561,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_a44c7e81884243a281a833b01143bc56 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e660f695480b45659d2fb4c5270157c0 = $('<div id="html_e660f695480b45659d2fb4c5270157c0" style="width: 100.0%; height: 100.0%;">Braunschweig<br> Departing coal: 149 thousands tons</div>')[0];
+                popup_a44c7e81884243a281a833b01143bc56.setContent(html_e660f695480b45659d2fb4c5270157c0);
+            
+
+            circle_marker_0f0cb0ada6b64f66927e3d2a18feeddd.bindPopup(popup_a44c7e81884243a281a833b01143bc56)
+            ;
+
+            
+        
+    
+            var circle_marker_4471ceb44e3e4a78a9f5789d1309852d = L.circleMarker(
+                [53.079296, 8.801694],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 12.608447054844937,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_c8c29b57360d462d9acf20ff0611c1fe = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_92d5f03d6f4144c5bd92a2f0ebb08a3e = $('<div id="html_92d5f03d6f4144c5bd92a2f0ebb08a3e" style="width: 100.0%; height: 100.0%;">Bremen<br> Departing coal: 784 thousands tons</div>')[0];
+                popup_c8c29b57360d462d9acf20ff0611c1fe.setContent(html_92d5f03d6f4144c5bd92a2f0ebb08a3e);
+            
+
+            circle_marker_4471ceb44e3e4a78a9f5789d1309852d.bindPopup(popup_c8c29b57360d462d9acf20ff0611c1fe)
+            ;
+
+            
+        
+    
+            var circle_marker_4c9dbfc9ab3449ada660c94e7eadb839 = L.circleMarker(
+                [51.11, 17.033208],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 22.33165613848616,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_9292b5ba8f3c4984a590e27289bf909a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3fdab347eb0a48018997ee54d44997dd = $('<div id="html_3fdab347eb0a48018997ee54d44997dd" style="width: 100.0%; height: 100.0%;">Breslau<br> Departing coal: 2461 thousands tons</div>')[0];
+                popup_9292b5ba8f3c4984a590e27289bf909a.setContent(html_3fdab347eb0a48018997ee54d44997dd);
+            
+
+            circle_marker_4c9dbfc9ab3449ada660c94e7eadb839.bindPopup(popup_9292b5ba8f3c4984a590e27289bf909a)
+            ;
+
+            
+        
+    
+            var circle_marker_a4efcc018b654681867960376a6ee685 = L.circleMarker(
+                [50.858432, 17.468962],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 22.546138878610872,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_39743047f00342b3b20f4d99157c39c9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f0786fe3bb8343c980561022fd4fd803 = $('<div id="html_f0786fe3bb8343c980561022fd4fd803" style="width: 100.0%; height: 100.0%;">Brieg<br> Departing coal: 2508 thousands tons</div>')[0];
+                popup_39743047f00342b3b20f4d99157c39c9.setContent(html_f0786fe3bb8343c980561022fd4fd803);
+            
+
+            circle_marker_a4efcc018b654681867960376a6ee685.bindPopup(popup_39743047f00342b3b20f4d99157c39c9)
+            ;
+
+            
+        
+    
+            var circle_marker_504c96746cb545bc85fa93d0967f0406 = L.circleMarker(
+                [53.121131999999996, 17.99297],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.661732389952627,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_7910857e836743b89ffaddf2a1be53b4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cc1c5a7fca754852baa74a900fb595d5 = $('<div id="html_cc1c5a7fca754852baa74a900fb595d5" style="width: 100.0%; height: 100.0%;">Bromberg<br> Departing coal: 219 thousands tons</div>')[0];
+                popup_7910857e836743b89ffaddf2a1be53b4.setContent(html_cc1c5a7fca754852baa74a900fb595d5);
+            
+
+            circle_marker_504c96746cb545bc85fa93d0967f0406.bindPopup(popup_7910857e836743b89ffaddf2a1be53b4)
+            ;
+
+            
+        
+    
+            var circle_marker_330efa334aca41cbb865746c1cddb51f = L.circleMarker(
+                [51.904153, 11.77087],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.373425767300844,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_948301b7411541ce8c1283af66fa7293 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ea4c8eb5c9e042ac90630f9f5fbb0c8c = $('<div id="html_ea4c8eb5c9e042ac90630f9f5fbb0c8c" style="width: 100.0%; height: 100.0%;">Calbe<br> Departing coal: 346 thousands tons</div>')[0];
+                popup_948301b7411541ce8c1283af66fa7293.setContent(html_ea4c8eb5c9e042ac90630f9f5fbb0c8c);
+            
+
+            circle_marker_330efa334aca41cbb865746c1cddb51f.bindPopup(popup_948301b7411541ce8c1283af66fa7293)
+            ;
+
+            
+        
+    
+            var circle_marker_ae2b823df67849ed935e8c662ec6a615 = L.circleMarker(
+                [50.827847, 12.92137],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.379473746252808,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_e66d12cac17847ff90341605688ba863 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e11a8793e68849ebaf1b8b091735825b = $('<div id="html_e11a8793e68849ebaf1b8b091735825b" style="width: 100.0%; height: 100.0%;">Chemnitz<br> Departing coal: 346 thousands tons</div>')[0];
+                popup_e66d12cac17847ff90341605688ba863.setContent(html_e11a8793e68849ebaf1b8b091735825b);
+            
+
+            circle_marker_ae2b823df67849ed935e8c662ec6a615.bindPopup(popup_e66d12cac17847ff90341605688ba863)
+            ;
+
+            
+        
+    
+            var circle_marker_3814b6018c9043a5bdaf0a6ac3744055 = L.circleMarker(
+                [50.261208, 10.962695],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.3079733725307525,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_9abf6d30b5af460eb691ec7597d7fa91 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b60466316c1d4dd88744c5c0d95ead8c = $('<div id="html_b60466316c1d4dd88744c5c0d95ead8c" style="width: 100.0%; height: 100.0%;">Coburg<br> Departing coal: 54 thousands tons</div>')[0];
+                popup_9abf6d30b5af460eb691ec7597d7fa91.setContent(html_b60466316c1d4dd88744c5c0d95ead8c);
+            
+
+            circle_marker_3814b6018c9043a5bdaf0a6ac3744055.bindPopup(popup_9abf6d30b5af460eb691ec7597d7fa91)
+            ;
+
+            
+        
+    
+            var circle_marker_13593b90bb3446a2ac5e3090f5085c74 = L.circleMarker(
+                [51.673024, 11.77086],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.9629261240354148,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_8b94ceb340d64cd2b859226745f363bf = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7d36a9c3df974703b895e2dc8bf560ca = $('<div id="html_7d36a9c3df974703b895e2dc8bf560ca" style="width: 100.0%; height: 100.0%;">Cöhern<br> Departing coal: 77 thousands tons</div>')[0];
+                popup_8b94ceb340d64cd2b859226745f363bf.setContent(html_7d36a9c3df974703b895e2dc8bf560ca);
+            
+
+            circle_marker_13593b90bb3446a2ac5e3090f5085c74.bindPopup(popup_8b94ceb340d64cd2b859226745f363bf)
+            ;
+
+            
+        
+    
+            var circle_marker_ccc61801de2e4a818e7b627dc0f3ad66 = L.circleMarker(
+                [51.744505, 11.971217999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.826986485666672,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_e5e0414f9f1c44ef958b69c3bfb68186 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c9c612cdeb1b4d949c0da8413cd4d919 = $('<div id="html_c9c612cdeb1b4d949c0da8413cd4d919" style="width: 100.0%; height: 100.0%;">Cöthen<br> Departing coal: 230 thousands tons</div>')[0];
+                popup_e5e0414f9f1c44ef958b69c3bfb68186.setContent(html_c9c612cdeb1b4d949c0da8413cd4d919);
+            
+
+            circle_marker_ccc61801de2e4a818e7b627dc0f3ad66.bindPopup(popup_e5e0414f9f1c44ef958b69c3bfb68186)
+            ;
+
+            
+        
+    
+            var circle_marker_60f662a6928e4b9ab13d7588c3c7c8e4 = L.circleMarker(
+                [50.976815, 18.206407000000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 12.847264617550627,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_cd7f6ef4c6c546309eea0a3a7eec7c9c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e26796c752f44ad4bafe46f2a96bd4fb = $('<div id="html_e26796c752f44ad4bafe46f2a96bd4fb" style="width: 100.0%; height: 100.0%;">Creutzburg<br> Departing coal: 814 thousands tons</div>')[0];
+                popup_cd7f6ef4c6c546309eea0a3a7eec7c9c.setContent(html_e26796c752f44ad4bafe46f2a96bd4fb);
+            
+
+            circle_marker_60f662a6928e4b9ab13d7588c3c7c8e4.bindPopup(popup_cd7f6ef4c6c546309eea0a3a7eec7c9c)
+            ;
+
+            
+        
+    
+            var circle_marker_8a8d1d91ab6a46a9bb0aada489ba00bd = L.circleMarker(
+                [50.817809999999994, 12.38832],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.222857838129464,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_1ab174287c4a45ae94632dca4808e104 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fcca0befe0a0490881a07f5daedb2e56 = $('<div id="html_fcca0befe0a0490881a07f5daedb2e56" style="width: 100.0%; height: 100.0%;">Crimmitschau<br> Departing coal: 88 thousands tons</div>')[0];
+                popup_1ab174287c4a45ae94632dca4808e104.setContent(html_fcca0befe0a0490881a07f5daedb2e56);
+            
+
+            circle_marker_8a8d1d91ab6a46a9bb0aada489ba00bd.bindPopup(popup_1ab174287c4a45ae94632dca4808e104)
+            ;
+
+            
+        
+    
+            var circle_marker_a0f126c1540b48e49e123c1b204838e6 = L.circleMarker(
+                [54.352024, 18.646639],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.9372758472423137,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_fd3ae5772fcb4b9c9043df4dce49a40a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e1c0d954fd7f42d6a48cf03cd7a863d5 = $('<div id="html_e1c0d954fd7f42d6a48cf03cd7a863d5" style="width: 100.0%; height: 100.0%;">Danzig<br> Departing coal: 76 thousands tons</div>')[0];
+                popup_fd3ae5772fcb4b9c9043df4dce49a40a.setContent(html_e1c0d954fd7f42d6a48cf03cd7a863d5);
+            
+
+            circle_marker_a0f126c1540b48e49e123c1b204838e6.bindPopup(popup_fd3ae5772fcb4b9c9043df4dce49a40a)
+            ;
+
+            
+        
+    
+            var circle_marker_5fea423ce56447c59607b36eee34408a = L.circleMarker(
+                [49.873000000000005, 8.651],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.519123650560913,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_6b9d3bbded47459caa99da519e317123 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_56c7ccccf4c149c6bb8e6050ee242ad5 = $('<div id="html_56c7ccccf4c149c6bb8e6050ee242ad5" style="width: 100.0%; height: 100.0%;">Darmstadt<br> Departing coal: 279 thousands tons</div>')[0];
+                popup_6b9d3bbded47459caa99da519e317123.setContent(html_56c7ccccf4c149c6bb8e6050ee242ad5);
+            
+
+            circle_marker_5fea423ce56447c59607b36eee34408a.bindPopup(popup_6b9d3bbded47459caa99da519e317123)
+            ;
+
+            
+        
+    
+            var circle_marker_3878380869e547eb8dfd9190af07b14e = L.circleMarker(
+                [51.8325, 12.234099],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.326343156411777,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_34ac8b7a600247d884ba01d53d62fab3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3a86cc7a58fe4df1818cba4d9080d213 = $('<div id="html_3a86cc7a58fe4df1818cba4d9080d213" style="width: 100.0%; height: 100.0%;">Dessau<br> Departing coal: 140 thousands tons</div>')[0];
+                popup_34ac8b7a600247d884ba01d53d62fab3.setContent(html_3a86cc7a58fe4df1818cba4d9080d213);
+            
+
+            circle_marker_3878380869e547eb8dfd9190af07b14e.bindPopup(popup_34ac8b7a600247d884ba01d53d62fab3)
+            ;
+
+            
+        
+    
+            var circle_marker_359c2fa63768408cbb26351f39e216d8 = L.circleMarker(
+                [53.596738, 19.560942],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.413493242833336,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_5e145a10bbe94dbbb4fb2122560221fb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e5e0639023404428ac8c5eb0b9525304 = $('<div id="html_e5e0639023404428ac8c5eb0b9525304" style="width: 100.0%; height: 100.0%;">Deutsch Eylau<br> Departing coal: 57 thousands tons</div>')[0];
+                popup_5e145a10bbe94dbbb4fb2122560221fb.setContent(html_e5e0639023404428ac8c5eb0b9525304);
+            
+
+            circle_marker_359c2fa63768408cbb26351f39e216d8.bindPopup(popup_5e145a10bbe94dbbb4fb2122560221fb)
+            ;
+
+            
+        
+    
+            var circle_marker_e8a9ba394fe04ef58ffff5fbbcfbcd15 = L.circleMarker(
+                [49.357471000000004, 6.16804],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.988411442146739,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_239be203e973430f93e210413c5c9684 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9ab915e7bfeb42f49d6df957a17f5207 = $('<div id="html_9ab915e7bfeb42f49d6df957a17f5207" style="width: 100.0%; height: 100.0%;">Diedenhofen<br> Departing coal: 78 thousands tons</div>')[0];
+                popup_239be203e973430f93e210413c5c9684.setContent(html_9ab915e7bfeb42f49d6df957a17f5207);
+            
+
+            circle_marker_e8a9ba394fe04ef58ffff5fbbcfbcd15.bindPopup(popup_239be203e973430f93e210413c5c9684)
+            ;
+
+            
+        
+    
+            var circle_marker_34cb9d0bad0a429693f6d63329ab1e42 = L.circleMarker(
+                [49.86935, 6.15814],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10.338948144887194,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_ddbce911f809425fb329b8c497def94d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0f8e5963538f4e978331a2ce73873e0f = $('<div id="html_0f8e5963538f4e978331a2ce73873e0f" style="width: 100.0%; height: 100.0%;">Diekirch<br> Departing coal: 527 thousands tons</div>')[0];
+                popup_ddbce911f809425fb329b8c497def94d.setContent(html_0f8e5963538f4e978331a2ce73873e0f);
+            
+
+            circle_marker_34cb9d0bad0a429693f6d63329ab1e42.bindPopup(popup_ddbce911f809425fb329b8c497def94d)
+            ;
+
+            
+        
+    
+            var circle_marker_534669a731a1478b95442dfc1f8d2905 = L.circleMarker(
+                [54.091839, 18.7906],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.269977611860114,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_d7aea099385947c88eb01021f4bec0b4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2febfa68eaac40d0a3af463c103d63de = $('<div id="html_2febfa68eaac40d0a3af463c103d63de" style="width: 100.0%; height: 100.0%;">Dirschau<br> Departing coal: 194 thousands tons</div>')[0];
+                popup_d7aea099385947c88eb01021f4bec0b4.setContent(html_2febfa68eaac40d0a3af463c103d63de);
+            
+
+            circle_marker_534669a731a1478b95442dfc1f8d2905.bindPopup(popup_d7aea099385947c88eb01021f4bec0b4)
+            ;
+
+            
+        
+    
+            var circle_marker_95409ae2703149cabd7425b695279e97 = L.circleMarker(
+                [51.513588, 7.465298],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11.846089622514166,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_e10f967a737b4c3a9395c35bc5a01d42 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8c114fc9a25b417897465f26db8bfe20 = $('<div id="html_8c114fc9a25b417897465f26db8bfe20" style="width: 100.0%; height: 100.0%;">Dortmund<br> Departing coal: 692 thousands tons</div>')[0];
+                popup_e10f967a737b4c3a9395c35bc5a01d42.setContent(html_8c114fc9a25b417897465f26db8bfe20);
+            
+
+            circle_marker_95409ae2703149cabd7425b695279e97.bindPopup(popup_e10f967a737b4c3a9395c35bc5a01d42)
+            ;
+
+            
+        
+    
+            var circle_marker_6a4cbe85c565434eac8e5e1cd06abcc3 = L.circleMarker(
+                [51.050407, 13.737262],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 18.409762608019147,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_533db27e01944f2ea4e976f071d62cd0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9d24a34b9a8f439bb8a85fe6f4bae3ce = $('<div id="html_9d24a34b9a8f439bb8a85fe6f4bae3ce" style="width: 100.0%; height: 100.0%;">Dresden<br> Departing coal: 1672 thousands tons</div>')[0];
+                popup_533db27e01944f2ea4e976f071d62cd0.setContent(html_9d24a34b9a8f439bb8a85fe6f4bae3ce);
+            
+
+            circle_marker_6a4cbe85c565434eac8e5e1cd06abcc3.bindPopup(popup_533db27e01944f2ea4e976f071d62cd0)
+            ;
+
+            
+        
+    
+            var circle_marker_077e22df59284bfea59407740993b6eb = L.circleMarker(
+                [50.79985, 6.48696],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10.35852950361371,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_20b25005965340c7878e01b8fb0473c0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_05e228bbef274ea99f4d0dd5d78d0e6e = $('<div id="html_05e228bbef274ea99f4d0dd5d78d0e6e" style="width: 100.0%; height: 100.0%;">Düren<br> Departing coal: 529 thousands tons</div>')[0];
+                popup_20b25005965340c7878e01b8fb0473c0.setContent(html_05e228bbef274ea99f4d0dd5d78d0e6e);
+            
+
+            circle_marker_077e22df59284bfea59407740993b6eb.bindPopup(popup_20b25005965340c7878e01b8fb0473c0)
+            ;
+
+            
+        
+    
+            var circle_marker_f59e729080a042bd9dc5768ce2006bca = L.circleMarker(
+                [51.224959999999996, 6.77567],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25.692557510489895,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_26710dc8c69c4d84b6265996929cd893 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_784d86b2815b455c8ec00988b560d4b6 = $('<div id="html_784d86b2815b455c8ec00988b560d4b6" style="width: 100.0%; height: 100.0%;">Düsseldorf<br> Departing coal: 3257 thousands tons</div>')[0];
+                popup_26710dc8c69c4d84b6265996929cd893.setContent(html_784d86b2815b455c8ec00988b560d4b6);
+            
+
+            circle_marker_f59e729080a042bd9dc5768ce2006bca.bindPopup(popup_26710dc8c69c4d84b6265996929cd893)
+            ;
+
+            
+        
+    
+            var circle_marker_4166f13a322c41adaba44bb617c048eb = L.circleMarker(
+                [50.984768, 11.02988],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.900318410392742,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_7ad416ab9442416ea8aebe694a2adda1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b6805320e4da443eb3f7506b7a1145b6 = $('<div id="html_b6805320e4da443eb3f7506b7a1145b6" style="width: 100.0%; height: 100.0%;">Erfurt<br> Departing coal: 118 thousands tons</div>')[0];
+                popup_7ad416ab9442416ea8aebe694a2adda1.setContent(html_b6805320e4da443eb3f7506b7a1145b6);
+            
+
+            circle_marker_4166f13a322c41adaba44bb617c048eb.bindPopup(popup_7ad416ab9442416ea8aebe694a2adda1)
+            ;
+
+            
+        
+    
+            var circle_marker_f8114451c7d34d8dbcd42321bf87fa39 = L.circleMarker(
+                [51.455, 7.011],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 44.44043779663346,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_33db964866604293aeb041bbf0cdea65 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_34c7b81381a847ecb34fa69c0de61be7 = $('<div id="html_34c7b81381a847ecb34fa69c0de61be7" style="width: 100.0%; height: 100.0%;">Essen<br> Departing coal: 9746 thousands tons</div>')[0];
+                popup_33db964866604293aeb041bbf0cdea65.setContent(html_34c7b81381a847ecb34fa69c0de61be7);
+            
+
+            circle_marker_f8114451c7d34d8dbcd42321bf87fa39.bindPopup(popup_33db964866604293aeb041bbf0cdea65)
+            ;
+
+            
+        
+    
+            var circle_marker_0588cc296a13498f94c5c81905208282 = L.circleMarker(
+                [51.585662, 13.241072],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.5265063960867544,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_9e42f4e66dbc4b4880902902af7cd07b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e99b1375d06a4f46ad1037b9aaf2cc22 = $('<div id="html_e99b1375d06a4f46ad1037b9aaf2cc22" style="width: 100.0%; height: 100.0%;">Falkenberg<br> Departing coal: 31 thousands tons</div>')[0];
+                popup_9e42f4e66dbc4b4880902902af7cd07b.setContent(html_e99b1375d06a4f46ad1037b9aaf2cc22);
+            
+
+            circle_marker_0588cc296a13498f94c5c81905208282.bindPopup(popup_9e42f4e66dbc4b4880902902af7cd07b)
+            ;
+
+            
+        
+    
+            var circle_marker_b2ed61165d2f486aa4535f4d81e6dd90 = L.circleMarker(
+                [51.632318, 13.706447],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.600614287034597,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_e25635c20f7c46448528299b947c635a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f3d9e9c1aa6940c4b569b0c3f132f12e = $('<div id="html_f3d9e9c1aa6940c4b569b0c3f132f12e" style="width: 100.0%; height: 100.0%;">Finsteroulde<br> Departing coal: 215 thousands tons</div>')[0];
+                popup_e25635c20f7c46448528299b947c635a.setContent(html_f3d9e9c1aa6940c4b569b0c3f132f12e);
+            
+
+            circle_marker_b2ed61165d2f486aa4535f4d81e6dd90.bindPopup(popup_e25635c20f7c46448528299b947c635a)
+            ;
+
+            
+        
+    
+            var circle_marker_b4fa02d74fe144a790ca8790d8b25336 = L.circleMarker(
+                [50.588479, 16.812838],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.4036990991331315,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_05e4b91c749e4e48b5ab5be28ce3c9fb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_15d80ec0cc08425d9699493fcd974f4f = $('<div id="html_15d80ec0cc08425d9699493fcd974f4f" style="width: 100.0%; height: 100.0%;">Frankenstein<br> Departing coal: 270 thousands tons</div>')[0];
+                popup_05e4b91c749e4e48b5ab5be28ce3c9fb.setContent(html_15d80ec0cc08425d9699493fcd974f4f);
+            
+
+            circle_marker_b4fa02d74fe144a790ca8790d8b25336.bindPopup(popup_05e4b91c749e4e48b5ab5be28ce3c9fb)
+            ;
+
+            
+        
+    
+            var circle_marker_64b6197bbeee4c19968816b16085de04 = L.circleMarker(
+                [50.110924, 8.682127000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.93538430679745,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_af10de2761084ff7800d1eb6fa98f560 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_310a73f157a847b38ae5cdf901b16368 = $('<div id="html_310a73f157a847b38ae5cdf901b16368" style="width: 100.0%; height: 100.0%;">Frankfurt<br> Departing coal: 394 thousands tons</div>')[0];
+                popup_af10de2761084ff7800d1eb6fa98f560.setContent(html_310a73f157a847b38ae5cdf901b16368);
+            
+
+            circle_marker_64b6197bbeee4c19968816b16085de04.bindPopup(popup_af10de2761084ff7800d1eb6fa98f560)
+            ;
+
+            
+        
+    
+            var circle_marker_105167d89a8f44ac95f605069a01e649 = L.circleMarker(
+                [52.340395, 14.538310999999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 13.80525792700873,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_ad994cb561c84522bc37f12c29edfb28 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a793459b063a48ca86d64d05f03f636b = $('<div id="html_a793459b063a48ca86d64d05f03f636b" style="width: 100.0%; height: 100.0%;">Frankfurt (Oder)<br> Departing coal: 940 thousands tons</div>')[0];
+                popup_ad994cb561c84522bc37f12c29edfb28.setContent(html_a793459b063a48ca86d64d05f03f636b);
+            
+
+            circle_marker_105167d89a8f44ac95f605069a01e649.bindPopup(popup_ad994cb561c84522bc37f12c29edfb28)
+            ;
+
+            
+        
+    
+            var circle_marker_1a49176ad780467cb21242679113d709 = L.circleMarker(
+                [50.909371, 13.345123000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.988411442146739,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_9f2137e75a2a4e7192405c4435a578c9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d5ef3890c4164711ae6aefe17a905fc5 = $('<div id="html_d5ef3890c4164711ae6aefe17a905fc5" style="width: 100.0%; height: 100.0%;">Freiberg<br> Departing coal: 78 thousands tons</div>')[0];
+                popup_9f2137e75a2a4e7192405c4435a578c9.setContent(html_d5ef3890c4164711ae6aefe17a905fc5);
+            
+
+            circle_marker_1a49176ad780467cb21242679113d709.bindPopup(popup_9f2137e75a2a4e7192405c4435a578c9)
+            ;
+
+            
+        
+    
+            var circle_marker_5abc87b415604b0f827e12b024050af0 = L.circleMarker(
+                [50.88047, 12.08121],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.7566444771089604,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_5fa288774e714ec8894a0e96ba036f90 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fdaf273d518a41c0bebfd7fcb4c8a5cd = $('<div id="html_fdaf273d518a41c0bebfd7fcb4c8a5cd" style="width: 100.0%; height: 100.0%;">Gera<br> Departing coal: 37 thousands tons</div>')[0];
+                popup_5fa288774e714ec8894a0e96ba036f90.setContent(html_fdaf273d518a41c0bebfd7fcb4c8a5cd);
+            
+
+            circle_marker_5abc87b415604b0f827e12b024050af0.bindPopup(popup_5fa288774e714ec8894a0e96ba036f90)
+            ;
+
+            
+        
+    
+            var circle_marker_691d3b46e021489ba6bc75afc2744111 = L.circleMarker(
+                [50.583832, 8.67789],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.652688687335401,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_65d6fe21776e4c0caefb5a95a192a336 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_654e01d9f82446f5b6e56a7c63e43045 = $('<div id="html_654e01d9f82446f5b6e56a7c63e43045" style="width: 100.0%; height: 100.0%;">Giessen<br> Departing coal: 289 thousands tons</div>')[0];
+                popup_65d6fe21776e4c0caefb5a95a192a336.setContent(html_654e01d9f82446f5b6e56a7c63e43045);
+            
+
+            circle_marker_691d3b46e021489ba6bc75afc2744111.bindPopup(popup_65d6fe21776e4c0caefb5a95a192a336)
+            ;
+
+            
+        
+    
+            var circle_marker_dcb0e67196ea40c194a24188a6693fcc = L.circleMarker(
+                [50.436101, 16.65255],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.367373416840879,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_3e3de9b2fc374ae8b633238d09f7734a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_87f9353cf4e5411ebf71f7e44af79c27 = $('<div id="html_87f9353cf4e5411ebf71f7e44af79c27" style="width: 100.0%; height: 100.0%;">Glatz<br> Departing coal: 345 thousands tons</div>')[0];
+                popup_3e3de9b2fc374ae8b633238d09f7734a.setContent(html_87f9353cf4e5411ebf71f7e44af79c27);
+            
+
+            circle_marker_dcb0e67196ea40c194a24188a6693fcc.bindPopup(popup_3e3de9b2fc374ae8b633238d09f7734a)
+            ;
+
+            
+        
+    
+            var circle_marker_190994e4657143d7b3a1bd85ed562a67 = L.circleMarker(
+                [50.291182, 18.698795],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25.46081171022788,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_fb81fb2e6b354cbebd6683c6479c807b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8a693df63c934508bdfb194a877f335f = $('<div id="html_8a693df63c934508bdfb194a877f335f" style="width: 100.0%; height: 100.0%;">Gleiwitz<br> Departing coal: 3199 thousands tons</div>')[0];
+                popup_fb81fb2e6b354cbebd6683c6479c807b.setContent(html_8a693df63c934508bdfb194a877f335f);
+            
+
+            circle_marker_190994e4657143d7b3a1bd85ed562a67.bindPopup(popup_fb81fb2e6b354cbebd6683c6479c807b)
+            ;
+
+            
+        
+    
+            var circle_marker_065bc0e3b22444f9a4b61ac275fdb6aa = L.circleMarker(
+                [51.662377, 16.090760999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.9883338869580935,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_7bef1b37185e4dc5b12b9d908d0f1f81 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cd8a8b46a3b343dc88fddffafe32bea0 = $('<div id="html_cd8a8b46a3b343dc88fddffafe32bea0" style="width: 100.0%; height: 100.0%;">Glogau<br> Departing coal: 241 thousands tons</div>')[0];
+                popup_7bef1b37185e4dc5b12b9d908d0f1f81.setContent(html_cd8a8b46a3b343dc88fddffafe32bea0);
+            
+
+            circle_marker_065bc0e3b22444f9a4b61ac275fdb6aa.bindPopup(popup_7bef1b37185e4dc5b12b9d908d0f1f81)
+            ;
+
+            
+        
+    
+            var circle_marker_b48c791ac8b94071955214cf50da7047 = L.circleMarker(
+                [52.533151000000004, 17.599334],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9.701926592369775,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_03b5ed32c14e440ba7a4cd2d32970789 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_53deba10d14c4d9080be822f799e2c0d = $('<div id="html_53deba10d14c4d9080be822f799e2c0d" style="width: 100.0%; height: 100.0%;">Gnesen<br> Departing coal: 464 thousands tons</div>')[0];
+                popup_03b5ed32c14e440ba7a4cd2d32970789.setContent(html_53deba10d14c4d9080be822f799e2c0d);
+            
+
+            circle_marker_b48c791ac8b94071955214cf50da7047.bindPopup(popup_03b5ed32c14e440ba7a4cd2d32970789)
+            ;
+
+            
+        
+    
+            var circle_marker_536f3579dc6145208f105b59ee84c628 = L.circleMarker(
+                [50.491633, 18.018731],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 22.83859569655619,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_ebfc9d11d6b941058ca95dc128c0426e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_89aac4cd28cd49539d961ca601cadbad = $('<div id="html_89aac4cd28cd49539d961ca601cadbad" style="width: 100.0%; height: 100.0%;">Gogolin<br> Departing coal: 2574 thousands tons</div>')[0];
+                popup_ebfc9d11d6b941058ca95dc128c0426e.setContent(html_89aac4cd28cd49539d961ca601cadbad);
+            
+
+            circle_marker_536f3579dc6145208f105b59ee84c628.bindPopup(popup_ebfc9d11d6b941058ca95dc128c0426e)
+            ;
+
+            
+        
+    
+            var circle_marker_2cfc5724ec2b4c818d13551958a88717 = L.circleMarker(
+                [51.15314, 14.9753],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.937993929563548,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_b1924fcebc284f14b56def84fe7a5bfd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1980d918fc8f4a7f99049a9b1023663e = $('<div id="html_1980d918fc8f4a7f99049a9b1023663e" style="width: 100.0%; height: 100.0%;">Görlitz<br> Departing coal: 174 thousands tons</div>')[0];
+                popup_b1924fcebc284f14b56def84fe7a5bfd.setContent(html_1980d918fc8f4a7f99049a9b1023663e);
+            
+
+            circle_marker_2cfc5724ec2b4c818d13551958a88717.bindPopup(popup_b1924fcebc284f14b56def84fe7a5bfd)
+            ;
+
+            
+        
+    
+            var circle_marker_59c42ee3ade74ba7985fa9492bc1f8d2 = L.circleMarker(
+                [51.952259000000005, 14.71473],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 13.6242580874249,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_15d14c9a16964e3c84625f1d46b1a616 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5c492e309e384b478df2ef06b185523b = $('<div id="html_5c492e309e384b478df2ef06b185523b" style="width: 100.0%; height: 100.0%;">Guben<br> Departing coal: 916 thousands tons</div>')[0];
+                popup_15d14c9a16964e3c84625f1d46b1a616.setContent(html_5c492e309e384b478df2ef06b185523b);
+            
+
+            circle_marker_59c42ee3ade74ba7985fa9492bc1f8d2.bindPopup(popup_15d14c9a16964e3c84625f1d46b1a616)
+            ;
+
+            
+        
+    
+            var circle_marker_29ab2881cd994d18a1303e8de566d7dd = L.circleMarker(
+                [51.894758, 11.052971000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.827408439083821,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_61aba57802c34e88bcd7f99c952eedf1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c67e0b182dd24994ae9c98c3d8ad1850 = $('<div id="html_c67e0b182dd24994ae9c98c3d8ad1850" style="width: 100.0%; height: 100.0%;">Halberstadt<br> Departing coal: 115 thousands tons</div>')[0];
+                popup_61aba57802c34e88bcd7f99c952eedf1.setContent(html_c67e0b182dd24994ae9c98c3d8ad1850);
+            
+
+            circle_marker_29ab2881cd994d18a1303e8de566d7dd.bindPopup(popup_61aba57802c34e88bcd7f99c952eedf1)
+            ;
+
+            
+        
+    
+            var circle_marker_85eeedc8f0f445448ffcf0200b87ab8d = L.circleMarker(
+                [51.477342, 11.985047999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.623789700211614,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_b8b2d1a4de9d4e18bd0400698f549ad6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3db30474f8b140749b8c4e1adaaf56b4 = $('<div id="html_3db30474f8b140749b8c4e1adaaf56b4" style="width: 100.0%; height: 100.0%;">Halle<br> Departing coal: 367 thousands tons</div>')[0];
+                popup_b8b2d1a4de9d4e18bd0400698f549ad6.setContent(html_3db30474f8b140749b8c4e1adaaf56b4);
+            
+
+            circle_marker_85eeedc8f0f445448ffcf0200b87ab8d.bindPopup(popup_b8b2d1a4de9d4e18bd0400698f549ad6)
+            ;
+
+            
+        
+    
+            var circle_marker_79c1458c7a81424799f62eeb220aff56 = L.circleMarker(
+                [53.551086, 9.993682000000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.803462780653535,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_bf7c3416b30e4e5cb7af13c7adf5804e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8ea0d6aa491e42fcbe8292dafdb4661c = $('<div id="html_8ea0d6aa491e42fcbe8292dafdb4661c" style="width: 100.0%; height: 100.0%;">Hamburg<br> Departing coal: 300 thousands tons</div>')[0];
+                popup_bf7c3416b30e4e5cb7af13c7adf5804e.setContent(html_8ea0d6aa491e42fcbe8292dafdb4661c);
+            
+
+            circle_marker_79c1458c7a81424799f62eeb220aff56.bindPopup(popup_bf7c3416b30e4e5cb7af13c7adf5804e)
+            ;
+
+            
+        
+    
+            var circle_marker_ff1683ba99c74c24b4b03d49b787a0c6 = L.circleMarker(
+                [51.68039, 7.81745],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11.846089622514166,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_50d56a5819a24413a740af39122e1ecf = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a5f55bb381104cd0840d90f47e082e70 = $('<div id="html_a5f55bb381104cd0840d90f47e082e70" style="width: 100.0%; height: 100.0%;">Hamm<br> Departing coal: 692 thousands tons</div>')[0];
+                popup_50d56a5819a24413a740af39122e1ecf.setContent(html_a5f55bb381104cd0840d90f47e082e70);
+            
+
+            circle_marker_ff1683ba99c74c24b4b03d49b787a0c6.bindPopup(popup_50d56a5819a24413a740af39122e1ecf)
+            ;
+
+            
+        
+    
+            var circle_marker_adea950cdb5341239d35329a6d7940d6 = L.circleMarker(
+                [52.375893, 9.73201],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 13.463417008179695,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_bf8ff88ef4c9428abfb3e2d40d78325e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ed361480183d4f49840366e5fc24b26b = $('<div id="html_ed361480183d4f49840366e5fc24b26b" style="width: 100.0%; height: 100.0%;">Hannover<br> Departing coal: 894 thousands tons</div>')[0];
+                popup_bf8ff88ef4c9428abfb3e2d40d78325e.setContent(html_ed361480183d4f49840366e5fc24b26b);
+            
+
+            circle_marker_adea950cdb5341239d35329a6d7940d6.bindPopup(popup_bf8ff88ef4c9428abfb3e2d40d78325e)
+            ;
+
+            
+        
+    
+            var circle_marker_c99048a1707c490894e6a8ea284bee81 = L.circleMarker(
+                [49.39875, 8.672433999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.806373879594992,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_0fda4f847d4148ad9a92552b148e9610 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b8d2535ee53c4f9eb0f64ec219764036 = $('<div id="html_b8d2535ee53c4f9eb0f64ec219764036" style="width: 100.0%; height: 100.0%;">Heidelberg<br> Departing coal: 114 thousands tons</div>')[0];
+                popup_0fda4f847d4148ad9a92552b148e9610.setContent(html_b8d2535ee53c4f9eb0f64ec219764036);
+            
+
+            circle_marker_c99048a1707c490894e6a8ea284bee81.bindPopup(popup_0fda4f847d4148ad9a92552b148e9610)
+            ;
+
+            
+        
+    
+            var circle_marker_c166881a03834d199239db36b897868b = L.circleMarker(
+                [52.2244, 11.01102],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.552736351193267,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_f3d8af7716874975b588691bf33e3bc1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b9383d9b3c5445bf88ba58fcd24905c9 = $('<div id="html_b9383d9b3c5445bf88ba58fcd24905c9" style="width: 100.0%; height: 100.0%;">Helmstedt<br> Departing coal: 281 thousands tons</div>')[0];
+                popup_f3d8af7716874975b588691bf33e3bc1.setContent(html_b9383d9b3c5445bf88ba58fcd24905c9);
+            
+
+            circle_marker_c166881a03834d199239db36b897868b.bindPopup(popup_f3d8af7716874975b588691bf33e3bc1)
+            ;
+
+            
+        
+    
+            var circle_marker_8749a910a2f94f61b0fd5bbde71e2141 = L.circleMarker(
+                [52.11639, 8.66925],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 14.408577489924191,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_8bfddcf3c0014fc7be20e3dc2c0de404 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7e2138995d4c47eb8e555e7996abc09d = $('<div id="html_7e2138995d4c47eb8e555e7996abc09d" style="width: 100.0%; height: 100.0%;">Herford<br> Departing coal: 1024 thousands tons</div>')[0];
+                popup_8bfddcf3c0014fc7be20e3dc2c0de404.setContent(html_7e2138995d4c47eb8e555e7996abc09d);
+            
+
+            circle_marker_8749a910a2f94f61b0fd5bbde71e2141.bindPopup(popup_8bfddcf3c0014fc7be20e3dc2c0de404)
+            ;
+
+            
+        
+    
+            var circle_marker_58c20e2b459d4084a5ef07d7cf03b975 = L.circleMarker(
+                [50.903152, 15.735145999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9.159363518053844,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_2093718ba5dd4617b545f783d7470af3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1adf74a504f449d8ae0c0d91dc225b5f = $('<div id="html_1adf74a504f449d8ae0c0d91dc225b5f" style="width: 100.0%; height: 100.0%;">Hirschberg<br> Departing coal: 414 thousands tons</div>')[0];
+                popup_2093718ba5dd4617b545f783d7470af3.setContent(html_1adf74a504f449d8ae0c0d91dc225b5f);
+            
+
+            circle_marker_58c20e2b459d4084a5ef07d7cf03b975.bindPopup(popup_2093718ba5dd4617b545f783d7470af3)
+            ;
+
+            
+        
+    
+            var circle_marker_3ca80a0eb02c4321b3c737bcf2c1f170 = L.circleMarker(
+                [50.31407, 11.914469],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.002186455085727,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_2adce72649f642afa226daa79c8981fb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d92933e0a0ed46dabd3f04a77c154a64 = $('<div id="html_d92933e0a0ed46dabd3f04a77c154a64" style="width: 100.0%; height: 100.0%;">Hof (Saale)<br> Departing coal: 316 thousands tons</div>')[0];
+                popup_2adce72649f642afa226daa79c8981fb.setContent(html_d92933e0a0ed46dabd3f04a77c154a64);
+            
+
+            circle_marker_3ca80a0eb02c4321b3c737bcf2c1f170.bindPopup(popup_2adce72649f642afa226daa79c8981fb)
+            ;
+
+            
+        
+    
+            var circle_marker_5c93849f6abb4d29a17b2d5c8da2caf2 = L.circleMarker(
+                [51.82761, 9.450439999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 12.319867413905962,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_a6e6b30de0004252a08cd09a64d7b4ed = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bdd588c7379d494c826f7026c2559fca = $('<div id="html_bdd588c7379d494c826f7026c2559fca" style="width: 100.0%; height: 100.0%;">Holsminden<br> Departing coal: 749 thousands tons</div>')[0];
+                popup_a6e6b30de0004252a08cd09a64d7b4ed.setContent(html_bdd588c7379d494c826f7026c2559fca);
+            
+
+            circle_marker_5c93849f6abb4d29a17b2d5c8da2caf2.bindPopup(popup_a6e6b30de0004252a08cd09a64d7b4ed)
+            ;
+
+            
+        
+    
+            var circle_marker_78857f6e2c4a40258e34500525908cdd = L.circleMarker(
+                [54.485378000000004, 9.05362],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.4235250868343543,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_6c20dfa25e8949c5b99c8c79ef120f37 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e071853aaaba4184b5bdee4d03748843 = $('<div id="html_e071853aaaba4184b5bdee4d03748843" style="width: 100.0%; height: 100.0%;">Husum<br> Departing coal: 10 thousands tons</div>')[0];
+                popup_6c20dfa25e8949c5b99c8c79ef120f37.setContent(html_e071853aaaba4184b5bdee4d03748843);
+            
+
+            circle_marker_78857f6e2c4a40258e34500525908cdd.bindPopup(popup_6c20dfa25e8949c5b99c8c79ef120f37)
+            ;
+
+            
+        
+    
+            var circle_marker_e3332baa00d5414790fc670cb1a6157e = L.circleMarker(
+                [51.973898999999996, 17.501123],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.992495485828214,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_2ffcb1bd27be4eafbdb0572dc9bb2aa5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8e3d55e9c68d4af48461ccf0eea90921 = $('<div id="html_8e3d55e9c68d4af48461ccf0eea90921" style="width: 100.0%; height: 100.0%;">Jarotschin<br> Departing coal: 123 thousands tons</div>')[0];
+                popup_2ffcb1bd27be4eafbdb0572dc9bb2aa5.setContent(html_8e3d55e9c68d4af48461ccf0eea90921);
+            
+
+            circle_marker_e3332baa00d5414790fc670cb1a6157e.bindPopup(popup_2ffcb1bd27be4eafbdb0572dc9bb2aa5)
+            ;
+
+            
+        
+    
+            var circle_marker_5c64e5ef352b434e8ae514fc28bf16b1 = L.circleMarker(
+                [51.050686, 16.194774],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.374150503445731,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_fab44d3b0a72470e915dd1cea40ed34e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fae37a28efd8475eb92144e10e9475a9 = $('<div id="html_fae37a28efd8475eb92144e10e9475a9" style="width: 100.0%; height: 100.0%;">Jauer<br> Departing coal: 200 thousands tons</div>')[0];
+                popup_fab44d3b0a72470e915dd1cea40ed34e.setContent(html_fae37a28efd8475eb92144e10e9475a9);
+            
+
+            circle_marker_5c64e5ef352b434e8ae514fc28bf16b1.bindPopup(popup_fab44d3b0a72470e915dd1cea40ed34e)
+            ;
+
+            
+        
+    
+            var circle_marker_ab32c3cdc8a54f17850e3fc86286a7a6 = L.circleMarker(
+                [52.276771999999994, 7.718995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.6153053383997285,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_c29dea91bf9549119edbde45dfc219fa = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_21873afe7b794ca3b6a221348d030331 = $('<div id="html_21873afe7b794ca3b6a221348d030331" style="width: 100.0%; height: 100.0%;">Jbbenbüren<br> Departing coal: 64 thousands tons</div>')[0];
+                popup_c29dea91bf9549119edbde45dfc219fa.setContent(html_21873afe7b794ca3b6a221348d030331);
+            
+
+            circle_marker_ab32c3cdc8a54f17850e3fc86286a7a6.bindPopup(popup_c29dea91bf9549119edbde45dfc219fa)
+            ;
+
+            
+        
+    
+            var circle_marker_cb72c4485d414ff29e99a883e0c96e36 = L.circleMarker(
+                [49.006889, 8.403653],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9.092749081116647,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_8cd0c14352214046963e8488ff19a865 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0ffcd52afe604e7bab157057961c4276 = $('<div id="html_0ffcd52afe604e7bab157057961c4276" style="width: 100.0%; height: 100.0%;">Karlsruhe<br> Departing coal: 408 thousands tons</div>')[0];
+                popup_8cd0c14352214046963e8488ff19a865.setContent(html_0ffcd52afe604e7bab157057961c4276);
+            
+
+            circle_marker_cb72c4485d414ff29e99a883e0c96e36.bindPopup(popup_8cd0c14352214046963e8488ff19a865)
+            ;
+
+            
+        
+    
+            var circle_marker_cbdd04767c87453f9bd166e2f6c72f3f = L.circleMarker(
+                [51.312709999999996, 9.479746],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.4785889959651115,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_c622ea4db55f46c497cfd581c7a7e6ae = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cd5e120ef6fa46f495b8c481304c3487 = $('<div id="html_cd5e120ef6fa46f495b8c481304c3487" style="width: 100.0%; height: 100.0%;">Kassel<br> Departing coal: 276 thousands tons</div>')[0];
+                popup_c622ea4db55f46c497cfd581c7a7e6ae.setContent(html_cd5e120ef6fa46f495b8c481304c3487);
+            
+
+            circle_marker_cbdd04767c87453f9bd166e2f6c72f3f.bindPopup(popup_c622ea4db55f46c497cfd581c7a7e6ae)
+            ;
+
+            
+        
+    
+            var circle_marker_4c4f7f52d655418881bb34c59bf44848 = L.circleMarker(
+                [50.356548, 7.599419999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 18.46197339865986,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_f70f5f4e888548e8a2fb1bfc10e03746 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a626bf80233f4b9691075d6efaa8c498 = $('<div id="html_a626bf80233f4b9691075d6efaa8c498" style="width: 100.0%; height: 100.0%;">Koblenz<br> Departing coal: 1682 thousands tons</div>')[0];
+                popup_f70f5f4e888548e8a2fb1bfc10e03746.setContent(html_a626bf80233f4b9691075d6efaa8c498);
+            
+
+            circle_marker_4c4f7f52d655418881bb34c59bf44848.bindPopup(popup_f70f5f4e888548e8a2fb1bfc10e03746)
+            ;
+
+            
+        
+    
+            var circle_marker_323df2942c4842e591620b2fe3083abd = L.circleMarker(
+                [51.2884, 15.220979999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 12.011717841619864,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_f8047c49db4a49118eaddbc2364ac96e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d41dcdb69f16452a9674f8776c293efc = $('<div id="html_d41dcdb69f16452a9674f8776c293efc" style="width: 100.0%; height: 100.0%;">Kohlfurth<br> Departing coal: 712 thousands tons</div>')[0];
+                popup_f8047c49db4a49118eaddbc2364ac96e.setContent(html_d41dcdb69f16452a9674f8776c293efc);
+            
+
+            circle_marker_323df2942c4842e591620b2fe3083abd.bindPopup(popup_f8047c49db4a49118eaddbc2364ac96e)
+            ;
+
+            
+        
+    
+            var circle_marker_7038f3f8586b42109ac84f9bc3e06893 = L.circleMarker(
+                [50.940529, 6.959910000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 26.528794574568934,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_71b66dea43ce44d392bfab58e8c9315f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fac06103cb0e457c8e7d3fcebb9f4d7b = $('<div id="html_fac06103cb0e457c8e7d3fcebb9f4d7b" style="width: 100.0%; height: 100.0%;">Köln<br> Departing coal: 3473 thousands tons</div>')[0];
+                popup_71b66dea43ce44d392bfab58e8c9315f.setContent(html_fac06103cb0e457c8e7d3fcebb9f4d7b);
+            
+
+            circle_marker_7038f3f8586b42109ac84f9bc3e06893.bindPopup(popup_71b66dea43ce44d392bfab58e8c9315f)
+            ;
+
+            
+        
+    
+            var circle_marker_1bb774993548469bacff82ccde228c24 = L.circleMarker(
+                [54.720379, 20.500891],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.623068321020647,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_00811129090f4626a756291712ecdfc7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f37aad12fefc4342bba1e511e96a4e20 = $('<div id="html_f37aad12fefc4342bba1e511e96a4e20" style="width: 100.0%; height: 100.0%;">Königsberg<br> Departing coal: 13 thousands tons</div>')[0];
+                popup_00811129090f4626a756291712ecdfc7.setContent(html_f37aad12fefc4342bba1e511e96a4e20);
+            
+
+            circle_marker_1bb774993548469bacff82ccde228c24.bindPopup(popup_00811129090f4626a756291712ecdfc7)
+            ;
+
+            
+        
+    
+            var circle_marker_9d85fc9268694a638cb3f1618d0ff84d = L.circleMarker(
+                [50.34373, 18.208341],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25.369118204938257,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_9cd8fe92f2fb48a0ad9f205edbf994b5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5faf5dc750be4669bc4fcf092ef7b010 = $('<div id="html_5faf5dc750be4669bc4fcf092ef7b010" style="width: 100.0%; height: 100.0%;">Kosel<br> Departing coal: 3176 thousands tons</div>')[0];
+                popup_9cd8fe92f2fb48a0ad9f205edbf994b5.setContent(html_5faf5dc750be4669bc4fcf092ef7b010);
+            
+
+            circle_marker_9d85fc9268694a638cb3f1618d0ff84d.bindPopup(popup_9cd8fe92f2fb48a0ad9f205edbf994b5)
+            ;
+
+            
+        
+    
+            var circle_marker_90f841ac1deb40d18ff22ce43ec800a3 = L.circleMarker(
+                [51.760689, 14.32758],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.937403133025387,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_5f788fafc0e74a8e98f3b7adcabe8da8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ca8839648a74404c8ae1a5b0ae404c2c = $('<div id="html_ca8839648a74404c8ae1a5b0ae404c2c" style="width: 100.0%; height: 100.0%;">Kottbus<br> Departing coal: 237 thousands tons</div>')[0];
+                popup_5f788fafc0e74a8e98f3b7adcabe8da8.setContent(html_ca8839648a74404c8ae1a5b0ae404c2c);
+            
+
+            circle_marker_90f841ac1deb40d18ff22ce43ec800a3.bindPopup(popup_5f788fafc0e74a8e98f3b7adcabe8da8)
+            ;
+
+            
+        
+    
+            var circle_marker_90166b6ccab14dd2a89fd5709c55fda1 = L.circleMarker(
+                [52.879605000000005, 16.0108],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.448587597460921,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_5f726d3405dd43d79ccd2e45bd9ccb66 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2a5a4fa331f6445c9dbc6dbdd9ec253d = $('<div id="html_2a5a4fa331f6445c9dbc6dbdd9ec253d" style="width: 100.0%; height: 100.0%;">Kreuz<br> Departing coal: 146 thousands tons</div>')[0];
+                popup_5f726d3405dd43d79ccd2e45bd9ccb66.setContent(html_2a5a4fa331f6445c9dbc6dbdd9ec253d);
+            
+
+            circle_marker_90166b6ccab14dd2a89fd5709c55fda1.bindPopup(popup_5f726d3405dd43d79ccd2e45bd9ccb66)
+            ;
+
+            
+        
+    
+            var circle_marker_ca8be1dce725465db5503f0fe467816f = L.circleMarker(
+                [51.695926, 17.437416],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.428302393679878,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_96171eeace0744f1924667198f4c0d46 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0498c790e0154c25bf297e9dabba2a07 = $('<div id="html_0498c790e0154c25bf297e9dabba2a07" style="width: 100.0%; height: 100.0%;">Krotoschin<br> Departing coal: 58 thousands tons</div>')[0];
+                popup_96171eeace0744f1924667198f4c0d46.setContent(html_0498c790e0154c25bf297e9dabba2a07);
+            
+
+            circle_marker_ca8be1dce725465db5503f0fe467816f.bindPopup(popup_96171eeace0744f1924667198f4c0d46)
+            ;
+
+            
+        
+    
+            var circle_marker_3668ca414b4042b493ae60fb47346147 = L.circleMarker(
+                [52.586791000000005, 14.647468],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.9372758472423137,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_295f3a5526fe4828a0f9f1a6a68e9497 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_55d2ed8d6e554b3dbc41c5af86c50c04 = $('<div id="html_55d2ed8d6e554b3dbc41c5af86c50c04" style="width: 100.0%; height: 100.0%;">Küstrin<br> Departing coal: 76 thousands tons</div>')[0];
+                popup_295f3a5526fe4828a0f9f1a6a68e9497.setContent(html_55d2ed8d6e554b3dbc41c5af86c50c04);
+            
+
+            circle_marker_3668ca414b4042b493ae60fb47346147.bindPopup(popup_295f3a5526fe4828a0f9f1a6a68e9497)
+            ;
+
+            
+        
+    
+            var circle_marker_f0e51e035d794be983f6b1d5f75dae7d = L.circleMarker(
+                [51.12198, 15.29229],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11.405980878327023,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_543602f3cdc6489b96f576b8fccdb79b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_45918537e6b0433797ed44a671f20b1f = $('<div id="html_45918537e6b0433797ed44a671f20b1f" style="width: 100.0%; height: 100.0%;">Lauban<br> Departing coal: 642 thousands tons</div>')[0];
+                popup_543602f3cdc6489b96f576b8fccdb79b.setContent(html_45918537e6b0433797ed44a671f20b1f);
+            
+
+            circle_marker_f0e51e035d794be983f6b1d5f75dae7d.bindPopup(popup_543602f3cdc6489b96f576b8fccdb79b)
+            ;
+
+            
+        
+    
+            var circle_marker_7723d1210885414088272a6bea2df3e3 = L.circleMarker(
+                [51.494597999999996, 13.7622],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.5464790894703255,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_5656328ffb2842d5a67954c9304f97a8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_582f04318be74397b924f01a80d54fea = $('<div id="html_582f04318be74397b924f01a80d54fea" style="width: 100.0%; height: 100.0%;">Lauchhammer<br> Departing coal: 32 thousands tons</div>')[0];
+                popup_5656328ffb2842d5a67954c9304f97a8.setContent(html_582f04318be74397b924f01a80d54fea);
+            
+
+            circle_marker_7723d1210885414088272a6bea2df3e3.bindPopup(popup_5656328ffb2842d5a67954c9304f97a8)
+            ;
+
+            
+        
+    
+            var circle_marker_4befd47af6dc4b60992bc77377f38091 = L.circleMarker(
+                [51.339695, 12.373075],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.7382698022633996,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_4cd6c4f94c81495a9879496550bc478b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d72f117ae6254636a5637a64bb2ab886 = $('<div id="html_d72f117ae6254636a5637a64bb2ab886" style="width: 100.0%; height: 100.0%;">Leipzig<br> Departing coal: 295 thousands tons</div>')[0];
+                popup_4cd6c4f94c81495a9879496550bc478b.setContent(html_d72f117ae6254636a5637a64bb2ab886);
+            
+
+            circle_marker_4befd47af6dc4b60992bc77377f38091.bindPopup(popup_4cd6c4f94c81495a9879496550bc478b)
+            ;
+
+            
+        
+    
+            var circle_marker_9e01793452864996a3f2e2c68cb616db = L.circleMarker(
+                [50.64391, 5.57156],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9.570493718334147,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_88c300d8d01249d99888a37922a471f7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6b8d3fc5d8a948d39d483424f800e1af = $('<div id="html_6b8d3fc5d8a948d39d483424f800e1af" style="width: 100.0%; height: 100.0%;">Liège<br> Departing coal: 452 thousands tons</div>')[0];
+                popup_88c300d8d01249d99888a37922a471f7.setContent(html_6b8d3fc5d8a948d39d483424f800e1af);
+            
+
+            circle_marker_9e01793452864996a3f2e2c68cb616db.bindPopup(popup_88c300d8d01249d99888a37922a471f7)
+            ;
+
+            
+        
+    
+            var circle_marker_b060a349140e4baa85aae79eed5fbf06 = L.circleMarker(
+                [51.204754, 16.162804],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 17.842397793016087,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_16a4e353b97f4f9399c43b93c46a1fb8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9f6e5cb2aebd4067bb9acee765ba34ab = $('<div id="html_9f6e5cb2aebd4067bb9acee765ba34ab" style="width: 100.0%; height: 100.0%;">Liegnitz<br> Departing coal: 1571 thousands tons</div>')[0];
+                popup_16a4e353b97f4f9399c43b93c46a1fb8.setContent(html_9f6e5cb2aebd4067bb9acee765ba34ab);
+            
+
+            circle_marker_b060a349140e4baa85aae79eed5fbf06.bindPopup(popup_16a4e353b97f4f9399c43b93c46a1fb8)
+            ;
+
+            
+        
+    
+            var circle_marker_d838535d44cb43c8ade2ccd6e909d412 = L.circleMarker(
+                [51.84685, 16.560429],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 12.914126694255712,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_af059ee21f8f4a9ea584d7b6ce8c5e15 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2b4548e96e364460b8de4787f0d90618 = $('<div id="html_2b4548e96e364460b8de4787f0d90618" style="width: 100.0%; height: 100.0%;">Lissa<br> Departing coal: 823 thousands tons</div>')[0];
+                popup_af059ee21f8f4a9ea584d7b6ce8c5e15.setContent(html_2b4548e96e364460b8de4787f0d90618);
+            
+
+            circle_marker_d838535d44cb43c8ade2ccd6e909d412.bindPopup(popup_af059ee21f8f4a9ea584d7b6ce8c5e15)
+            ;
+
+            
+        
+    
+            var circle_marker_b1e64d5001fa4560adf3f955a0821f91 = L.circleMarker(
+                [51.635397, 11.898938000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.9629261240354148,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_d617f308510b4199a516fa76731a7860 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_dfce583917424a5c87c334d173a83954 = $('<div id="html_dfce583917424a5c87c334d173a83954" style="width: 100.0%; height: 100.0%;">Lobejün<br> Departing coal: 77 thousands tons</div>')[0];
+                popup_d617f308510b4199a516fa76731a7860.setContent(html_dfce583917424a5c87c334d173a83954);
+            
+
+            circle_marker_b1e64d5001fa4560adf3f955a0821f91.bindPopup(popup_d617f308510b4199a516fa76731a7860)
+            ;
+
+            
+        
+    
+            var circle_marker_b0dacbe2181c423d8bf48100a57adb8a = L.circleMarker(
+                [51.507351, -0.12775799999999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 21.27681951124193,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_3b79f06af7c348c0962570812b0d29ab = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_551be4f7ca894af8bfdc4bc97e548a8e = $('<div id="html_551be4f7ca894af8bfdc4bc97e548a8e" style="width: 100.0%; height: 100.0%;">London<br> Departing coal: 2234 thousands tons</div>')[0];
+                popup_3b79f06af7c348c0962570812b0d29ab.setContent(html_551be4f7ca894af8bfdc4bc97e548a8e);
+            
+
+            circle_marker_b0dacbe2181c423d8bf48100a57adb8a.bindPopup(popup_3b79f06af7c348c0962570812b0d29ab)
+            ;
+
+            
+        
+    
+            var circle_marker_c0dd3f4460ed455fb13a62429fc2f517 = L.circleMarker(
+                [53.24995, 10.40887],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.111428919064732,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_c4f665e9840d4cc3891d25fc1aba0ada = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a7e35a4977c54036b4a19ed9b522ac4d = $('<div id="html_a7e35a4977c54036b4a19ed9b522ac4d" style="width: 100.0%; height: 100.0%;">Lüneburg<br> Departing coal: 22 thousands tons</div>')[0];
+                popup_c4f665e9840d4cc3891d25fc1aba0ada.setContent(html_a7e35a4977c54036b4a19ed9b522ac4d);
+            
+
+            circle_marker_c0dd3f4460ed455fb13a62429fc2f517.bindPopup(popup_c4f665e9840d4cc3891d25fc1aba0ada)
+            ;
+
+            
+        
+    
+            var circle_marker_1eb66689463a4ba191dece7fbe67060f = L.circleMarker(
+                [49.6088, 6.128311],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.6494400472379915,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_64504ae081b44729853624e130923652 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8215323175764df0a7e172fc4d47ffb9 = $('<div id="html_8215323175764df0a7e172fc4d47ffb9" style="width: 100.0%; height: 100.0%;">Luxemburg<br> Departing coal: 157 thousands tons</div>')[0];
+                popup_64504ae081b44729853624e130923652.setContent(html_8215323175764df0a7e172fc4d47ffb9);
+            
+
+            circle_marker_1eb66689463a4ba191dece7fbe67060f.bindPopup(popup_64504ae081b44729853624e130923652)
+            ;
+
+            
+        
+    
+            var circle_marker_544f700f89de45a48dc630063c91c8a0 = L.circleMarker(
+                [50.851368, 5.690972],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.014288200636431,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_70b7cb1cd44e45b68034fb673e48f33f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_96d0540358a448239963bfaf3c149e0c = $('<div id="html_96d0540358a448239963bfaf3c149e0c" style="width: 100.0%; height: 100.0%;">Maastricht<br> Departing coal: 178 thousands tons</div>')[0];
+                popup_70b7cb1cd44e45b68034fb673e48f33f.setContent(html_96d0540358a448239963bfaf3c149e0c);
+            
+
+            circle_marker_544f700f89de45a48dc630063c91c8a0.bindPopup(popup_70b7cb1cd44e45b68034fb673e48f33f)
+            ;
+
+            
+        
+    
+            var circle_marker_00de430f2be04183ab247eb80568085b = L.circleMarker(
+                [52.13167, 11.64032],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 12.229066483427529,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_94af5c82510b4114b4ccbb649ee260f3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1395bf285da543868b5ef868bc3db87f = $('<div id="html_1395bf285da543868b5ef868bc3db87f" style="width: 100.0%; height: 100.0%;">Magdeburg<br> Departing coal: 738 thousands tons</div>')[0];
+                popup_94af5c82510b4114b4ccbb649ee260f3.setContent(html_1395bf285da543868b5ef868bc3db87f);
+            
+
+            circle_marker_00de430f2be04183ab247eb80568085b.bindPopup(popup_94af5c82510b4114b4ccbb649ee260f3)
+            ;
+
+            
+        
+    
+            var circle_marker_76899e5381f44efa9b21066f866dcd00 = L.circleMarker(
+                [49.992863, 8.247253],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 13.185869373319745,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_4dc5946bd3c94373b9a4ce8b7051f2e5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7e952b4c77d64266b83df2c6660fe431 = $('<div id="html_7e952b4c77d64266b83df2c6660fe431" style="width: 100.0%; height: 100.0%;">Mainz-Wiesbaden<br> Departing coal: 858 thousands tons</div>')[0];
+                popup_4dc5946bd3c94373b9a4ce8b7051f2e5.setContent(html_7e952b4c77d64266b83df2c6660fe431);
+            
+
+            circle_marker_76899e5381f44efa9b21066f866dcd00.bindPopup(popup_4dc5946bd3c94373b9a4ce8b7051f2e5)
+            ;
+
+            
+        
+    
+            var circle_marker_784c1ea11a2d4689a605fd606e30fb81 = L.circleMarker(
+                [49.487457, 8.46604],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9.269323801049483,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_701cd542f26d4d28adfa575969ff23f7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4a8d6cd837b844f9b4bc96f5f02f577a = $('<div id="html_4a8d6cd837b844f9b4bc96f5f02f577a" style="width: 100.0%; height: 100.0%;">Mannheim<br> Departing coal: 424 thousands tons</div>')[0];
+                popup_701cd542f26d4d28adfa575969ff23f7.setContent(html_4a8d6cd837b844f9b4bc96f5f02f577a);
+            
+
+            circle_marker_784c1ea11a2d4689a605fd606e30fb81.bindPopup(popup_701cd542f26d4d28adfa575969ff23f7)
+            ;
+
+            
+        
+    
+            var circle_marker_2e4d286141844f12bcf772975ed7e4cd = L.circleMarker(
+                [54.031247, 19.038463],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.819718634205488,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_2613716a52cb4f62b5027cc199960890 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_923c7b6caa09477397d29f93f55850b9 = $('<div id="html_923c7b6caa09477397d29f93f55850b9" style="width: 100.0%; height: 100.0%;">Marienburg<br> Departing coal: 72 thousands tons</div>')[0];
+                popup_2613716a52cb4f62b5027cc199960890.setContent(html_923c7b6caa09477397d29f93f55850b9);
+            
+
+            circle_marker_2e4d286141844f12bcf772975ed7e4cd.bindPopup(popup_2613716a52cb4f62b5027cc199960890)
+            ;
+
+            
+        
+    
+            var circle_marker_9fad12dfe91c41ecb151195287438404 = L.circleMarker(
+                [55.7108, 21.131809],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.2732395447351628,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_dc61b851b5304152b5a7840494d8e0ed = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2b11f286fb8a432cbaa2c9245a3b0734 = $('<div id="html_2b11f286fb8a432cbaa2c9245a3b0734" style="width: 100.0%; height: 100.0%;">Memel<br> Departing coal: 8 thousands tons</div>')[0];
+                popup_dc61b851b5304152b5a7840494d8e0ed.setContent(html_2b11f286fb8a432cbaa2c9245a3b0734);
+            
+
+            circle_marker_9fad12dfe91c41ecb151195287438404.bindPopup(popup_dc61b851b5304152b5a7840494d8e0ed)
+            ;
+
+            
+        
+    
+            var circle_marker_94f54e9b8e8549bea7bed5b00572db23 = L.circleMarker(
+                [49.119308000000004, 6.175716],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9.042466212232512,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_c157c249721b40c5b3b291013151c33a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1d16bd46e03c49f99623c7ea93764aef = $('<div id="html_1d16bd46e03c49f99623c7ea93764aef" style="width: 100.0%; height: 100.0%;">Metz<br> Departing coal: 403 thousands tons</div>')[0];
+                popup_c157c249721b40c5b3b291013151c33a.setContent(html_1d16bd46e03c49f99623c7ea93764aef);
+            
+
+            circle_marker_94f54e9b8e8549bea7bed5b00572db23.bindPopup(popup_c157c249721b40c5b3b291013151c33a)
+            ;
+
+            
+        
+    
+            var circle_marker_18611823c51847bbb1116b5f4fbe1e99 = L.circleMarker(
+                [52.289398, 8.92169],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11.691119567154963,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_fcd988a7243d41c8968c66bd4af867c8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a913e44a4a414c0787ad21b123655895 = $('<div id="html_a913e44a4a414c0787ad21b123655895" style="width: 100.0%; height: 100.0%;">Minden<br> Departing coal: 674 thousands tons</div>')[0];
+                popup_fcd988a7243d41c8968c66bd4af867c8.setContent(html_a913e44a4a414c0787ad21b123655895);
+            
+
+            circle_marker_18611823c51847bbb1116b5f4fbe1e99.bindPopup(popup_fcd988a7243d41c8968c66bd4af867c8)
+            ;
+
+            
+        
+    
+            var circle_marker_ec1498640c714379a05bd21f19fc11d2 = L.circleMarker(
+                [52.50275, 14.14037],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.4577304217934426,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_64915d65c60b4a7ba69be1c2393dcf2f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f6508cce40214e05a70df50da6152936 = $('<div id="html_f6508cce40214e05a70df50da6152936" style="width: 100.0%; height: 100.0%;">Müncheberg<br> Departing coal: 59 thousands tons</div>')[0];
+                popup_64915d65c60b4a7ba69be1c2393dcf2f.setContent(html_f6508cce40214e05a70df50da6152936);
+            
+
+            circle_marker_ec1498640c714379a05bd21f19fc11d2.bindPopup(popup_64915d65c60b4a7ba69be1c2393dcf2f)
+            ;
+
+            
+        
+    
+            var circle_marker_75709bad4cad4281b868fdb75f0addbc = L.circleMarker(
+                [51.960667, 7.6261350000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 14.499705378312033,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_c80383e030a5458da48b66b485e960aa = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e72bc2781498418d96589bd6c00f7b85 = $('<div id="html_e72bc2781498418d96589bd6c00f7b85" style="width: 100.0%; height: 100.0%;">Münster<br> Departing coal: 1037 thousands tons</div>')[0];
+                popup_c80383e030a5458da48b66b485e960aa.setContent(html_e72bc2781498418d96589bd6c00f7b85);
+            
+
+            circle_marker_75709bad4cad4281b868fdb75f0addbc.bindPopup(popup_c80383e030a5458da48b66b485e960aa)
+            ;
+
+            
+        
+    
+            var circle_marker_f9e1ef4abaaf4f2c85640ec3d3ab460b = L.circleMarker(
+                [51.543054, 14.724074],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.088764520119217,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_d9e41b3c0bf447f3a2d5e085ede40bb1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b7014ac67cd6431488206d8f38662500 = $('<div id="html_b7014ac67cd6431488206d8f38662500" style="width: 100.0%; height: 100.0%;">Muskau<br> Departing coal: 82 thousands tons</div>')[0];
+                popup_d9e41b3c0bf447f3a2d5e085ede40bb1.setContent(html_b7014ac67cd6431488206d8f38662500);
+            
+
+            circle_marker_f9e1ef4abaaf4f2c85640ec3d3ab460b.bindPopup(popup_d9e41b3c0bf447f3a2d5e085ede40bb1)
+            ;
+
+            
+        
+    
+            var circle_marker_1d69cf809b2242ef94b8289d5aee5b2b = L.circleMarker(
+                [48.690781, 6.18246],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.110504246361614,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_be3b260261bf48c881bd751f5e526ef2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2aaf55a7c8004cbc9f9253c400ae72d0 = $('<div id="html_2aaf55a7c8004cbc9f9253c400ae72d0" style="width: 100.0%; height: 100.0%;">Nancy<br> Departing coal: 249 thousands tons</div>')[0];
+                popup_be3b260261bf48c881bd751f5e526ef2.setContent(html_2aaf55a7c8004cbc9f9253c400ae72d0);
+            
+
+            circle_marker_1d69cf809b2242ef94b8289d5aee5b2b.bindPopup(popup_be3b260261bf48c881bd751f5e526ef2)
+            ;
+
+            
+        
+    
+            var circle_marker_49b8747cd5df45f1b064155644f9a91d = L.circleMarker(
+                [51.156566999999995, 11.798849],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.421687986955847,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_187715afada349499d5824e7d19b05d8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_46c359739bb947c7b9800e9f5e64b626 = $('<div id="html_46c359739bb947c7b9800e9f5e64b626" style="width: 100.0%; height: 100.0%;">Naumburg<br> Departing coal: 350 thousands tons</div>')[0];
+                popup_187715afada349499d5824e7d19b05d8.setContent(html_46c359739bb947c7b9800e9f5e64b626);
+            
+
+            circle_marker_49b8747cd5df45f1b064155644f9a91d.bindPopup(popup_187715afada349499d5824e7d19b05d8)
+            ;
+
+            
+        
+    
+            var circle_marker_5fd10c878a5a488e9c618e69c4ccf9a5 = L.circleMarker(
+                [50.472889, 17.335581],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.918359106878079,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_285ba57cdf6e4a63ad88ade0f104f07f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7c155e0b88ca48df9c63a07491f5efc2 = $('<div id="html_7c155e0b88ca48df9c63a07491f5efc2" style="width: 100.0%; height: 100.0%;">Neisse<br> Departing coal: 392 thousands tons</div>')[0];
+                popup_285ba57cdf6e4a63ad88ade0f104f07f.setContent(html_7c155e0b88ca48df9c63a07491f5efc2);
+            
+
+            circle_marker_5fd10c878a5a488e9c618e69c4ccf9a5.bindPopup(popup_285ba57cdf6e4a63ad88ade0f104f07f)
+            ;
+
+            
+        
+    
+            var circle_marker_7741b5f8e6664c43b7ca5127e87a0fe5 = L.circleMarker(
+                [54.0741, 9.98467],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.1026577908435842,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_f046b5ca901b489f83166b5e3bbec6b2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_624ef6c972b34fe199ac25a9caeca880 = $('<div id="html_624ef6c972b34fe199ac25a9caeca880" style="width: 100.0%; height: 100.0%;">Neumünster<br> Departing coal: 6 thousands tons</div>')[0];
+                popup_f046b5ca901b489f83166b5e3bbec6b2.setContent(html_624ef6c972b34fe199ac25a9caeca880);
+            
+
+            circle_marker_7741b5f8e6664c43b7ca5127e87a0fe5.bindPopup(popup_f046b5ca901b489f83166b5e3bbec6b2)
+            ;
+
+            
+        
+    
+            var circle_marker_335179ad5f48425290e4ee6dd903fcf8 = L.circleMarker(
+                [50.57962, 16.503839000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.088764520119217,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_cf7b504c6e1c43338d84298cbb20e6d0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_07476d575f5e43aaa33364f7a6d15bdc = $('<div id="html_07476d575f5e43aaa33364f7a6d15bdc" style="width: 100.0%; height: 100.0%;">Neurode<br> Departing coal: 82 thousands tons</div>')[0];
+                popup_cf7b504c6e1c43338d84298cbb20e6d0.setContent(html_07476d575f5e43aaa33364f7a6d15bdc);
+            
+
+            circle_marker_335179ad5f48425290e4ee6dd903fcf8.bindPopup(popup_cf7b504c6e1c43338d84298cbb20e6d0)
+            ;
+
+            
+        
+    
+            var circle_marker_a837e48a3226443693d3337df6bc2364 = L.circleMarker(
+                [49.350184999999996, 8.148689],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10.116046435182135,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_cd24acd76dd244d693848c739e4a8f2a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d8934800e6384a11893ef671e95bb1d6 = $('<div id="html_d8934800e6384a11893ef671e95bb1d6" style="width: 100.0%; height: 100.0%;">Neustadt<br> Departing coal: 505 thousands tons</div>')[0];
+                popup_cd24acd76dd244d693848c739e4a8f2a.setContent(html_d8934800e6384a11893ef671e95bb1d6);
+            
+
+            circle_marker_a837e48a3226443693d3337df6bc2364.bindPopup(popup_cd24acd76dd244d693848c739e4a8f2a)
+            ;
+
+            
+        
+    
+            var circle_marker_c5e8644c053b481db9af0d6bc3bf3b7a = L.circleMarker(
+                [51.494295, 10.792031],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.210957418377791,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_f221b81be7ab4db4bf3dab754525dfdb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fc8ca0bab0db4b709ce804e882ace5c7 = $('<div id="html_fc8ca0bab0db4b709ce804e882ace5c7" style="width: 100.0%; height: 100.0%;">Nordhausen<br> Departing coal: 134 thousands tons</div>')[0];
+                popup_f221b81be7ab4db4bf3dab754525dfdb.setContent(html_fc8ca0bab0db4b709ce804e882ace5c7);
+            
+
+            circle_marker_c5e8644c053b481db9af0d6bc3bf3b7a.bindPopup(popup_f221b81be7ab4db4bf3dab754525dfdb)
+            ;
+
+            
+        
+    
+            var circle_marker_921db0591c9a42d1ab7f638a4b74581c = L.circleMarker(
+                [51.706694, 9.987454],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.421660357137513,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_3153b0d133a648378ad5723d402aa09a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5c1d4d0ac43e4be7ab3743320f1c1eee = $('<div id="html_5c1d4d0ac43e4be7ab3743320f1c1eee" style="width: 100.0%; height: 100.0%;">Nordheim<br> Departing coal: 203 thousands tons</div>')[0];
+                popup_3153b0d133a648378ad5723d402aa09a.setContent(html_5c1d4d0ac43e4be7ab3743320f1c1eee);
+            
+
+            circle_marker_921db0591c9a42d1ab7f638a4b74581c.bindPopup(popup_3153b0d133a648378ad5723d402aa09a)
+            ;
+
+            
+        
+    
+            var circle_marker_8739c5d34d5f4973bb76158ff452dd62 = L.circleMarker(
+                [55.39284, 4.392499],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 22.754147938614317,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_1cbf913d43aa4bb8b4c3a10d9f003156 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8c18da9c963143da84fec9a0fcfb3154 = $('<div id="html_8c18da9c963143da84fec9a0fcfb3154" style="width: 100.0%; height: 100.0%;">Nordsee<br> Departing coal: 2555 thousands tons</div>')[0];
+                popup_1cbf913d43aa4bb8b4c3a10d9f003156.setContent(html_8c18da9c963143da84fec9a0fcfb3154);
+            
+
+            circle_marker_8739c5d34d5f4973bb76158ff452dd62.bindPopup(popup_1cbf913d43aa4bb8b4c3a10d9f003156)
+            ;
+
+            
+        
+    
+            var circle_marker_fc7d4912006a4ecb907abb0127d48a4d = L.circleMarker(
+                [49.450520000000004, 11.08048],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.6539866862653763,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_fa132c1266074eba95ab973ee2d639bc = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a28e6b17f6de4f78a7ed99f4a2f9d730 = $('<div id="html_a28e6b17f6de4f78a7ed99f4a2f9d730" style="width: 100.0%; height: 100.0%;">Nürnberg<br> Departing coal: 13 thousands tons</div>')[0];
+                popup_fa132c1266074eba95ab973ee2d639bc.setContent(html_a28e6b17f6de4f78a7ed99f4a2f9d730);
+            
+
+            circle_marker_fc7d4912006a4ecb907abb0127d48a4d.bindPopup(popup_fa132c1266074eba95ab973ee2d639bc)
+            ;
+
+            
+        
+    
+            var circle_marker_6dbdde14cee5449fb8b477ed27bc01f0 = L.circleMarker(
+                [51.205614000000004, 17.382452999999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11.931314387672659,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_5a35ddebb75744e4b739bffd40347e0d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5eeeec36345a41fdbf8a4867a9051a8c = $('<div id="html_5eeeec36345a41fdbf8a4867a9051a8c" style="width: 100.0%; height: 100.0%;">Oels<br> Departing coal: 702 thousands tons</div>')[0];
+                popup_5a35ddebb75744e4b739bffd40347e0d.setContent(html_5eeeec36345a41fdbf8a4867a9051a8c);
+            
+
+            circle_marker_6dbdde14cee5449fb8b477ed27bc01f0.bindPopup(popup_5a35ddebb75744e4b739bffd40347e0d)
+            ;
+
+            
+        
+    
+            var circle_marker_43720fd555e946508bf80348b0ec3ca2 = L.circleMarker(
+                [50.659081, 17.933692],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 22.649263846340705,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_631cc8f4e47041c29a54b69455e73527 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4d044c113bda47bd906eccd4f0e203d3 = $('<div id="html_4d044c113bda47bd906eccd4f0e203d3" style="width: 100.0%; height: 100.0%;">Oppeln<br> Departing coal: 2531 thousands tons</div>')[0];
+                popup_631cc8f4e47041c29a54b69455e73527.setContent(html_4d044c113bda47bd906eccd4f0e203d3);
+            
+
+            circle_marker_43720fd555e946508bf80348b0ec3ca2.bindPopup(popup_631cc8f4e47041c29a54b69455e73527)
+            ;
+
+            
+        
+    
+            var circle_marker_a498cc25df8f4938b03e6a4b838d8305 = L.circleMarker(
+                [52.025078, 11.224464999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.092958178940651,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_dbe177e819fb4fafa7833113c0f7103b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f08120dd93fe4005aea66661cae18b45 = $('<div id="html_f08120dd93fe4005aea66661cae18b45" style="width: 100.0%; height: 100.0%;">Oscherleben<br> Departing coal: 128 thousands tons</div>')[0];
+                popup_dbe177e819fb4fafa7833113c0f7103b.setContent(html_f08120dd93fe4005aea66661cae18b45);
+            
+
+            circle_marker_a498cc25df8f4938b03e6a4b838d8305.bindPopup(popup_dbe177e819fb4fafa7833113c0f7103b)
+            ;
+
+            
+        
+    
+            var circle_marker_7304c5fd20cb441c97dcd92fb529e3a4 = L.circleMarker(
+                [52.267281, 8.053189999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 13.170492260947665,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_e80f07bb561e427496b7301f84b25250 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a5c3f183290840f79b2496d414546cc1 = $('<div id="html_a5c3f183290840f79b2496d414546cc1" style="width: 100.0%; height: 100.0%;">Osnabrück<br> Departing coal: 856 thousands tons</div>')[0];
+                popup_e80f07bb561e427496b7301f84b25250.setContent(html_a5c3f183290840f79b2496d414546cc1);
+            
+
+            circle_marker_7304c5fd20cb441c97dcd92fb529e3a4.bindPopup(popup_e80f07bb561e427496b7301f84b25250)
+            ;
+
+            
+        
+    
+            var circle_marker_13057f4c982e41a09920d0a57c6dd9e5 = L.circleMarker(
+                [55.517436, 15.945026],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 20.587047169905134,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_ca819a9c384a453495e9c1fa5426f1b5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5d8f109f1aa0466395c7ee1b14b4e89d = $('<div id="html_5d8f109f1aa0466395c7ee1b14b4e89d" style="width: 100.0%; height: 100.0%;">Ostsee<br> Departing coal: 2091 thousands tons</div>')[0];
+                popup_ca819a9c384a453495e9c1fa5426f1b5.setContent(html_5d8f109f1aa0466395c7ee1b14b4e89d);
+            
+
+            circle_marker_13057f4c982e41a09920d0a57c6dd9e5.bindPopup(popup_ca819a9c384a453495e9c1fa5426f1b5)
+            ;
+
+            
+        
+    
+            var circle_marker_02460735cfb8487cb28a6011df8f6a92 = L.circleMarker(
+                [51.715247999999995, 8.752130000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 13.82359404603047,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_ecc14c89ab864d15906d232949c9e469 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_76e463afb456422cb48ad6c2df4a97cc = $('<div id="html_76e463afb456422cb48ad6c2df4a97cc" style="width: 100.0%; height: 100.0%;">Paderborn<br> Departing coal: 943 thousands tons</div>')[0];
+                popup_ecc14c89ab864d15906d232949c9e469.setContent(html_76e463afb456422cb48ad6c2df4a97cc);
+            
+
+            circle_marker_02460735cfb8487cb28a6011df8f6a92.bindPopup(popup_ecc14c89ab864d15906d232949c9e469)
+            ;
+
+            
+        
+    
+            var circle_marker_0074c75299504a0eb833ed145081a1f2 = L.circleMarker(
+                [50.494014, 12.138459],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.93538430679745,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_0fa16385983e4cdfa3ce69ddd31df9a3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f76913a5831e47e6a7bccfb3418c0992 = $('<div id="html_f76913a5831e47e6a7bccfb3418c0992" style="width: 100.0%; height: 100.0%;">Plauen<br> Departing coal: 394 thousands tons</div>')[0];
+                popup_0fa16385983e4cdfa3ce69ddd31df9a3.setContent(html_f76913a5831e47e6a7bccfb3418c0992);
+            
+
+            circle_marker_0074c75299504a0eb833ed145081a1f2.bindPopup(popup_0fa16385983e4cdfa3ce69ddd31df9a3)
+            ;
+
+            
+        
+    
+            var circle_marker_1ba8705f270a4458b3d503562bc18142 = L.circleMarker(
+                [52.409141999999996, 16.929156],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 12.27042293046633,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_184f2ffc9efd4139b8b28935d92d3652 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f98e761b4a714a649e9aee24a71aee15 = $('<div id="html_f98e761b4a714a649e9aee24a71aee15" style="width: 100.0%; height: 100.0%;">Posen<br> Departing coal: 743 thousands tons</div>')[0];
+                popup_184f2ffc9efd4139b8b28935d92d3652.setContent(html_f98e761b4a714a649e9aee24a71aee15);
+            
+
+            circle_marker_1ba8705f270a4458b3d503562bc18142.bindPopup(popup_184f2ffc9efd4139b8b28935d92d3652)
+            ;
+
+            
+        
+    
+            var circle_marker_6aebe5040e7846bd9bf5f4fd11fdc230 = L.circleMarker(
+                [50.087811, 14.42046],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 22.34979721063986,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_178c4e4df21f4e049a6f75960c827d30 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ebaae5515dfb432582a67b2ab48a79b9 = $('<div id="html_ebaae5515dfb432582a67b2ab48a79b9" style="width: 100.0%; height: 100.0%;">Prag<br> Departing coal: 2465 thousands tons</div>')[0];
+                popup_178c4e4df21f4e049a6f75960c827d30.setContent(html_ebaae5515dfb432582a67b2ab48a79b9);
+            
+
+            circle_marker_6aebe5040e7846bd9bf5f4fd11fdc230.bindPopup(popup_178c4e4df21f4e049a6f75960c827d30)
+            ;
+
+            
+        
+    
+            var circle_marker_661165d8317449479fc056e25b7681a8 = L.circleMarker(
+                [50.091522, 18.219917000000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9.258386542017877,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_e2b702de987c4c1bbeba279fe49cf12b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7bb14b9329c74d3a9f028cfa16974416 = $('<div id="html_7bb14b9329c74d3a9f028cfa16974416" style="width: 100.0%; height: 100.0%;">Ratibor<br> Departing coal: 423 thousands tons</div>')[0];
+                popup_e2b702de987c4c1bbeba279fe49cf12b.setContent(html_7bb14b9329c74d3a9f028cfa16974416);
+            
+
+            circle_marker_661165d8317449479fc056e25b7681a8.bindPopup(popup_e2b702de987c4c1bbeba279fe49cf12b)
+            ;
+
+            
+        
+    
+            var circle_marker_4571c43c784d4780abece68c630bf0f3 = L.circleMarker(
+                [51.30018, 13.30215],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10.220672205645295,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_b9a1d96a9b324083bff8012043cae84d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_aa483678531248c5b792808d2ae272b4 = $('<div id="html_aa483678531248c5b792808d2ae272b4" style="width: 100.0%; height: 100.0%;">Riesa<br> Departing coal: 515 thousands tons</div>')[0];
+                popup_b9a1d96a9b324083bff8012043cae84d.setContent(html_aa483678531248c5b792808d2ae272b4);
+            
+
+            circle_marker_4571c43c784d4780abece68c630bf0f3.bindPopup(popup_b9a1d96a9b324083bff8012043cae84d)
+            ;
+
+            
+        
+    
+            var circle_marker_f2d6184651c247c9982aa83af8d2cf4e = L.circleMarker(
+                [51.332993, 14.966615],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.742710487537584,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_6236b3393caf45eeae6db22e2e86abcc = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c1c9751349304d22989124d047a51507 = $('<div id="html_c1c9751349304d22989124d047a51507" style="width: 100.0%; height: 100.0%;">Rothenberg<br> Departing coal: 111 thousands tons</div>')[0];
+                popup_6236b3393caf45eeae6db22e2e86abcc.setContent(html_c1c9751349304d22989124d047a51507);
+            
+
+            circle_marker_f2d6184651c247c9982aa83af8d2cf4e.bindPopup(popup_6236b3393caf45eeae6db22e2e86abcc)
+            ;
+
+            
+        
+    
+            var circle_marker_187aea168ae143dd97c13bee20aae62c = L.circleMarker(
+                [49.234778999999996, 6.9944],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 29.013383010268594,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_07d98e43a969434680de1c599af367fd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2a6143f4a7014cba82f1818fce428b4d = $('<div id="html_2a6143f4a7014cba82f1818fce428b4d" style="width: 100.0%; height: 100.0%;">Saarbrücken<br> Departing coal: 4154 thousands tons</div>')[0];
+                popup_07d98e43a969434680de1c599af367fd.setContent(html_2a6143f4a7014cba82f1818fce428b4d);
+            
+
+            circle_marker_187aea168ae143dd97c13bee20aae62c.bindPopup(popup_07d98e43a969434680de1c599af367fd)
+            ;
+
+            
+        
+    
+            var circle_marker_c0eccad264104fd897b3a3c1bf9a2603 = L.circleMarker(
+                [51.676151000000004, 11.567428999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.7196408597259043,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_694a5d0ccc7a449b80f83192046bf602 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ade784928c2f4bcf91d3bbddfd415638 = $('<div id="html_ade784928c2f4bcf91d3bbddfd415638" style="width: 100.0%; height: 100.0%;">Sandersleben<br> Departing coal: 36 thousands tons</div>')[0];
+                popup_694a5d0ccc7a449b80f83192046bf602.setContent(html_ade784928c2f4bcf91d3bbddfd415638);
+            
+
+            circle_marker_c0eccad264104fd897b3a3c1bf9a2603.bindPopup(popup_694a5d0ccc7a449b80f83192046bf602)
+            ;
+
+            
+        
+    
+            var circle_marker_3c31b8f1855f49e9b887268cbb19d649 = L.circleMarker(
+                [51.471354, 11.294433999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.424198535965465,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_af99c0aee0b54f43958c548638ce5a1c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4b477ef5133a42718c0b417bcc47a052 = $('<div id="html_4b477ef5133a42718c0b417bcc47a052" style="width: 100.0%; height: 100.0%;">Sangerhausen<br> Departing coal: 272 thousands tons</div>')[0];
+                popup_af99c0aee0b54f43958c548638ce5a1c.setContent(html_4b477ef5133a42718c0b417bcc47a052);
+            
+
+            circle_marker_3c31b8f1855f49e9b887268cbb19d649.bindPopup(popup_af99c0aee0b54f43958c548638ce5a1c)
+            ;
+
+            
+        
+    
+            var circle_marker_be9c9b9b03964e50b5270b614e0fef82 = L.circleMarker(
+                [54.514959999999995, 9.56677],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.2732395447351628,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_ad9b182e84ba4728a0c603aa2dd9fdb6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a86a531fc5374150957085b8b2e0ed25 = $('<div id="html_a86a531fc5374150957085b8b2e0ed25" style="width: 100.0%; height: 100.0%;">Schlewig<br> Departing coal: 8 thousands tons</div>')[0];
+                popup_ad9b182e84ba4728a0c603aa2dd9fdb6.setContent(html_a86a531fc5374150957085b8b2e0ed25);
+            
+
+            circle_marker_be9c9b9b03964e50b5270b614e0fef82.bindPopup(popup_ad9b182e84ba4728a0c603aa2dd9fdb6)
+            ;
+
+            
+        
+    
+            var circle_marker_14e97afcb04e4d9a84ae32103cca9b4e = L.circleMarker(
+                [53.148047, 16.741346],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.3232527765752065,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_bf09fbe9504540dc86c5bdd1e82336c8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a7e30233e0854637971e53f373d66b73 = $('<div id="html_a7e30233e0854637971e53f373d66b73" style="width: 100.0%; height: 100.0%;">Schneidemühl<br> Departing coal: 54 thousands tons</div>')[0];
+                popup_bf09fbe9504540dc86c5bdd1e82336c8.setContent(html_a7e30233e0854637971e53f373d66b73);
+            
+
+            circle_marker_14e97afcb04e4d9a84ae32103cca9b4e.bindPopup(popup_bf09fbe9504540dc86c5bdd1e82336c8)
+            ;
+
+            
+        
+    
+            var circle_marker_499337ca1e264c37904da6a95be83679 = L.circleMarker(
+                [50.840658000000005, 16.486099],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.001093227542864,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_db0efb91f1c941f2b1c15cd5cdb36181 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b5d9ff40dc8b4dcea9dd6cbb77c25c21 = $('<div id="html_b5d9ff40dc8b4dcea9dd6cbb77c25c21" style="width: 100.0%; height: 100.0%;">Schweidnitz<br> Departing coal: 79 thousands tons</div>')[0];
+                popup_db0efb91f1c941f2b1c15cd5cdb36181.setContent(html_b5d9ff40dc8b4dcea9dd6cbb77c25c21);
+            
+
+            circle_marker_499337ca1e264c37904da6a95be83679.bindPopup(popup_db0efb91f1c941f2b1c15cd5cdb36181)
+            ;
+
+            
+        
+    
+            var circle_marker_20dadf82ac7b4038887039cc77442d06 = L.circleMarker(
+                [50.049099, 10.231160000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.7117625434171772,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_20e423082bf2451983dfc7af319058fc = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0642ad47f31e4524be2cf7275f9a8925 = $('<div id="html_0642ad47f31e4524be2cf7275f9a8925" style="width: 100.0%; height: 100.0%;">Schweinfurt<br> Departing coal: 2 thousands tons</div>')[0];
+                popup_20e423082bf2451983dfc7af319058fc.setContent(html_0642ad47f31e4524be2cf7275f9a8925);
+            
+
+            circle_marker_20dadf82ac7b4038887039cc77442d06.bindPopup(popup_20e423082bf2451983dfc7af319058fc)
+            ;
+
+            
+        
+    
+            var circle_marker_778817f0b17a4572b80b335d1ed9b952 = L.circleMarker(
+                [50.873798, 8.02341],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10.275051014730582,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_ee641838cd514a619df66c20aba9f0d7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cd8d6d5c43eb4baa8cd0059cd965c73a = $('<div id="html_cd8d6d5c43eb4baa8cd0059cd965c73a" style="width: 100.0%; height: 100.0%;">Siegen<br> Departing coal: 521 thousands tons</div>')[0];
+                popup_ee641838cd514a619df66c20aba9f0d7.setContent(html_cd8d6d5c43eb4baa8cd0059cd965c73a);
+            
+
+            circle_marker_778817f0b17a4572b80b335d1ed9b952.bindPopup(popup_ee641838cd514a619df66c20aba9f0d7)
+            ;
+
+            
+        
+    
+            var circle_marker_a8db859460a545bdbf15298d343f17ca = L.circleMarker(
+                [51.63875, 15.140870000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15.613416277146547,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_182d6eb0516c4b9b9104adf302259941 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c61bc6cdaa8a4170922cc6f8f429a52e = $('<div id="html_c61bc6cdaa8a4170922cc6f8f429a52e" style="width: 100.0%; height: 100.0%;">Sorau<br> Departing coal: 1203 thousands tons</div>')[0];
+                popup_182d6eb0516c4b9b9104adf302259941.setContent(html_c61bc6cdaa8a4170922cc6f8f429a52e);
+            
+
+            circle_marker_a8db859460a545bdbf15298d343f17ca.bindPopup(popup_182d6eb0516c4b9b9104adf302259941)
+            ;
+
+            
+        
+    
+            var circle_marker_05bb9fd2fce840a192930752818a0134 = L.circleMarker(
+                [51.571543, 14.374888],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.911457366505866,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_dc07a1208a594e099b899b93ea356f75 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_69910e5f17d547359fbd9dfd653f8a31 = $('<div id="html_69910e5f17d547359fbd9dfd653f8a31" style="width: 100.0%; height: 100.0%;">Spremberg<br> Departing coal: 75 thousands tons</div>')[0];
+                popup_dc07a1208a594e099b899b93ea356f75.setContent(html_69910e5f17d547359fbd9dfd653f8a31);
+            
+
+            circle_marker_05bb9fd2fce840a192930752818a0134.bindPopup(popup_dc07a1208a594e099b899b93ea356f75)
+            ;
+
+            
+        
+    
+            var circle_marker_0660c63ee8dd4c75836a0102810d3779 = L.circleMarker(
+                [53.336110999999995, 15.035098000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.234837600746195,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_f43d3b1ab4544b9dba63348ee4264080 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_05e4c82d6e1841d0aecf29c1f6a50cd4 = $('<div id="html_05e4c82d6e1841d0aecf29c1f6a50cd4" style="width: 100.0%; height: 100.0%;">Stargard<br> Departing coal: 88 thousands tons</div>')[0];
+                popup_f43d3b1ab4544b9dba63348ee4264080.setContent(html_05e4c82d6e1841d0aecf29c1f6a50cd4);
+            
+
+            circle_marker_0660c63ee8dd4c75836a0102810d3779.bindPopup(popup_f43d3b1ab4544b9dba63348ee4264080)
+            ;
+
+            
+        
+    
+            var circle_marker_78559bcf011844bba9bfc20e6e99c8fc = L.circleMarker(
+                [52.60406999999999, 11.859322],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.031111417276194,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_d5e2d9abb2714675bd0a117d50dffabf = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0453447e12d845879ee8b761b05fd0cf = $('<div id="html_0453447e12d845879ee8b761b05fd0cf" style="width: 100.0%; height: 100.0%;">Stendal<br> Departing coal: 179 thousands tons</div>')[0];
+                popup_d5e2d9abb2714675bd0a117d50dffabf.setContent(html_0453447e12d845879ee8b761b05fd0cf);
+            
+
+            circle_marker_78559bcf011844bba9bfc20e6e99c8fc.bindPopup(popup_d5e2d9abb2714675bd0a117d50dffabf)
+            ;
+
+            
+        
+    
+            var circle_marker_8c06b5afd83f46188a981fc80f0524f6 = L.circleMarker(
+                [53.428543000000005, 14.552812],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.684703327009281,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_f53802d16ebb4cc88a65bd445dd1d0f9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8f64b8737a6e4af38fafb4674a567750 = $('<div id="html_8f64b8737a6e4af38fafb4674a567750" style="width: 100.0%; height: 100.0%;">Stettin<br> Departing coal: 67 thousands tons</div>')[0];
+                popup_f53802d16ebb4cc88a65bd445dd1d0f9.setContent(html_8f64b8737a6e4af38fafb4674a567750);
+            
+
+            circle_marker_8c06b5afd83f46188a981fc80f0524f6.bindPopup(popup_f53802d16ebb4cc88a65bd445dd1d0f9)
+            ;
+
+            
+        
+    
+            var circle_marker_682436df49f54b94b072f5d5b16c54cb = L.circleMarker(
+                [48.582951, 7.74375],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11.476826161227637,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_ae9ebbad17214dada58107e863dde936 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b8b03ecb19e743098216a54508c374a2 = $('<div id="html_b8b03ecb19e743098216a54508c374a2" style="width: 100.0%; height: 100.0%;">Strassburg<br> Departing coal: 650 thousands tons</div>')[0];
+                popup_ae9ebbad17214dada58107e863dde936.setContent(html_b8b03ecb19e743098216a54508c374a2);
+            
+
+            circle_marker_682436df49f54b94b072f5d5b16c54cb.bindPopup(popup_ae9ebbad17214dada58107e863dde936)
+            ;
+
+            
+        
+    
+            var circle_marker_a03df8ebcdb44b86853f5615e3c1833b = L.circleMarker(
+                [50.98406, 13.58288],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.629662216860996,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_f952dbd5f1c4498690502231df3284c2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a07402833a9247f5be69ace73c7b6192 = $('<div id="html_a07402833a9247f5be69ace73c7b6192" style="width: 100.0%; height: 100.0%;">Tharandt<br> Departing coal: 367 thousands tons</div>')[0];
+                popup_f952dbd5f1c4498690502231df3284c2.setContent(html_a07402833a9247f5be69ace73c7b6192);
+            
+
+            circle_marker_a03df8ebcdb44b86853f5615e3c1833b.bindPopup(popup_f952dbd5f1c4498690502231df3284c2)
+            ;
+
+            
+        
+    
+            var circle_marker_35f162b1753f412b8f7ee5544758fbb7 = L.circleMarker(
+                [53.018997, 18.624345],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.373425767300844,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_63e5c95caf894a1ca1436ac0ae94aba7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c213ea9a2b78499bb27ceeb16e4cdaf6 = $('<div id="html_c213ea9a2b78499bb27ceeb16e4cdaf6" style="width: 100.0%; height: 100.0%;">Thorn<br> Departing coal: 346 thousands tons</div>')[0];
+                popup_63e5c95caf894a1ca1436ac0ae94aba7.setContent(html_c213ea9a2b78499bb27ceeb16e4cdaf6);
+            
+
+            circle_marker_35f162b1753f412b8f7ee5544758fbb7.bindPopup(popup_63e5c95caf894a1ca1436ac0ae94aba7)
+            ;
+
+            
+        
+    
+            var circle_marker_f71bdf7f3f9d4600ab3652bc0f122bc9 = L.circleMarker(
+                [54.318451, 8.9373],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.526560586342307,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_32036703fb9c48e0b81133300e2cdc81 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_05308c3c0c7d40dd9ea2be932e28e770 = $('<div id="html_05308c3c0c7d40dd9ea2be932e28e770" style="width: 100.0%; height: 100.0%;">Tönning<br> Departing coal: 11 thousands tons</div>')[0];
+                popup_32036703fb9c48e0b81133300e2cdc81.setContent(html_05308c3c0c7d40dd9ea2be932e28e770);
+            
+
+            circle_marker_f71bdf7f3f9d4600ab3652bc0f122bc9.bindPopup(popup_32036703fb9c48e0b81133300e2cdc81)
+            ;
+
+            
+        
+    
+            var circle_marker_b26c96842412429194b7af722644c7e0 = L.circleMarker(
+                [49.749992, 6.637142999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.8999410756624067,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_74d4593d2d014b4bac077de705f64d31 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7e701030521f475996aa3e350f225042 = $('<div id="html_7e701030521f475996aa3e350f225042" style="width: 100.0%; height: 100.0%;">Trier<br> Departing coal: 41 thousands tons</div>')[0];
+                popup_74d4593d2d014b4bac077de705f64d31.setContent(html_7e701030521f475996aa3e350f225042);
+            
+
+            circle_marker_b26c96842412429194b7af722644c7e0.bindPopup(popup_74d4593d2d014b4bac077de705f64d31)
+            ;
+
+            
+        
+    
+            var circle_marker_c853ab54b0374709856a0ca3ad33cbca = L.circleMarker(
+                [52.090736, 5.12142],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.790467829454167,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_0321e6b09fa6455f8a0fb6327e638666 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9ad23020f9e24c8fa11bfb45da080063 = $('<div id="html_9ad23020f9e24c8fa11bfb45da080063" style="width: 100.0%; height: 100.0%;">Utrecht<br> Departing coal: 299 thousands tons</div>')[0];
+                popup_0321e6b09fa6455f8a0fb6327e638666.setContent(html_9ad23020f9e24c8fa11bfb45da080063);
+            
+
+            circle_marker_c853ab54b0374709856a0ca3ad33cbca.bindPopup(popup_0321e6b09fa6455f8a0fb6327e638666)
+            ;
+
+            
+        
+    
+            var circle_marker_e811f551afa943818fe6fd9b5c0fec2f = L.circleMarker(
+                [50.592369, 5.86125],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 12.523785061966645,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_48c742ed7ee24714a743178e745dcb8d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_47d1dca2fa294074b848d659fc4330d7 = $('<div id="html_47d1dca2fa294074b848d659fc4330d7" style="width: 100.0%; height: 100.0%;">Verviers<br> Departing coal: 774 thousands tons</div>')[0];
+                popup_48c742ed7ee24714a743178e745dcb8d.setContent(html_47d1dca2fa294074b848d659fc4330d7);
+            
+
+            circle_marker_e811f551afa943818fe6fd9b5c0fec2f.bindPopup(popup_48c742ed7ee24714a743178e745dcb8d)
+            ;
+
+            
+        
+    
+            var circle_marker_299c705917c84a2c88496d477a3102b3 = L.circleMarker(
+                [51.2557, 6.39834],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 19.57023439226104,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_9dd9bc8e4f6143b2be972e3b3368a616 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3f58ccdeb34a4092839a15de815f0020 = $('<div id="html_3f58ccdeb34a4092839a15de815f0020" style="width: 100.0%; height: 100.0%;">Viersen<br> Departing coal: 1890 thousands tons</div>')[0];
+                popup_9dd9bc8e4f6143b2be972e3b3368a616.setContent(html_3f58ccdeb34a4092839a15de815f0020);
+            
+
+            circle_marker_299c705917c84a2c88496d477a3102b3.bindPopup(popup_9dd9bc8e4f6143b2be972e3b3368a616)
+            ;
+
+            
+        
+    
+            var circle_marker_903261092fa84bb48440859b6cf69b57 = L.circleMarker(
+                [50.765356, 16.279976],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 18.90664263929923,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_94a26af5bc874e2aad67e0405b537cf8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_230fa3eb1c234f9992af7bf1b78084af = $('<div id="html_230fa3eb1c234f9992af7bf1b78084af" style="width: 100.0%; height: 100.0%;">Waldenburg<br> Departing coal: 1764 thousands tons</div>')[0];
+                popup_94a26af5bc874e2aad67e0405b537cf8.setContent(html_230fa3eb1c234f9992af7bf1b78084af);
+            
+
+            circle_marker_903261092fa84bb48440859b6cf69b57.bindPopup(popup_94a26af5bc874e2aad67e0405b537cf8)
+            ;
+
+            
+        
+    
+            var circle_marker_28a4c2e5bd1a4f4bb0d7fc35b09fb797 = L.circleMarker(
+                [51.48513, 9.14703],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.792500390622893,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_f5d85e24264d4c4a95b91f212cba827e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1fb1dada2ac248b592cc75d36a122f50 = $('<div id="html_1fb1dada2ac248b592cc75d36a122f50" style="width: 100.0%; height: 100.0%;">Warburg<br> Departing coal: 381 thousands tons</div>')[0];
+                popup_f5d85e24264d4c4a95b91f212cba827e.setContent(html_1fb1dada2ac248b592cc75d36a122f50);
+            
+
+            circle_marker_28a4c2e5bd1a4f4bb0d7fc35b09fb797.bindPopup(popup_f5d85e24264d4c4a95b91f212cba827e)
+            ;
+
+            
+        
+    
+            var circle_marker_8380b822a8e543b2a18d970c59e2094a = L.circleMarker(
+                [50.979118, 11.32448],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.439715167028059,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_17f5245f127b4cf8ad2d5cfd1842b5d2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_caff29ea35c04f419227b10e647267cc = $('<div id="html_caff29ea35c04f419227b10e647267cc" style="width: 100.0%; height: 100.0%;">Weimar<br> Departing coal: 351 thousands tons</div>')[0];
+                popup_17f5245f127b4cf8ad2d5cfd1842b5d2.setContent(html_caff29ea35c04f419227b10e647267cc);
+            
+
+            circle_marker_8380b822a8e543b2a18d970c59e2094a.bindPopup(popup_17f5245f127b4cf8ad2d5cfd1842b5d2)
+            ;
+
+            
+        
+    
+            var circle_marker_05bd083e324a4c74bc28d77a8b382d4e = L.circleMarker(
+                [51.19983, 11.96682],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10.436487551638871,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_0f8d6c127d884ba2926b621844a8b01e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9b7d98f360c64dd0988435bcecd41926 = $('<div id="html_9b7d98f360c64dd0988435bcecd41926" style="width: 100.0%; height: 100.0%;">Weissenfels<br> Departing coal: 537 thousands tons</div>')[0];
+                popup_0f8d6c127d884ba2926b621844a8b01e.setContent(html_9b7d98f360c64dd0988435bcecd41926);
+            
+
+            circle_marker_05bd083e324a4c74bc28d77a8b382d4e.bindPopup(popup_0f8d6c127d884ba2926b621844a8b01e)
+            ;
+
+            
+        
+    
+            var circle_marker_42add9c4d9304fc0baaab66789795c2a = L.circleMarker(
+                [53.88821, 11.462019999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.413493242833336,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_b3caf31f56444fecb9d558bc568ea349 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_dce82af8da73456db39f2ea9590000f7 = $('<div id="html_dce82af8da73456db39f2ea9590000f7" style="width: 100.0%; height: 100.0%;">Wiesmar<br> Departing coal: 57 thousands tons</div>')[0];
+                popup_b3caf31f56444fecb9d558bc568ea349.setContent(html_dce82af8da73456db39f2ea9590000f7);
+            
+
+            circle_marker_42add9c4d9304fc0baaab66789795c2a.bindPopup(popup_b3caf31f56444fecb9d558bc568ea349)
+            ;
+
+            
+        
+    
+            var circle_marker_711d5e72c1194cda94a1dfa257d1007c = L.circleMarker(
+                [51.294151, 18.14794],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.951739738864084,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_6abad0468f8642f7879d3039a3ca7497 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0bfffa0dbcc348598dcf7c49fe4b6f68 = $('<div id="html_0bfffa0dbcc348598dcf7c49fe4b6f68" style="width: 100.0%; height: 100.0%;">Wilhelmsbrück<br> Departing coal: 121 thousands tons</div>')[0];
+                popup_6abad0468f8642f7879d3039a3ca7497.setContent(html_0bfffa0dbcc348598dcf7c49fe4b6f68);
+            
+
+            circle_marker_711d5e72c1194cda94a1dfa257d1007c.bindPopup(popup_6abad0468f8642f7879d3039a3ca7497)
+            ;
+
+            
+        
+    
+            var circle_marker_015d7242a0b24dc59e62c7b75b538e57 = L.circleMarker(
+                [51.866162, 12.645255],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 14.056183980816368,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_1a305d45c81e46d7998f411518dc2c30 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_483e3bad4ef846a1a6846f6c16de4f39 = $('<div id="html_483e3bad4ef846a1a6846f6c16de4f39" style="width: 100.0%; height: 100.0%;">Wittenberg<br> Departing coal: 975 thousands tons</div>')[0];
+                popup_1a305d45c81e46d7998f411518dc2c30.setContent(html_483e3bad4ef846a1a6846f6c16de4f39);
+            
+
+            circle_marker_015d7242a0b24dc59e62c7b75b538e57.bindPopup(popup_1a305d45c81e46d7998f411518dc2c30)
+            ;
+
+            
+        
+    
+            var circle_marker_2e36269903de4e729ff088a04e1f94a2 = L.circleMarker(
+                [52.992553, 11.755924],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.68519635385672,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_08a82d50f8714d848455996e8af62bdd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3d36352416cb440397307c89c9254b79 = $('<div id="html_3d36352416cb440397307c89c9254b79" style="width: 100.0%; height: 100.0%;">Wittenberge<br> Departing coal: 159 thousands tons</div>')[0];
+                popup_08a82d50f8714d848455996e8af62bdd.setContent(html_3d36352416cb440397307c89c9254b79);
+            
+
+            circle_marker_2e36269903de4e729ff088a04e1f94a2.bindPopup(popup_08a82d50f8714d848455996e8af62bdd)
+            ;
+
+            
+        
+    
+            var circle_marker_b5da817587bd4ce5bd86c7c20cfad0d9 = L.circleMarker(
+                [50.038719, 12.00501],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.702990439163512,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_84caf2d0c6334722bde1ce7dd6e1364a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b0ce7e7485f545ff8b1d17c6e54ee3e0 = $('<div id="html_b0ce7e7485f545ff8b1d17c6e54ee3e0" style="width: 100.0%; height: 100.0%;">Wunsiedel<br> Departing coal: 160 thousands tons</div>')[0];
+                popup_84caf2d0c6334722bde1ce7dd6e1364a.setContent(html_b0ce7e7485f545ff8b1d17c6e54ee3e0);
+            
+
+            circle_marker_b5da817587bd4ce5bd86c7c20cfad0d9.bindPopup(popup_84caf2d0c6334722bde1ce7dd6e1364a)
+            ;
+
+            
+        
+    
+            var circle_marker_e328614ed6cc4c45866587ad4487d298 = L.circleMarker(
+                [49.794259999999994, 9.927489999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.917358295779998,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_88c48ece707f43e3810eae6f7c00053f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b5595b9538f64c1fbb3f72958f99b1fd = $('<div id="html_b5595b9538f64c1fbb3f72958f99b1fd" style="width: 100.0%; height: 100.0%;">Wurzburg<br> Departing coal: 42 thousands tons</div>')[0];
+                popup_88c48ece707f43e3810eae6f7c00053f.setContent(html_b5595b9538f64c1fbb3f72958f99b1fd);
+            
+
+            circle_marker_e328614ed6cc4c45866587ad4487d298.bindPopup(popup_88c48ece707f43e3810eae6f7c00053f)
+            ;
+
+            
+        
+    
+            var circle_marker_9e0e287539774d2eb630a68f1eebe00b = L.circleMarker(
+                [50.60304, 18.48659],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 13.104938239982763,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_b2f60eae26f54beebdd3c98c3d97c8a9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d1ef039431bb4a37b40dbd9a992548b2 = $('<div id="html_d1ef039431bb4a37b40dbd9a992548b2" style="width: 100.0%; height: 100.0%;">Zawadzkie<br> Departing coal: 847 thousands tons</div>')[0];
+                popup_b2f60eae26f54beebdd3c98c3d97c8a9.setContent(html_d1ef039431bb4a37b40dbd9a992548b2);
+            
+
+            circle_marker_9e0e287539774d2eb630a68f1eebe00b.bindPopup(popup_b2f60eae26f54beebdd3c98c3d97c8a9)
+            ;
+
+            
+        
+    
+            var circle_marker_8bcd1ee3f95f48b88c5003fbf5f79f26 = L.circleMarker(
+                [50.896053, 14.806551999999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.113470270741045,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_7e6442e3d306487e862cc95577f86045 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6861681512a142198f11501254592769 = $('<div id="html_6861681512a142198f11501254592769" style="width: 100.0%; height: 100.0%;">Zittau<br> Departing coal: 83 thousands tons</div>')[0];
+                popup_7e6442e3d306487e862cc95577f86045.setContent(html_6861681512a142198f11501254592769);
+            
+
+            circle_marker_8bcd1ee3f95f48b88c5003fbf5f79f26.bindPopup(popup_7e6442e3d306487e862cc95577f86045)
+            ;
+
+            
+        
+    
+            var circle_marker_1bf7088a17f348c4be788a555cbab8d5 = L.circleMarker(
+                [50.718319, 12.494156],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3893E8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3893E8",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 21.87787173210419,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            
+    
+            var popup_f42b4255324d43c2b240c31eb7f94a8f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b36b6ae9d0824c03a27857addd99ad61 = $('<div id="html_b36b6ae9d0824c03a27857addd99ad61" style="width: 100.0%; height: 100.0%;">Zwickau<br> Departing coal: 2362 thousands tons</div>')[0];
+                popup_f42b4255324d43c2b240c31eb7f94a8f.setContent(html_b36b6ae9d0824c03a27857addd99ad61);
+            
+
+            circle_marker_1bf7088a17f348c4be788a555cbab8d5.bindPopup(popup_f42b4255324d43c2b240c31eb7f94a8f)
+            ;
+
+            
+        
+    
+            var measure_control_5448038c2fd2496fb4673cac8d3ae37c = new L.Control.Measure(
+            {"position": "topright", "primaryLengthUnit": "kilometers", "secondaryLengthUnit": "miles", "primaryAreaUnit": "sqkilometers", "secondaryAreaUnit": "acres"});
+            map_2852739aef704c9b979f4cefa308cbdd.addControl(measure_control_5448038c2fd2496fb4673cac8d3ae37c);
+
+        
+    
+            L.control.fullscreen({
+                position: 'topleft',
+                title: 'Full Screen',
+                titleCancel: 'Exit Full Screen',
+                forceSeparateButton: false,
+                }).addTo(map_2852739aef704c9b979f4cefa308cbdd);
+            map_2852739aef704c9b979f4cefa308cbdd.on('enterFullscreen', function(){
+                console.log('entered fullscreen');
+            });
+
+        
+</script>
