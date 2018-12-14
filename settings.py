@@ -58,7 +58,7 @@ def init() :
     _ktons_per_train = 0.33
     
     # The velocity on euclidian distance, in km per hour
-    _euclidian_kmph = 20
+    _euclidian_kmph = 60
     
     # Start_time of the mp4 simulation
     _start_time = pd.to_datetime('1881-01-01 00:00:00')
