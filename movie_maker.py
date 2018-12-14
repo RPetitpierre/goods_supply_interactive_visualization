@@ -3,6 +3,7 @@ from framer import *
 import datetime
 import imageio
 import signal
+import numpy as np
 
 
 def handler(signum, frame):
@@ -16,7 +17,7 @@ def screenshot(j, df_trips, df_flux):
     """ Returns a screenshot in png format of the desired frame """
     
     # Compute absolute time
-    current_time = sgs._start_time + datetime.timedelta(minutes=15*j)
+    current_time = sgs._start_time + datetime.timedelta(minutes=(np.around(60/sgs._hourly_rate))*j)
     
     # Using the go_frame function, create a png image representing the simulation at the given time
     go_frame((j, current_time), df_trips, df_flux)
