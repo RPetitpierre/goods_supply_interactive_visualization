@@ -68,7 +68,7 @@ def init() :
     
     # In this example, we simulate 365 days of 24 hours, divided in 15-minutes intervalls.
     # This means that we simulate 365 days * 24 hours * 4 quarter hour
-    _simulation_duration = int(21*24*_hourly_rate)
+    _simulation_duration = int(365*24*_hourly_rate)
     
     # Time range of simulation
     _time_range = pd.date_range('1/1/1881', periods=_simulation_duration, freq='5Min')
