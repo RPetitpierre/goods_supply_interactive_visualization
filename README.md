@@ -2,7 +2,7 @@
 This program allow an interactive visualization of goods supply network. In our example, we wanted to represent the coal supply in the German Empire during the year 1881.
 
 ## Description of the files
-### DH_map_V4.ipynb
+### DH_map.ipynb
 Jupyter notebook containing the main program. This is where you will be able to obtain the different kinds of interactive map. Among them, the consumption of the cities, their production (which can also be displayed by type), the net import-export, the main transport hubs, etc. You will also be able to visualize the transport network. In addition, this is where you will be able to create a mp4 movie representing the flux of goods.
 ### settings.py
 You will have to modify the global variables in this python file in order to run the program with your own data. See the detailed description of these parameters below.
